@@ -1,0 +1,7 @@
+#directories
+Raw_data
+Preprocessed_data
+Postprocessed_Database
+Final_database.csv
+Little_Data.csv
+Optim_result.csv
