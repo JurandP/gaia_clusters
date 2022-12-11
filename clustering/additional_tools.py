@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 def read_json(filename):
     with open(filename, 'r') as input:
-        return json.load(input.read())
+        return json.load(input)
 
 def make_metrics(df_clusters, df_alerts):
     df = pd.concat([df_clusters, df_alerts], axis = 1, join='inner')
