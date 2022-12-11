@@ -22,7 +22,7 @@ def make_spectral_clustering(DataFrame, n_clusters, n_jobs=1):
 	return pd.DataFrame({'Groups': pred_y}, index=DataFrame.index)
 
 def make_dbscan(DataFrame, n_jobs=1):
-	dbscan = sc.DBSCAN(eps = 0.1, n_jobs = n_jobs).fit(DataFrame)
+	dbscan = sc.DBSCAN(eps=9.7, min_samples=2, algorithm='ball_tree', metric='minkowski', leaf_size=90, p=2, n_jobs = n_jobs).fit(DataFrame)
 	pred_y = dbscan.fit_predict(DataFrame)
 	return pd.DataFrame({'Groups': pred_y}, index=DataFrame.index)
 
