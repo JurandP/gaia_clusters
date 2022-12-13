@@ -5,9 +5,9 @@ import clustering.clusters as cl
 
 #Config
 n_neighbors = 10 #number of neighbors in k-neighbors like algorithms
-n_clusters = 12 #number of generated clusters
+n_clusters = 8 #number of generated clusters
 n_jobs = 1 #number processes
-vec_perc = 0.85 #coefficient (0,1) how many vectors should be choose in pca algorithm
+vec_perc = 0.95 #coefficient (0,1) how many vectors should be choose in pca algorithm
 resultfilename = 'result_tsfresh_10bin'
 #read data
 df_full = pd.read_csv('Final_Database.csv', header = None, index_col=0)
