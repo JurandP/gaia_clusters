@@ -62,7 +62,7 @@ with open(resultfilename + '.csv', 'a') as input:
 
 print('Make Mini Batch KMeans')
 df_kmeans = cl.make_mini_batch_kmeans(df, n_clusters=n_clusters)
-df_results['MiniBarchKMeans'] = df_kmeans
+df_results['MiniBatchKMeans'] = df_kmeans
 print(addtools.make_metrics(alerts_classes, df_kmeans))
 with open(resultfilename + '.csv', 'a') as input:
     input.write('\n' + 'Mini Batch KMeans' + '\n' + str(addtools.make_metrics(alerts_classes, df_kmeans)) )

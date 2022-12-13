@@ -6,7 +6,7 @@ from sklearn import metrics
 from clustering.additional_tools import read_json
 
 classes_labels = ['AGN', 'BL Lac', 'CV', 'QSO', 'SN II', 'SN IIn', 'SN Ia', 'YSO']
-methods = ['DBSCAN', 'K-Means', 'MiniBarchKMeans', 'BisectingKMeans', 'AggCluAvarage', 'AggCluWard', 'AggCluSingle']
+methods = ['DBSCAN', 'K-Means', 'MiniBatchKMeans', 'BisectingKMeans', 'AggCluAvarage', 'AggCluWard', 'AggCluSingle']
 
 def label_funct(name):
     i = 0
