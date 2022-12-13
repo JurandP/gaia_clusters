@@ -103,5 +103,5 @@ with open(resultfilename +'.csv', 'a') as input:
     input.write('\n' + 'Agglomerative Clustering Ward' + '\n' + str(addtools.make_metrics(alerts_classes, df_kmeans)) )
     input.write('\n' + '\n')
 
-df_results = pd.concat([df_results, alerts[' Class']], axis=0).reindex(df_results.index)
+df_results = pd.concat([df_results, alerts[' Class']], axis=1).reindex(df_results.index)
 df_results.to_csv(resultfilename + '_dataframe.csv')

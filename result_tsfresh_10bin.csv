@@ -8,4 +8,13 @@ DBScan
 Mini Batch KMeans
 0.3298951349492866
 Bisecting KMeans
-0.2363761389032147
+0.22193570569021834
+Agglomerative Clustering Avarage
+0.7196149217809867
+Agglomerative Clustering Complete
+0.7180677325081657
+Agglomerative Clustering Single
+0.7213340209730101
+Agglomerative Clustering Ward
+0.37098160563864535
+

@@ -6,7 +6,7 @@ from sklearn import metrics
 from clustering.additional_tools import read_json
 
 classes_labels = ['AGN', 'BL Lac', 'CV', 'QSO', 'SN II', 'SN IIn', 'SN Ia', 'YSO']
-methods = ['DBSCAN']
+methods = ['DBSCAN', 'K-Means', 'MiniBarchKMeans', 'BisectingKMeans', 'AggCluAvarage', 'AggCluWard', 'AggCluSingle']
 
 def label_funct(name):
     i = 0
@@ -28,4 +28,4 @@ for i in methods:
     cm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix)
     cm_display.plot()
     plt.title(i)
-    plt.show()
+    plt.savefig('ConfusionMatrixPNG/' + i)
