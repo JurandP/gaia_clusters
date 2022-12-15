@@ -9,7 +9,7 @@ classes_labels = ['AGN', 'BL Lac', 'CV', 'QSO', 'SN II', 'SN IIn', 'SN Ia', 'YSO
 methods = ['DBSCAN', 'K-Means', 'MiniBatchKMeans', 'BisectingKMeans', 'AggCluAvarage', 'AggCluWard', 'AggCluSingle']
 
 def label_funct(name):
-    i = 0
+    i = 1
     for j in classes_labels:
         i+=1
         if name == j:
