@@ -24,7 +24,7 @@ df = df.loc[df['class_label'] != 0]
 print(df)
 
 for i in methods:
-    confusion_matrix = metrics.confusion_matrix(df['class_label'], df[i])
+    confusion_matrix = metrics.confusion_matrix(df['class_label'], df[i], labels=[1,2,3,4,5,6,7,8])
     cm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix)
     cm_display.plot()
     plt.title(i)
