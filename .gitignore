@@ -2,8 +2,14 @@
 Raw_data
 Preprocessed_data
 Postprocessed_Database
-Final_database.csv
+Result
+ConfusionMatrixPNG
+#files
+Final_Database.csv
 Little_Data.csv
 Optim_result.csv
 .vscode
-Result
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

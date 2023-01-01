@@ -1,7 +1,7 @@
-import pandas as pd
 import clustering.additional_tools as addtools
 import clustering.clusters as cl
 
+# optimization for DBSCAN, AggAverage, AggSingle, AggWard, AggComplete
 def check_value(df_full, alerts_classes, n_clusters, vec_perc, n_neighbors):
 
     df_full['Outliers'] = addtools.outliers_detection(df_full, n_neighbors=n_neighbors)

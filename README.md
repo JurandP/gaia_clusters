@@ -3,7 +3,7 @@ This project was created as a bachelor's degree in astronomy at the University o
 
 (link after graduation)
 
-# Installation and run
+## Installation and run
 All of the scripts can be executed if there is a file processed by script. All of the modules and scripts works with Python3.8.
 '''
 python3.8 download_database_script.py
