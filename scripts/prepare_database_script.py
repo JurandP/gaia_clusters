@@ -4,8 +4,8 @@ import concurrent.futures
 
 from prepare_database.download_database import make_spectrum_csv
 from prepare_database.download_database import check_folder
-from prepare_database.average_vectors import preprocessing_data
-from prepare_database.average_vectors import make_file_with_database, preprocessing_data
+from prepare_database.processing_database import preprocessing_data
+from prepare_database.processing_database import make_file_with_database, preprocessing_data
 
 #names of files, initial variables for main script
 filename = "alerts.csv"

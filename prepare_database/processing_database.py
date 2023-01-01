@@ -18,7 +18,13 @@ raw_dir = 'Raw_data'
 alerts = pd.read_csv('alerts.csv')['#Name']
 
 #function to open Proceed_data and produce final dataframe
-def postprocessing_data(name, size_of_bin = 3, interp = 1):
+def postprocessing_data(name, size_of_bin = 3, interp = 1, only_max = 1):
+
+        if only_max == 1:
+                df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv')
+                print(df.max(['averagemag']))
+                
+
         if os.path.exists(
                 'Preprocessed_data/' + name + '_processed.csv'
                 ) and os.stat(
@@ -33,7 +39,8 @@ def postprocessing_data(name, size_of_bin = 3, interp = 1):
                                 with open('Little_Data.csv', 'a') as input:
                                         input.write(name + '\n')
 
-def make_file_with_database(AlertsNamesBase, FileName, processes_number = 1, size_of_bin = 3, interp = 1):
+def make_file_with_database(
+        AlertsNamesBase, FileName, processes_number = 1, size_of_bin = 3, interp = 1, only_max = 1):
         Data = []
         # pool =  mp.Pool(processes=processes_number)
         # try:
@@ -43,7 +50,7 @@ def make_file_with_database(AlertsNamesBase, FileName, processes_number = 1, siz
         # pool.close()
         for i in AlertsNamesBase:
                 print(i)
-                Data.append(postprocessing_data(i, size_of_bin = size_of_bin, interp = interp))
+                Data.append(postprocessing_data(i, size_of_bin = size_of_bin, interp = interp, only_max = only_max))
 
         Data = [i for i in Data if not i == None]
         File = open(FileName, 'w')
