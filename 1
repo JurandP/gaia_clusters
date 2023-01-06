@@ -21,7 +21,7 @@ alerts = pd.read_csv('alerts.csv')['#Name']
 def postprocessing_data(name, size_of_bin = 3, interp = 1, only_max = 1):
 
         if only_max == 1:
-                df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv', header=None, index_col=1)
+                df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv', index_col=1, usecols=[1,2])
                 print(df)
                 
 

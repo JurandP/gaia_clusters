@@ -31,8 +31,8 @@ alerts = pd.read_csv(filename).loc[int_begin : int_end]
 
 # print('SCRIPT DID 1/4 OF THE WORK -- Downloading raw data is done!')
 
-#PREPROCESSING DATA
-check_folder('Preprocessed_data')
+# PREPROCESSING DATA
+# check_folder('Preprocessed_data')
 
 # pool =  mp.Pool(processes=processes_number)
 # try:
@@ -41,10 +41,10 @@ check_folder('Preprocessed_data')
 #         print("We lacked patience and got a multiprocessing.TimeoutError")
 # pool.close()
 
-for i in alerts['#Name']:
-    preprocessing_data(i, size_of_bin = size_of_bin)
+# for i in alerts['#Name']:
+#    preprocessing_data(i, size_of_bin = size_of_bin)
 
-print('SCRIPT DID 2/4 OF THE WORK -- Preprocessing is done!')
+# print('SCRIPT DID 2/4 OF THE WORK -- Preprocessing is done!')
 
 #POSTPROCESSING DATA
 check_folder('Postprocessed_Database')
