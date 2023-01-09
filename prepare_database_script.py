@@ -16,7 +16,7 @@ int_end = 20670
 processes_number = 2
 #number of .csv files with post processed data
 number_of_post_processed = 5
-size_of_bin = 10
+size_of_bin = 3
 interp = 0
 
 #pandas dataframe with basic data about alerts
@@ -52,6 +52,9 @@ check_folder('Postprocessed_Database')
 #check if file with names of broken or too small data is empty 
 f = open('Little_Data.csv', 'w')
 f.close()
+f = open('Final_Database.csv', 'w')
+f.close()
+
 
 #make post_processing file
 number_of_objects_in_file = int((int_end - int_begin + 1) / number_of_post_processed)
@@ -64,12 +67,12 @@ for i in range(0,number_of_post_processed):
 print('SCRIPT DID 3/4 OF THE WORK -- Postprocessing is done!')
 
 #FINAL DATAFRAME        
-final_file = ""
+#final_file = ""
 #Adding data from Postprocessed_Database/ to single dataframe
-for i in range(0,number_of_post_processed):
-    with open('Postprocessed_Database/'+str(i)+'.csv') as input:
-        final_file += input.read() + '\n'
-    with open('Final_Database.csv', 'w') as input:
-	    input.write(final_file)
+#for i in range(0,number_of_post_processed):
+#    with open('Postprocessed_Database/'+str(i)+'.csv') as input:
+#        final_file += input.read() + '\n'
+#    with open('Final_Database.csv', 'w') as input:
+#	    input.write(final_file)
         
 print('SCRIPT DID THE WORK -- make Final_Database.csv is done!')

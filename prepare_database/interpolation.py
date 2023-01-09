@@ -19,13 +19,13 @@ def interpolation(time, vect):
 	return buff
 
 def Produce_vect(df, size_of_bin = 3, interp = 1):
-	index = [i for i in range(1, len(df))] + [0]
-	df = df.reindex(index)
-	time = df[0].values.tolist()
-	if interp == 1:
-		processes = [interpolation(time,df[i].values.tolist()) for i in range(1, 1+ int(120/size_of_bin))]
-	else:
-		processes = [df[i].values.tolist() for i in range(1, 1+ int(120/size_of_bin))]
-	results = [i for i in processes]
-	return pd.DataFrame(results).T
+        index = [i for i in range(1, len(df))] + [0]
+        df = df.reindex(index)
+        time = df[0].values.tolist()
+        if interp == 1:
+	    processes = [interpolation(time,df[i].values.tolist()) for i in range(1, 1+ int(120/size_of_bin))]
+        else:
+	    processes = [df[i].values.tolist() for i in range(1, 1+ int(120/size_of_bin))]
+        results = [i for i in processes]
+        return pd.DataFrame(results).T
 		

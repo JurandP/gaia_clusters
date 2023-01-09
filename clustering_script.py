@@ -9,11 +9,13 @@ n_clusters = 8 #number of generated clusters
 n_jobs = 1 #number processes
 vec_perc = 0.95 #coefficient (0,1) how many vectors should be choose in pca algorithm
 resultfilename = 'result_tsfresh_10bin'
+
 #read data
 df_full = pd.read_csv('Final_Database.csv', header = None, index_col=0)
 print('Initial dataframe has size ' + str(df_full.shape)+'.')
 with open(resultfilename + '.csv', 'w') as input:
     input.write('Initial dataframe has size ' + str(df_full.shape)+'.')
+print(df_full)
 #Outliers removing
 df_full['Outliers'] = addtools.outliers_detection(df_full, n_neighbors=n_neighbors)
 df = df_full.loc[df_full['Outliers'] == 1]
