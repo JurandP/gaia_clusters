@@ -1,5 +1,6 @@
 import concurrent.futures
 
+from itertools import repeat
 from prepare_database.download_database import make_spectrum_csv
 from prepare_database.download_database import check_folder
 from prepare_database.processing_database import preprocessing_data
@@ -14,28 +15,30 @@ def make_download_database(alerts):
 
     print('SCRIPT DID 1/4 OF THE WORK -- Downloading raw data is done!')
 
-def make_preprocessing_database(alerts, n_jobs=1, size_of_bin=3):
-    check_folder('Preprocessed_data')
+def make_preprocessing_database(alerts, n_jobs=1, size_of_bin=3, suffix = ''):
+    check_folder('Preprocessed_data' + suffix)
 
     if n_jobs > 1:
         import multiprocessing as mp
 
         pool =  mp.Pool(processes=n_jobs)
         try:
-            pool.map(preprocessing_data, alerts['#Name'])
+            pool.starmap(preprocessing_data, zip(alerts['#Name'],
+            repeat(size_of_bin), repeat(suffix)))
         except mp.TimeoutError:
             print("We lacked patience and got a multiprocessing.TimeoutError")
         pool.close()
 
     if n_jobs == 1:
         for i in alerts['#Name']:
-            preprocessing_data(i, size_of_bin = size_of_bin)
+            preprocessing_data(i, size_of_bin = size_of_bin, suffix = suffix)
     
     print('SCRIPT DID 2/4 OF THE WORK -- Preprocessing is done!')
 
 def make_postprocessing(alerts, int_end=20670, int_begin = 0,
-    number_of_post_processed = 5, size_of_bin = 3, interpolation = False, only_max = True, tsfresh = True, min_mag = None):
-    check_folder('Postprocessed_Database')
+    number_of_post_processed = 5, size_of_bin = 3, interpolation = False,
+    only_max = True, tsfresh = True, min_mag = None, suffix = ''):
+    check_folder('Postprocessed_Database' + suffix)
 
     #check if file with names of broken or too small data is empty 
     with open('Little_Data.csv', 'w'):
@@ -54,23 +57,14 @@ def make_postprocessing(alerts, int_end=20670, int_begin = 0,
 
     print('SCRIPT DID 3/4 OF THE WORK -- Postprocessing is done!')
 
-def save_database(number_of_post_processed = 5, bin_size = 3,
-    interpolation = False, only_max = True, min_mag = None, tsfresh = True):
-    final_file = ""
+def save_database(number_of_post_processed = 5, suffix = ''):
+    final_file = 'Final_Database' + suffix
     #Adding data from Postprocessed_Database/ to single dataframe
     for i in range(0,number_of_post_processed):
         with open('Postprocessed_Database/'+str(i)+'.csv') as input:
             final_file += input.read() + '\n'
-        database_name = 'final_database_'+str(bin_size) + 'bin_'
-        if interpolation:
-            database_name += 'interp_'
-        if only_max:
-            database_name += 'only_max_'
-        if not min_mag==None:
-            database_name += str(min_mag) + '_'
-        if tsfresh:
-            database_name += 'tsfresh'
-        with open(database_name + '.csv', 'w') as input:
+
+        with open(final_file + '.csv', 'w') as input:
 	        input.write(final_file)
 
-    print('SCRIPT DID THE WORK -- make Final_Database.csv is done!')
+    print('SCRIPT DID THE WORK -- make Final_Database is done!')

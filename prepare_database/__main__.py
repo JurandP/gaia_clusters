@@ -63,12 +63,22 @@ def main():
     if bin_size >= 60 or bin_size <= 0:
         raise ValueError("Bin_size value is not in range (1, 60).")
     
+    suffix_name = '_' + str(bin_size) + 'bin_'
+    if interpolation:
+        suffix_name += 'interp_'
+    if only_max:
+        suffix_name += 'only_max_'
+    if not min_mag==None:
+        suffix_name += str(min_mag) + '_'
+    if tsfresh:
+        suffix_name += 'tsfresh'
+
     #CONFIG
     #names of files, initial variables for main script
     filename = "alerts.csv"
     #determining which data from alerts to process
     int_begin = 0
-    int_end = 20670
+    int_end = 10
     #number of .csv files with post processed data
     number_of_post_processed = 5
 
@@ -82,15 +92,15 @@ def main():
         prepare_database.parts_of_prepare.make_preprocessing_database(
             alerts=alerts,
             n_jobs=n_jobs,
-            size_of_bin=bin_size)
+            size_of_bin=bin_size, suffix = suffix_name)
     
     if postprocessing:
         prepare_database.parts_of_prepare.make_postprocessing(
             alerts=alerts, int_begin=int_begin, int_end=int_end,
             number_of_post_processed=number_of_post_processed, size_of_bin=bin_size,
-            only_max=only_max, min_mag=min_mag, tsfresh=tsfresh)
-        parts_of_prepare.save_database(bin_size=bin_size, interpolation=interpolation, 
-        only_max=only_max, min_mag=min_mag, tsfresh=tsfresh)
+            only_max=only_max, min_mag=min_mag, tsfresh=tsfresh, suffix = suffix_name)
+        prepare_database.parts_of_prepare.save_database(
+            number_of_post_processed=number_of_post_processed, suffix = suffix_name)
 
     
 if __name__ == '__main__':
