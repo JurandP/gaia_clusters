@@ -34,7 +34,7 @@ def make_preprocessing_database(alerts, n_jobs=1, size_of_bin=3):
     print('SCRIPT DID 2/4 OF THE WORK -- Preprocessing is done!')
 
 def make_postprocessing(alerts, int_end=20670, int_begin = 0,
-    number_of_post_processed = 5, size_of_bin = 3, interpolation = False, tsfresh = True):
+    number_of_post_processed = 5, size_of_bin = 3, interpolation = False, only_max = True, tsfresh = True, min_mag = None):
     check_folder('Postprocessed_Database')
 
     #check if file with names of broken or too small data is empty 
@@ -50,7 +50,7 @@ def make_postprocessing(alerts, int_end=20670, int_begin = 0,
         make_file_with_database(alerts['#Name'].loc[
             i*number_of_objects_in_file : 
             (i+1)*number_of_objects_in_file-1], 'Postprocessed_Database/'+str(i) +'.csv',
-            size_of_bin = size_of_bin, interp = interpolation, tsfresh=tsfresh) 
+            size_of_bin = size_of_bin, only_max = only_max, interp = interpolation, tsfresh=tsfresh, min_mag = min_mag) 
 
     print('SCRIPT DID 3/4 OF THE WORK -- Postprocessing is done!')
 

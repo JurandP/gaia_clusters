@@ -72,10 +72,11 @@ def postprocessing_data(name, size_of_bin = 3, interp = False, only_max = True, 
             else:
                 with open('Little_Data.csv', 'a') as input:
                     input.write(name + '\n')
+    print(name + ' postprocessing is done.')
 
 def make_file_with_database(
     alerts_names_base, filename, processes_number = 1, size_of_bin = 3,
-    interp = False, only_max = True, max_mag=None):
+    interp = False, only_max = True, tsfresh = True, min_mag=None):
     Data = []
     if processes_number > 1:
         import multiprocessing as mp
@@ -90,7 +91,7 @@ def make_file_with_database(
     else:
         for i in alerts_names_base:
             Data.append(postprocessing_data(i, size_of_bin = size_of_bin, interp = interp,
-                only_max = only_max, light_power=max_mag))
+                only_max = only_max, light_power=min_mag))
 
     Data = [i for i in Data if not i == None]
 

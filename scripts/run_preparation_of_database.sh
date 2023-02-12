@@ -10,5 +10,5 @@ python3.8 -m prepare_database \
     --min_mag 17.0 \
     --n_jobs 1 \
     --download_database False \
-    --preprocessing True \
+    --preprocessing False \
     --postprocessing True
