@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 import os
-import multiprocessing as mp
 import csv
 
+from itertools import repeat
 from prepare_database.functions import Final_res
 from prepare_database.interpolation import Produce_vect
 
@@ -26,9 +26,9 @@ raw_dir = 'Raw_data'
 alerts = pd.read_csv('alerts.csv')['#Name']
 
 #function to open Proceed_data and produce final dataframe
-def postprocessing_data(name, size_of_bin = 3, interp = 1, only_max = 1, stats = 0, light_power = 17.3):
+def postprocessing_data(name, size_of_bin = 3, interp = False, only_max = True, tsfresh = True, light_power = 17.3):
 
-    if only_max == 1:
+    if only_max:
         df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv', header=1)
         index_of_max = float(round(df.sort_values(by=['averagemag']).iloc[0,1], 2))
         max_value = float(df.sort_values(by=['averagemag']).iloc[0,2])
@@ -36,7 +36,8 @@ def postprocessing_data(name, size_of_bin = 3, interp = 1, only_max = 1, stats =
         df = df[df['averagemag'] != 'NaN']
         df['averagemag'] = df['averagemag'].apply(float)
         df = df.drop(['#Date','JD(TCB)'], axis=1)
-        
+        if light_power is None:
+            light_power = 1000.0
         if len(df) > 4 and max_value < light_power:
             x = Final_res(df)
             if os.path.exists(
@@ -47,7 +48,7 @@ def postprocessing_data(name, size_of_bin = 3, interp = 1, only_max = 1, stats =
                 header = None , delim_whitespace=True)
                 df.index = df[0]
                 if index_of_max in df[0].to_list():
-                    if stats:
+                    if tsfresh:
                         s = [name] + x + normalize(df.loc[index_of_max].iloc[1:].to_list())
                     else:
                         s = [name] + normalize(df.loc[index_of_max].iloc[1:].to_list())
@@ -57,7 +58,6 @@ def postprocessing_data(name, size_of_bin = 3, interp = 1, only_max = 1, stats =
         else:
             with open('Little_Data.csv', 'a') as input:
                 input.write(name + '\n')
-            
 
     if os.path.exists(
         'Preprocessed_data/' + name + '_processed.csv'
@@ -74,23 +74,29 @@ def postprocessing_data(name, size_of_bin = 3, interp = 1, only_max = 1, stats =
                     input.write(name + '\n')
 
 def make_file_with_database(
-    AlertsNamesBase, FileName, processes_number = 1, size_of_bin = 3, interp = 1, only_max = 1):
+    alerts_names_base, filename, processes_number = 1, size_of_bin = 3,
+    interp = False, only_max = True, max_mag=None):
     Data = []
-    # pool =  mp.Pool(processes=processes_number)
-    # try:
-    #        Data = pool.map(prepare_data, AlertsNamesBase)
-    # except mp.TimeoutError:
-    #        print("We lacked patience and got a multiprocessing.TimeoutError")
-    # pool.close()
-    for i in AlertsNamesBase:
-        print(i)
-        Data.append(postprocessing_data(i, size_of_bin = size_of_bin, interp = interp, only_max = only_max))
+    if processes_number > 1:
+        import multiprocessing as mp
+
+        pool =  mp.Pool(processes=processes_number)
+        try:
+            Data = pool.starmap(postprocessing_data, zip(alerts_names_base, repeat(size_of_bin),
+                repeat(interp), repeat(only_max), repeat(max_mag)))
+        except mp.TimeoutError:
+            print("We lacked patience and got a multiprocessing.TimeoutError")
+        pool.close()
+    else:
+        for i in alerts_names_base:
+            Data.append(postprocessing_data(i, size_of_bin = size_of_bin, interp = interp,
+                only_max = only_max, light_power=max_mag))
 
     Data = [i for i in Data if not i == None]
-    File = open(FileName, 'w')
-    for i in Data:
-        File.write(i)
-    File.close()
+
+    with open(filename, 'w') as input:
+        for i in Data:
+            input.write(i)
 
 #function collects the data in their average and puts it into containers of length size_of_bin
 # example: 1.0 2.0 3.0 4.0 5.0 6.0, size_of_bin = 3 -> 2.0 7.5
