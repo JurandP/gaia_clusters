@@ -1,0 +1,14 @@
+Initial dataframe has size (4568, 74).Initial dataframe has size (4568, 75).
+After principal component analysis dataframe has size (4512, 25).
+Config: vec_perc = 0.85, n_neighbors = 10, n_clusters = 8.
+BIRCH
+0.280363475177305
+K-Means
+0.26640070921985815
+Mini Batch KMeans
+0.2127659574468085
+Bisecting KMeans
+0.20966312056737588
+Agglomerative Clustering Ward
+0.29942375886524825
+

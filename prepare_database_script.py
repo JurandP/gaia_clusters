@@ -16,7 +16,7 @@ int_end = 20670
 processes_number = 2
 #number of .csv files with post processed data
 number_of_post_processed = 5
-size_of_bin = 2
+size_of_bin = 3
 interp = 0
 
 #pandas dataframe with basic data about alerts

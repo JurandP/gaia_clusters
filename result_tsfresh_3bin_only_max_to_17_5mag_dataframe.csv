@@ -1,0 +1,4513 @@
+0,BIRCH,K-Means,MiniBatchKMeans,BisectingKMeans,AggCluWard, Class
+Gaia22cxs,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia22cxr,3.0,0.0,1.0,0.0,1.0,SN Ia
+Gaia22cxn,0.0,6.0,6.0,4.0,0.0,BL Lac
+Gaia22cxm,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22cxl,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22cxf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22cxe,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22cxd,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22cwx,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22cwr,3.0,4.0,6.0,3.0,0.0,unknown
+Gaia22cwm,4.0,4.0,6.0,3.0,7.0,unknown
+Gaia22cwj,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22cvx,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22cvv,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22cvg,3.0,4.0,6.0,3.0,0.0,unknown
+Gaia22cvc,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22cva,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22cuy,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22cum,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia22cul,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22cue,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22ctm,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia22cti,7.0,4.0,2.0,2.0,1.0,CV
+Gaia22csu,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22csr,4.0,4.0,2.0,3.0,7.0,CV
+Gaia22cse,3.0,3.0,6.0,4.0,5.0,unknown
+Gaia22crt,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia22crn,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22crm,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia22cqp,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia22cqo,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22cqn,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia22cqm,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22cqg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22cpd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22cpa,4.0,6.0,6.0,5.0,0.0,unknown
+Gaia22cov,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22coj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22cog,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22coc,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22cnx,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia22cnl,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22cnk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22cnj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22cni,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22cnh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22cmu,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22cmm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22clw,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22clv,3.0,5.0,2.0,3.0,1.0,unknown
+Gaia22clu,7.0,5.0,6.0,2.0,7.0,unknown
+Gaia22clt,7.0,5.0,6.0,4.0,7.0,unknown
+Gaia22clo,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22clk,7.0,1.0,2.0,3.0,1.0,TDE
+Gaia22clb,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia22cla,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia22ckz,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22cja,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22cim,3.0,0.0,1.0,0.0,1.0,SN Ia
+Gaia22cil,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22cid,5.0,0.0,0.0,1.0,2.0,CV
+Gaia22cib,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia22cia,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia22chh,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22chc,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia22cgs,3.0,4.0,2.0,3.0,7.0,QSO
+Gaia22cgr,7.0,1.0,2.0,3.0,1.0,CV
+Gaia22cgo,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia22cga,3.0,4.0,1.0,2.0,1.0,QSO
+Gaia22cfz,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22cfw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22cfj,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia22cfb,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22cey,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22cek,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia22ceh,0.0,6.0,3.0,5.0,7.0,unknown
+Gaia22cdr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia22cdc,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22cdb,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia22ccv,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia22cci,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22cbw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22cbs,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22cbr,7.0,4.0,1.0,3.0,1.0,unknown
+Gaia22cbn,4.0,3.0,6.0,3.0,1.0,QSO
+Gaia22cbl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22cax,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia22caw,4.0,1.0,2.0,3.0,7.0,CV
+Gaia22cav,3.0,6.0,6.0,7.0,0.0,YSO
+Gaia22cap,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22can,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia22cam,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22cah,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22cag,4.0,0.0,4.0,0.0,7.0,unknown
+Gaia22cac,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia22bzy,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia22bzs,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22bzm,4.0,5.0,6.0,4.0,1.0,unknown
+Gaia22bzg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bzf,4.0,4.0,2.0,3.0,1.0,BL Lac
+Gaia22byn,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia22byf,1.0,7.0,7.0,6.0,4.0,unknown
+Gaia22bxu,7.0,1.0,2.0,3.0,1.0,AGN
+Gaia22bxt,3.0,1.0,2.0,2.0,1.0,unknown
+Gaia22bxs,5.0,0.0,4.0,1.0,2.0,SN II
+Gaia22bxp,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bxj,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22bxc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bwz,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22bwp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bwm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22bwj,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22bwd,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bwb,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bvx,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia22bvu,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bvq,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia22bvp,5.0,0.0,4.0,0.0,2.0,SN Ib
+Gaia22bvm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bvb,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22buz,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22buy,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bux,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22buv,3.0,3.0,6.0,4.0,0.0,unknown
+Gaia22buq,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia22buo,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia22bum,3.0,3.0,2.0,3.0,1.0,unknown
+Gaia22buk,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22bud,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia22buc,0.0,4.0,3.0,7.0,0.0,unknown
+Gaia22btx,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22btm,3.0,4.0,1.0,5.0,0.0,unknown
+Gaia22btj,7.0,3.0,2.0,3.0,1.0,unknown
+Gaia22bti,3.0,0.0,5.0,0.0,1.0,unknown
+Gaia22bth,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia22bsu,5.0,0.0,0.0,1.0,2.0,SN
+Gaia22bsp,4.0,4.0,1.0,5.0,7.0,unknown
+Gaia22bsn,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22bsm,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22bsh,7.0,4.0,2.0,2.0,1.0,unknown
+Gaia22bsf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22bsb,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22brz,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bry,4.0,5.0,6.0,4.0,7.0,YSO
+Gaia22brx,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22brw,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia22brv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bru,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22brq,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia22brl,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia22brf,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22brc,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia22bra,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bqz,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bqy,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bqw,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia22bqr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bqp,0.0,4.0,3.0,5.0,1.0,unknown
+Gaia22bqn,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22bqm,4.0,6.0,6.0,4.0,7.0,unknown
+Gaia22bql,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia22bqj,0.0,6.0,6.0,7.0,0.0,unknown
+Gaia22bqf,3.0,4.0,2.0,5.0,1.0,unknown
+Gaia22bqe,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bqd,0.0,6.0,6.0,4.0,7.0,unknown
+Gaia22bqc,7.0,4.0,1.0,4.0,1.0,unknown
+Gaia22bqb,3.0,6.0,3.0,5.0,0.0,BL Lac
+Gaia22bqa,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia22bpw,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia22bpv,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22bps,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bpo,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bpn,0.0,4.0,1.0,5.0,0.0,YSO
+Gaia22bpm,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bpl,3.0,3.0,6.0,7.0,0.0,unknown
+Gaia22bpk,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22bpi,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22bph,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22bpe,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22bpc,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22bpa,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia22bov,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22bou,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bop,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22bol,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22boj,0.0,6.0,6.0,7.0,0.0,unknown
+Gaia22boh,5.0,0.0,1.0,0.0,2.0,SN Ia-CSM
+Gaia22boa,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bns,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia22bnp,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22bnl,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22bnk,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia22bni,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22bnh,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22bmz,5.0,0.0,1.0,0.0,2.0,SN Ib
+Gaia22bmv,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia22bms,7.0,0.0,1.0,1.0,1.0,unknown
+Gaia22bmm,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bml,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22bmh,7.0,4.0,2.0,2.0,1.0,unknown
+Gaia22bmg,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22bmf,3.0,4.0,6.0,2.0,1.0,SN Ia
+Gaia22bmb,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia22bma,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bls,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22blg,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22ble,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22blb,3.0,5.0,1.0,2.0,1.0,unknown
+Gaia22bkz,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia22bky,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22bkx,3.0,4.0,2.0,3.0,7.0,unknown
+Gaia22bkw,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia22bku,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22bks,4.0,1.0,2.0,2.0,1.0,CV
+Gaia22bki,5.0,1.0,0.0,2.0,1.0,unknown
+Gaia22bkb,3.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bjz,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22bjy,4.0,4.0,6.0,4.0,7.0,BL Lac
+Gaia22bjw,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22bjt,5.0,0.0,1.0,0.0,2.0,SN Iax
+Gaia22bjr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia22bjn,7.0,1.0,2.0,3.0,1.0,CV
+Gaia22bjm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22bjl,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia22bjj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bji,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia22bjc,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22bja,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia22biy,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bit,0.0,7.0,3.0,7.0,5.0,star
+Gaia22biq,3.0,4.0,3.0,7.0,1.0,unknown
+Gaia22bij,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia22bih,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bie,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia22bic,3.0,5.0,6.0,4.0,1.0,unknown
+Gaia22bib,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22bhw,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22bhv,0.0,6.0,6.0,7.0,0.0,unknown
+Gaia22bhu,0.0,5.0,6.0,4.0,0.0,AGN
+Gaia22bhj,3.0,4.0,2.0,3.0,5.0,CV
+Gaia22bhi,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia22bhh,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia22bhe,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bhc,3.0,6.0,6.0,7.0,0.0,unknown
+Gaia22bhb,3.0,6.0,6.0,7.0,0.0,unknown
+Gaia22bgo,7.0,4.0,3.0,7.0,1.0,unknown
+Gaia22bgk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bgj,7.0,0.0,1.0,2.0,1.0,unknown
+Gaia22bgi,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22bgh,3.0,5.0,6.0,4.0,7.0,QSO
+Gaia22bfz,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bfy,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia22bfn,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bfj,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia22bfh,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22bfe,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia22bez,3.0,6.0,6.0,7.0,0.0,unknown
+Gaia22bem,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia22bel,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia22beb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia22bdz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bdy,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia22bdx,1.0,7.0,3.0,6.0,0.0,unknown
+Gaia22bdv,4.0,5.0,6.0,4.0,1.0,unknown
+Gaia22bdu,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22bdt,3.0,5.0,2.0,3.0,7.0,TDE
+Gaia22bdn,6.0,2.0,5.0,3.0,6.0,unknown
+Gaia22bdl,6.0,2.0,0.0,1.0,6.0,SN Ia
+Gaia22bdg,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22bde,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bdd,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bcx,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22bcw,1.0,0.0,1.0,0.0,4.0,unknown
+Gaia22bcn,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22bcb,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22bbv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22bbp,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia22bbo,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bbf,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia22bbb,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia22baz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22bav,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22bap,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia22ban,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22bam,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia22bal,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia22baj,7.0,5.0,6.0,4.0,1.0,TDE
+Gaia22bai,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22azz,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia22azu,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22azr,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia22azq,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22azp,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia22azm,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia22azj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22azf,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia22aza,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia22ayx,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia22ayw,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia22ayv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22ayt,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22ays,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia22ayl,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22ayk,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22ayh,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia22axt,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia22axr,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22axq,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22axp,4.0,4.0,6.0,3.0,7.0,unknown
+Gaia22axk,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia22axf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22axd,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22axa,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22awv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22awu,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22awt,4.0,4.0,1.0,2.0,7.0,unknown
+Gaia22awp,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia22awl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22awj,3.0,4.0,1.0,7.0,5.0,unknown
+Gaia22awe,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22awd,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia22awc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22awb,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia22awa,3.0,3.0,6.0,4.0,5.0,unknown
+Gaia22avz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22avy,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia22avw,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22avr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22avp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22avo,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22avl,3.0,1.0,2.0,3.0,1.0,CV
+Gaia22avj,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22avi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22avg,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia22ava,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22auz,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia22auw,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22auv,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22aur,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia22aup,3.0,4.0,1.0,7.0,0.0,unknown
+Gaia22aui,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22aug,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22auf,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia22aue,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22aub,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22atz,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22att,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22ats,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22atr,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia22atl,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia22ati,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22ath,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia22atg,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia22atf,0.0,7.0,3.0,6.0,1.0,unknown
+Gaia22ate,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia22atd,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia22asw,3.0,6.0,6.0,4.0,0.0,AGN
+Gaia22asv,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22ast,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia22ass,3.0,6.0,3.0,7.0,1.0,unknown
+Gaia22asn,4.0,5.0,5.0,2.0,7.0,unknown
+Gaia22ask,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22asd,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22asb,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia22arr,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22arq,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22arp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22aro,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia22arn,7.0,1.0,2.0,3.0,1.0,CV
+Gaia22arf,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia22arb,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia22ara,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22aqt,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22aqo,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22aqf,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22apw,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22app,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia22apm,7.0,4.0,5.0,2.0,1.0,BL Lac
+Gaia22apc,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia22aop,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22aon,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia22aom,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22aoa,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia22anz,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia22anr,3.0,4.0,2.0,3.0,1.0,CV
+Gaia22anh,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22and,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia22amy,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22amv,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia22amu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22aml,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia22amj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22amb,4.0,5.0,6.0,4.0,7.0,CV
+Gaia22alx,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia22alw,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia22alr,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22ali,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22alh,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22alg,7.0,1.0,5.0,2.0,1.0,CV
+Gaia22alf,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia22ala,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia22akz,3.0,6.0,6.0,7.0,0.0,Varstar
+Gaia22aky,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia22akt,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22akq,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22akp,3.0,3.0,6.0,7.0,0.0,unknown
+Gaia22ajz,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22ajy,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia22ajx,4.0,4.0,6.0,4.0,7.0,BL Lac
+Gaia22ajv,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia22ajs,3.0,4.0,2.0,3.0,1.0,CV
+Gaia22aiw,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia22aiq,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia22aie,3.0,5.0,6.0,4.0,1.0,unknown
+Gaia22aic,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia22ahy,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22ahx,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia22ahw,7.0,4.0,1.0,2.0,1.0,unknown
+Gaia22ahu,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia22aho,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22ahj,3.0,4.0,1.0,2.0,5.0,unknown
+Gaia22ahd,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22agt,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia22agp,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22agg,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia22age,5.0,0.0,0.0,1.0,2.0,CV
+Gaia22agc,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia22afy,3.0,4.0,1.0,7.0,0.0,SN II
+Gaia22afw,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22afv,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia22afs,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22afh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22aff,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia22aez,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia22aew,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22aev,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22aeu,3.0,4.0,6.0,3.0,7.0,QSO
+Gaia22aen,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22aef,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22aed,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia22aec,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22adx,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22adw,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia22adn,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia22adh,7.0,0.0,4.0,0.0,1.0,unknown
+Gaia22adf,3.0,3.0,6.0,4.0,0.0,unknown
+Gaia22ade,3.0,4.0,1.0,3.0,1.0,SN Ia
+Gaia22acy,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22acv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia22acu,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22acp,3.0,4.0,1.0,0.0,1.0,unknown
+Gaia22acn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22acm,7.0,1.0,2.0,3.0,1.0,CV
+Gaia22acl,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia22acj,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia22aci,7.0,4.0,2.0,3.0,7.0,unknown
+Gaia22acg,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia22aby,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia22abw,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22abv,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia22abu,3.0,4.0,1.0,3.0,7.0,unknown
+Gaia22abt,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia22abs,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia22abp,7.0,4.0,2.0,3.0,1.0,CV
+Gaia22abn,0.0,6.0,6.0,4.0,7.0,unknown
+Gaia22abf,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia22abd,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22aau,1.0,0.0,1.0,0.0,4.0,CV
+Gaia22aat,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia22aas,3.0,5.0,6.0,4.0,0.0,unknown
+Gaia22aap,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia22aan,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia22aai,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia22aah,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia22aab,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21fuv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fug,3.0,3.0,2.0,3.0,5.0,QSO
+Gaia21ftx,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ftu,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia21fto,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21ftl,3.0,4.0,2.0,3.0,1.0,CV
+Gaia21ftj,0.0,6.0,6.0,7.0,0.0,unknown
+Gaia21fsz,7.0,4.0,1.0,3.0,1.0,BL Lac
+Gaia21fsy,3.0,4.0,1.0,3.0,7.0,BL Lac
+Gaia21fsk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fsi,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21fsd,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fsc,4.0,4.0,2.0,3.0,7.0,CV
+Gaia21fsb,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21fsa,3.0,4.0,6.0,4.0,1.0,AGN
+Gaia21frs,4.0,5.0,2.0,2.0,7.0,unknown
+Gaia21frr,0.0,5.0,2.0,3.0,0.0,unknown
+Gaia21frb,3.0,4.0,1.0,2.0,1.0,BL Lac
+Gaia21fqz,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fqv,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21fqp,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fqn,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fqm,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21fps,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia21fpg,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia21fpc,0.0,6.0,6.0,5.0,0.0,AGN
+Gaia21fow,0.0,4.0,2.0,3.0,1.0,unknown
+Gaia21fou,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21fot,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21fol,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fod,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21fob,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fnv,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fnl,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21fnk,4.0,1.0,2.0,3.0,7.0,unknown
+Gaia21fni,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21fnd,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fnc,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21fnb,3.0,1.0,2.0,3.0,1.0,SN IIn
+Gaia21fmm,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia21fmj,3.0,1.0,2.0,2.0,1.0,CV
+Gaia21fmi,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21fly,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21flv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21flr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21flm,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia21fll,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21flk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21flf,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21fle,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21fld,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21fkx,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21fku,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21fkm,7.0,0.0,5.0,2.0,2.0,unknown
+Gaia21fkb,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21fjy,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21fjx,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21fjw,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fjv,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21fjq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fjp,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia21fji,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21fjg,7.0,1.0,2.0,2.0,7.0,unknown
+Gaia21fjf,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21fjb,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21fja,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21fiy,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21fix,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21fiw,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia21fiv,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21fir,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia21fip,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fio,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia21fig,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21fic,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21fib,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21fhy,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia21fhu,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21fht,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fhp,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21fhk,7.0,0.0,1.0,2.0,1.0,unknown
+Gaia21fhi,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21fhd,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21fhc,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia21fhb,3.0,0.0,1.0,1.0,1.0,AGN
+Gaia21fgv,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21fgm,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21ffs,0.0,4.0,1.0,6.0,1.0,BL Lac
+Gaia21ffq,3.0,3.0,3.0,7.0,1.0,CV
+Gaia21ffg,5.0,0.0,1.0,0.0,2.0,CV
+Gaia21fff,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21fez,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21fes,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21fel,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21fej,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21fec,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fea,4.0,5.0,2.0,3.0,1.0,BL Lac
+Gaia21fdy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21fdt,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21fdj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21fdi,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21fdg,0.0,6.0,6.0,7.0,0.0,unknown
+Gaia21fcz,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21fcx,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21fct,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21fcs,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21fcr,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21fcn,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21fcm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21fcj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21fci,3.0,4.0,6.0,4.0,7.0,CV
+Gaia21fch,3.0,0.0,1.0,0.0,2.0,SN II
+Gaia21fcg,3.0,4.0,1.0,4.0,1.0,unknown
+Gaia21fce,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia21fcd,4.0,1.0,2.0,2.0,7.0,unknown
+Gaia21fca,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia21fbu,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21fbh,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21fba,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia21faz,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia21far,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21faq,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21fan,7.0,4.0,5.0,2.0,1.0,CV
+Gaia21faj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21ezi,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21eyp,3.0,4.0,1.0,2.0,1.0,SN Ia
+Gaia21eyh,0.0,4.0,2.0,3.0,1.0,unknown
+Gaia21eye,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21eyb,4.0,1.0,2.0,2.0,1.0,unknown
+Gaia21exs,3.0,5.0,6.0,2.0,1.0,unknown
+Gaia21exp,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia21exl,5.0,0.0,4.0,1.0,2.0,SN IIn
+Gaia21exh,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21ewz,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21ewm,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21ewl,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21ewk,3.0,0.0,1.0,0.0,1.0,SN II
+Gaia21ewj,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ewd,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21evw,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21evv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21evu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21evj,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21evb,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia21euy,0.0,4.0,1.0,4.0,7.0,unknown
+Gaia21euv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21eus,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia21eup,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21euk,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21eui,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21euf,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21etz,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia21ets,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21etp,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21etj,3.0,4.0,1.0,0.0,1.0,unknown
+Gaia21eti,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21esx,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia21esu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21est,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21esr,6.0,2.0,5.0,2.0,6.0,YSO
+Gaia21esl,6.0,0.0,4.0,0.0,6.0,SN Ia
+Gaia21ese,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21erx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21erv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21ers,0.0,4.0,1.0,7.0,7.0,unknown
+Gaia21err,3.0,4.0,2.0,3.0,1.0,BL Lac
+Gaia21erp,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia21erl,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21erj,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21eri,3.0,3.0,6.0,7.0,0.0,unknown
+Gaia21erh,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia21eqr,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21eqq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21eqn,1.0,7.0,1.0,0.0,4.0,unknown
+Gaia21eqk,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21eqj,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia21eqc,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21ept,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21epq,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21epo,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21epl,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21epk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21epi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21eph,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia21epc,4.0,4.0,6.0,3.0,7.0,QSO
+Gaia21epa,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21eox,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia21eow,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21eok,5.0,0.0,0.0,2.0,2.0,SN Ia
+Gaia21eoe,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21eoc,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21eob,0.0,6.0,3.0,5.0,0.0,Varstar
+Gaia21env,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21enu,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21enm,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21eni,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21ene,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21emz,6.0,2.0,5.0,1.0,6.0,unknown
+Gaia21emr,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia21emq,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21emp,4.0,4.0,6.0,4.0,7.0,BL Lac
+Gaia21emo,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21emk,0.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia21emj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21emg,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21emf,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21eme,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21emb,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21ema,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21ely,3.0,1.0,5.0,2.0,1.0,unknown
+Gaia21elv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21elu,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia21elr,2.0,7.0,7.0,2.0,3.0,unknown
+Gaia21elp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21eln,3.0,3.0,2.0,7.0,5.0,unknown
+Gaia21elj,4.0,5.0,5.0,2.0,1.0,CV
+Gaia21ele,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21elc,3.0,6.0,6.0,5.0,0.0,YSO
+Gaia21ekx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ekv,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21eku,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21ekq,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21ekp,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia21ekl,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21eki,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia21ekg,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21eka,4.0,6.0,6.0,5.0,0.0,unknown
+Gaia21ejw,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21ejv,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21eju,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia21ejt,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21ejq,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21ejp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21ejm,3.0,5.0,6.0,4.0,0.0,unknown
+Gaia21ejk,3.0,4.0,1.0,2.0,1.0,CV
+Gaia21ejj,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21ejh,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia21eis,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21eiq,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21eil,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21eij,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia21eii,5.0,0.0,0.0,1.0,1.0,unknown
+Gaia21eif,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21eid,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21eic,5.0,0.0,1.0,0.0,1.0,unknown
+Gaia21ehy,3.0,6.0,1.0,7.0,0.0,unknown
+Gaia21ehw,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ehu,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia21ehs,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21ehm,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21ehk,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ehj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ehd,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia21egt,4.0,4.0,6.0,4.0,7.0,YSO
+Gaia21egq,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21egm,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia21egk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21egg,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21egd,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21egc,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21efv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21efu,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21eft,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21efl,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21efe,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21efa,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21eez,0.0,7.0,3.0,6.0,4.0,YSO
+Gaia21eev,4.0,6.0,6.0,4.0,7.0,AGN
+Gaia21eeq,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21eep,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21eel,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21eea,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21edw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21edp,4.0,5.0,2.0,2.0,7.0,unknown
+Gaia21edc,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21eda,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21ecy,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia21ect,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21ecr,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ech,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia21ecb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21ebw,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ebu,3.0,6.0,3.0,5.0,0.0,YSO
+Gaia21ebt,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21ebn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21ebm,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21ebj,3.0,4.0,1.0,7.0,1.0,Varstar
+Gaia21ebh,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21ebd,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21eaw,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21eaq,4.0,5.0,6.0,4.0,1.0,QSO
+Gaia21eao,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21dzv,3.0,4.0,1.0,0.0,1.0,unknown
+Gaia21dzt,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21dzs,3.0,3.0,1.0,3.0,5.0,unknown
+Gaia21dzb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dza,3.0,4.0,1.0,3.0,1.0,CV
+Gaia21dyz,7.0,0.0,5.0,2.0,1.0,CV
+Gaia21dys,1.0,7.0,3.0,7.0,4.0,unknown
+Gaia21dyl,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia21dyg,3.0,3.0,6.0,4.0,1.0,unknown
+Gaia21dxt,3.0,4.0,1.0,7.0,0.0,unknown
+Gaia21dxl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dxi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dxf,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21dwj,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21dwi,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia21dwh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21dwa,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21dvz,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dvy,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia21dvx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dvw,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dvr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21dvq,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21dvn,3.0,4.0,2.0,3.0,7.0,QSO
+Gaia21dvc,3.0,5.0,6.0,4.0,7.0,XRB
+Gaia21dur,3.0,3.0,2.0,3.0,1.0,unknown
+Gaia21duq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21dtz,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21dts,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21dth,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia21dsz,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21dsw,3.0,4.0,5.0,2.0,1.0,unknown
+Gaia21dsm,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21dsj,3.0,5.0,6.0,4.0,1.0,AGN
+Gaia21dsc,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21dsb,4.0,4.0,6.0,3.0,7.0,unknown
+Gaia21drz,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21drg,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21drf,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia21drc,5.0,0.0,4.0,0.0,2.0,CV
+Gaia21dra,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dqp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dqh,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21dqg,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia21dpz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dpu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21dpr,4.0,5.0,2.0,3.0,1.0,CV
+Gaia21dpn,0.0,5.0,2.0,3.0,0.0,unknown
+Gaia21dpm,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia21dpk,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dpj,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia21dpi,4.0,0.0,0.0,1.0,1.0,SN Ia
+Gaia21dpd,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21dpb,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia21dpa,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21doz,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia21don,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dnu,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia21dns,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21dno,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia21dnj,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21dnd,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dnc,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia21dmx,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21dmw,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia21dmu,3.0,4.0,2.0,3.0,7.0,QSO
+Gaia21dmt,3.0,1.0,2.0,3.0,5.0,unknown
+Gaia21dmk,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia21dmi,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia21dmc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21dlz,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21dlr,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21dlo,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21dlm,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia21dkx,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia21dkt,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dko,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dki,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21dkh,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21dkf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21djt,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21djq,5.0,0.0,0.0,2.0,2.0,unknown
+Gaia21djp,7.0,3.0,2.0,3.0,1.0,SN Ia
+Gaia21djh,3.0,4.0,2.0,3.0,1.0,CV
+Gaia21dje,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21div,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dit,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21dis,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21diq,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21dip,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia21dij,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21dic,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21dhu,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21dhs,3.0,0.0,4.0,0.0,1.0,unknown
+Gaia21dhr,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21dhp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21dhm,5.0,0.0,1.0,0.0,2.0,SN Ib
+Gaia21dhk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dhj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dhe,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia21dgn,4.0,1.0,2.0,3.0,7.0,CV
+Gaia21dgm,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21dgi,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21dgb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21dfv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dfn,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia21dfl,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21dfk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21dfe,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21dfb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21dez,0.0,6.0,3.0,5.0,7.0,unknown
+Gaia21dey,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia21dex,3.0,3.0,3.0,7.0,5.0,star
+Gaia21dev,7.0,4.0,2.0,3.0,7.0,unknown
+Gaia21des,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21dek,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dee,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ddy,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21ddx,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21ddt,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia21dds,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ddm,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21ddd,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21dcv,0.0,7.0,3.0,7.0,0.0,YSO
+Gaia21dct,3.0,4.0,1.0,2.0,7.0,unknown
+Gaia21dck,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dcj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21dci,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21dby,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21dbw,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21dbg,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21dau,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21dat,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21daq,3.0,6.0,6.0,4.0,0.0,AGN
+Gaia21dap,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21dak,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21daj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21czo,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21cyz,4.0,5.0,6.0,3.0,1.0,QSO
+Gaia21cym,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21cyl,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia21cyh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21cye,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21cyd,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21cxy,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21cxw,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21cxt,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia21cxl,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21cxj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cxa,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21cwn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cwm,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21cwj,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21cvs,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21cvn,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21cvl,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21cvi,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cvh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cve,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21cvd,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21cuu,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21cuo,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21cum,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cul,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21cui,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ctw,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21ctu,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21ctm,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21ctd,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia21ctb,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21csv,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21csu,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21csr,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21csm,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21csk,3.0,6.0,3.0,5.0,1.0,unknown
+Gaia21cru,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21crk,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21crj,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21crd,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21crc,3.0,5.0,2.0,3.0,7.0,unknown
+Gaia21crb,4.0,4.0,6.0,4.0,7.0,unknown
+Gaia21cqr,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cqo,3.0,4.0,2.0,5.0,1.0,unknown
+Gaia21cqn,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21cqm,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21cql,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21cqk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cqj,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21cqe,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21cqb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21cqa,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21cpt,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21cpm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21cpj,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21cph,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21cpe,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia21cox,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21cow,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia21cou,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cot,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia21coi,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21coh,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21coe,7.0,4.0,1.0,2.0,1.0,CV
+Gaia21cod,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21coa,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21cnz,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21cnw,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cnu,4.0,4.0,2.0,3.0,1.0,QSO
+Gaia21cnl,3.0,4.0,1.0,0.0,1.0,CV
+Gaia21cnk,0.0,6.0,3.0,7.0,7.0,YSO
+Gaia21cni,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia21cnd,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia21cnc,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21cna,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21cmv,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21cmu,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21cmj,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21cmg,7.0,0.0,5.0,2.0,1.0,CV
+Gaia21cme,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21cmc,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia21clx,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21clp,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21clo,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21clm,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21cll,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21cli,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21clg,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21clc,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21clb,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21cks,5.0,0.0,1.0,0.0,1.0,SN Ia
+Gaia21ckm,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21ckl,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21ckk,3.0,0.0,5.0,2.0,1.0,unknown
+Gaia21ckj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21cki,3.0,3.0,6.0,3.0,5.0,ULENS
+Gaia21ckg,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21ckb,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21cjy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21cjv,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21cju,7.0,4.0,2.0,3.0,7.0,unknown
+Gaia21cjf,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cje,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cjb,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21cix,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia21cip,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21cie,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21cid,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21chw,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21chs,0.0,5.0,6.0,4.0,0.0,YSO
+Gaia21chl,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21che,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21chb,5.0,0.0,0.0,0.0,2.0,unknown
+Gaia21cgz,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21cgv,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia21cgu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cgj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21cgd,4.0,4.0,2.0,3.0,1.0,QSO
+Gaia21cgc,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21cgb,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21cfz,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21cfq,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21cfo,7.0,0.0,0.0,2.0,2.0,unknown
+Gaia21cfk,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia21cfh,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21cfg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21cfe,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21cfd,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ceu,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21ces,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia21cer,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia21cem,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21cel,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21cej,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21cec,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21cds,6.0,2.0,5.0,2.0,6.0,CV
+Gaia21cdr,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cdj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cdi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21cdh,4.0,5.0,6.0,4.0,1.0,QSO
+Gaia21cdb,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21ccz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ccx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ccw,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21ccu,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia21cco,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21ccn,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21cch,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ccg,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia21ccd,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cby,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21cbw,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21cbs,7.0,0.0,1.0,1.0,1.0,CV
+Gaia21cbq,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21cbj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21cba,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21cax,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21caw,0.0,7.0,3.0,6.0,4.0,YSO
+Gaia21cav,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cat,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21can,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21cak,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21cah,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21cag,3.0,4.0,1.0,2.0,1.0,BL Lac
+Gaia21cab,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21caa,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21bzw,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bzv,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21bzu,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia21bzt,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bzq,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia21bzo,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bzl,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21bzf,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21byr,3.0,5.0,1.0,4.0,1.0,AGN
+Gaia21byq,3.0,3.0,2.0,3.0,5.0,SN Ia
+Gaia21byp,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bym,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21byg,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia21bxv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bxu,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia21bxo,4.0,1.0,5.0,2.0,7.0,unknown
+Gaia21bxn,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia21bxj,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia21bxi,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bxh,7.0,0.0,0.0,1.0,1.0,SN Ia
+Gaia21bwr,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia21bwq,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21bwo,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia21bwk,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21bwi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21bwf,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21bwd,0.0,5.0,6.0,4.0,0.0,QSO
+Gaia21bwc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bvr,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia21bvq,4.0,4.0,6.0,3.0,1.0,unknown
+Gaia21bvo,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21bvl,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bvg,3.0,3.0,1.0,7.0,5.0,unknown
+Gaia21bvd,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21buz,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21buy,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia21buu,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21but,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia21buq,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21buk,4.0,4.0,2.0,2.0,7.0,YSO
+Gaia21buj,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21bug,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia21buc,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21bty,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia21btx,4.0,4.0,6.0,3.0,7.0,unknown
+Gaia21btw,3.0,4.0,1.0,0.0,1.0,unknown
+Gaia21btu,1.0,7.0,3.0,7.0,4.0,unknown
+Gaia21btr,4.0,4.0,6.0,3.0,1.0,CV
+Gaia21btn,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21btg,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21btf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21btd,7.0,4.0,1.0,7.0,1.0,unknown
+Gaia21bsy,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21bsw,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia21bsv,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21bsu,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia21bsq,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia21bsp,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21bsi,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia21bsh,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia21bsg,0.0,7.0,3.0,7.0,4.0,unknown
+Gaia21bsc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21brw,3.0,3.0,3.0,7.0,5.0,dM
+Gaia21bru,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21brn,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia21brm,3.0,3.0,6.0,7.0,0.0,unknown
+Gaia21brj,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia21bri,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21brh,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia21brf,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia21brd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21bqz,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21bqw,3.0,3.0,3.0,7.0,1.0,unknown
+Gaia21bqv,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia21bqo,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia21bqk,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia21bqh,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21bqe,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21bqb,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21bpx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bpw,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bpu,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bpr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bpq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21bpp,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21bpj,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bpi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bpd,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21bpa,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21boy,6.0,2.0,5.0,2.0,6.0,CV
+Gaia21bow,3.0,4.0,2.0,3.0,1.0,CV
+Gaia21bov,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21bon,3.0,3.0,6.0,4.0,0.0,unknown
+Gaia21bom,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21bok,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia21boi,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21boh,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21bno,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21bnh,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21bng,7.0,0.0,1.0,0.0,1.0,unknown
+Gaia21bmz,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21bmx,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia21bmv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bmp,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bmm,7.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21bmk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21bmh,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21bmb,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21blz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bly,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia21blx,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21blw,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21blq,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21blp,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21bll,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21blj,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21bli,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia21blg,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ble,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bkp,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21bkk,5.0,0.0,0.0,1.0,2.0,CV
+Gaia21bkd,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21bjw,4.0,5.0,6.0,4.0,1.0,unknown
+Gaia21bjc,4.0,5.0,0.0,2.0,1.0,unknown
+Gaia21bja,0.0,6.0,6.0,5.0,0.0,YSO
+Gaia21bix,3.0,4.0,2.0,3.0,1.0,CV
+Gaia21bim,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21bhz,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21bhx,4.0,6.0,6.0,4.0,7.0,QSO
+Gaia21bhw,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia21bhr,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bhl,7.0,0.0,0.0,1.0,2.0,CV
+Gaia21bhf,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia21bhe,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia21bgz,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia21bgy,3.0,4.0,2.0,3.0,1.0,CV
+Gaia21bgx,7.0,0.0,1.0,0.0,1.0,QSO
+Gaia21bgm,1.0,2.0,5.0,2.0,4.0,unknown
+Gaia21bgi,4.0,6.0,6.0,4.0,7.0,unknown
+Gaia21bgd,4.0,5.0,6.0,3.0,1.0,unknown
+Gaia21bfw,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21bfv,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia21bfs,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21bfi,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21bfh,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bfb,4.0,5.0,6.0,4.0,7.0,CV
+Gaia21bev,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia21bep,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21bel,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21bek,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21beh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21bec,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21beb,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21bdt,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bdr,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21bdo,3.0,1.0,2.0,3.0,1.0,CV
+Gaia21bdh,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bde,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21bcq,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia21bco,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21bcn,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21bcj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21bch,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21bcf,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia21bcb,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bbx,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21bbt,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21bbq,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21bbj,3.0,4.0,2.0,3.0,1.0,CV
+Gaia21bbh,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21bbe,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bba,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21baz,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia21baw,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bat,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia21ban,0.0,5.0,2.0,3.0,0.0,unknown
+Gaia21bal,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21bak,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21bai,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21bac,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21azx,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia21azw,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21azv,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21azu,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia21azt,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia21azp,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21azo,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia21azk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21aze,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia21azd,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia21azc,3.0,6.0,6.0,7.0,0.0,unknown
+Gaia21azb,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21aza,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ays,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ayp,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia21ayo,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ayl,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ayk,3.0,4.0,2.0,3.0,5.0,unknown
+Gaia21ayi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ayg,3.0,3.0,6.0,3.0,1.0,unknown
+Gaia21ayf,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21ayc,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21axx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21axw,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia21axv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21axt,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21axs,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21axr,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia21axp,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia21axn,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21axl,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia21axk,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21axj,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia21axh,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21axg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21axe,1.0,7.0,3.0,6.0,4.0,CV
+Gaia21axc,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21awy,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21awr,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21awq,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21awp,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia21awo,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21awn,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21awm,4.0,5.0,2.0,4.0,7.0,Nova
+Gaia21awl,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21awk,3.0,4.0,3.0,7.0,1.0,CV
+Gaia21awj,1.0,7.0,3.0,7.0,4.0,unknown
+Gaia21awi,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21awh,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia21awg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21awd,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia21avw,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21avv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21avu,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21avt,1.0,0.0,1.0,0.0,2.0,unknown
+Gaia21avp,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21avk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21ave,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21avc,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21avb,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21ava,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21auz,3.0,4.0,2.0,3.0,1.0,CV
+Gaia21auy,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia21aux,3.0,3.0,6.0,3.0,1.0,
+Gaia21auw,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia21auv,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia21aup,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21aul,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21aue,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21aud,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21aua,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia21atr,6.0,3.0,3.0,7.0,6.0,unknown
+Gaia21atm,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21atj,3.0,1.0,2.0,3.0,1.0,CV
+Gaia21atf,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21ata,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21asx,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21asv,3.0,4.0,1.0,2.0,1.0,CV
+Gaia21ast,4.0,4.0,1.0,4.0,7.0,BL Lac
+Gaia21ass,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia21asr,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia21asl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21arw,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21arv,3.0,6.0,3.0,5.0,0.0,YSO
+Gaia21art,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia21ars,0.0,4.0,3.0,5.0,1.0,unknown
+Gaia21arq,3.0,6.0,6.0,4.0,0.0,YSO
+Gaia21arp,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21aro,3.0,5.0,1.0,4.0,1.0,BL Lac
+Gaia21arn,4.0,5.0,2.0,4.0,7.0,unknown
+Gaia21arl,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21arj,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21ara,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21aqz,4.0,5.0,6.0,0.0,7.0,AGN
+Gaia21aqy,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21aqv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21aqd,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia21apz,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21apv,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21apu,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21apj,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21aph,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21apg,4.0,5.0,6.0,4.0,1.0,unknown
+Gaia21aor,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia21aoo,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21aoj,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia21aoc,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia21aob,7.0,1.0,2.0,2.0,1.0,CV
+Gaia21anz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21ant,4.0,0.0,0.0,1.0,1.0,SN Ia
+Gaia21anr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21anm,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia21anl,3.0,4.0,2.0,3.0,0.0,CV
+Gaia21ane,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21anc,3.0,5.0,6.0,4.0,0.0,AGN
+Gaia21amz,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21amt,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21amq,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia21amg,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21amb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21alz,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21alw,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21alu,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21all,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia21alh,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21alb,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia21akz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21akp,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21ako,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21akl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21aki,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21akg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21akb,4.0,1.0,5.0,2.0,7.0,unknown
+Gaia21ajz,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia21ajy,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21ajv,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21aju,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21ajt,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21aje,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ajc,0.0,4.0,3.0,5.0,1.0,unknown
+Gaia21aja,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia21aiz,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21aiv,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia21aiu,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21ais,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia21air,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia21aiq,0.0,5.0,2.0,2.0,0.0,unknown
+Gaia21aio,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia21aib,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ahy,3.0,4.0,2.0,3.0,5.0,SN Ia
+Gaia21ahr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21aho,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21ahd,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia21agz,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia21agx,0.0,6.0,3.0,5.0,1.0,unknown
+Gaia21agj,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21agi,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21afx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21afr,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21afq,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia21afn,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21afl,3.0,4.0,2.0,3.0,0.0,YSO
+Gaia21afk,7.0,0.0,1.0,0.0,1.0,unknown
+Gaia21afj,7.0,1.0,5.0,3.0,1.0,unknown
+Gaia21afi,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21aeu,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia21aeq,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia21aeo,3.0,5.0,6.0,4.0,7.0,AGN
+Gaia21aei,3.0,4.0,1.0,4.0,1.0,QSO
+Gaia21adr,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia21adn,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21adi,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia21acz,4.0,4.0,2.0,3.0,7.0,BL Lac
+Gaia21acm,3.0,4.0,5.0,3.0,1.0,QSO
+Gaia21acj,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia21aci,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia21ach,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia21abx,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia21abw,7.0,1.0,2.0,3.0,1.0,CV
+Gaia21abv,7.0,1.0,5.0,2.0,2.0,CV
+Gaia21abr,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21abo,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia21abn,5.0,0.0,4.0,1.0,2.0,SN II
+Gaia21abl,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia21abe,7.0,1.0,5.0,2.0,1.0,CV
+Gaia21aav,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia21aal,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia20fxx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fxp,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20fxn,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20fxl,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20fxi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20fxa,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20fwy,3.0,3.0,3.0,7.0,5.0,star
+Gaia20fwv,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20fwu,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fwq,4.0,1.0,5.0,2.0,7.0,unknown
+Gaia20fwo,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20fwk,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20fwh,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20fwg,3.0,3.0,3.0,7.0,5.0,star
+Gaia20fwc,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fvz,7.0,4.0,2.0,3.0,1.0,CV
+Gaia20fvs,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia20fvq,3.0,5.0,2.0,3.0,5.0,QSO
+Gaia20fvp,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia20fvo,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia20fvi,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20fvf,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20fuv,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia20fuu,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fut,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fup,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20ful,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20fuf,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20fud,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fty,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20fts,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ftq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ftn,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20ftl,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia20fta,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20fsy,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20fsx,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20fsw,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20fss,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20fsq,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fsh,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia20fse,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20frx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fru,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia20frt,4.0,1.0,5.0,2.0,1.0,CV
+Gaia20frn,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20frf,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fqw,5.0,0.0,4.0,0.0,2.0,SN Ib
+Gaia20fqv,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20fqr,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20fqn,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia20fqd,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20fpr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fpj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20foz,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fow,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20foj,4.0,5.0,6.0,4.0,1.0,unknown
+Gaia20foh,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20fnx,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20fnr,0.0,6.0,6.0,4.0,0.0,ULENS
+Gaia20fnm,5.0,0.0,4.0,0.0,2.0,SN IIb
+Gaia20fni,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia20fmx,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20fmw,7.0,4.0,2.0,3.0,7.0,unknown
+Gaia20fmm,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fml,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20fmb,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20fly,4.0,4.0,1.0,2.0,7.0,AGN
+Gaia20flx,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20flo,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20flm,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia20fll,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20flc,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20fkx,5.0,0.0,0.0,1.0,2.0,SLSN
+Gaia20fkv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fku,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20fkt,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20fks,4.0,5.0,2.0,4.0,7.0,Varstar
+Gaia20fkn,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fkm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fkk,3.0,6.0,6.0,7.0,0.0,unknown
+Gaia20fjx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fjv,7.0,4.0,2.0,3.0,5.0,CV
+Gaia20fjt,0.0,6.0,3.0,5.0,7.0,unknown
+Gaia20fjq,7.0,2.0,5.0,2.0,1.0,unknown
+Gaia20fjo,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20fjm,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20fjg,4.0,6.0,6.0,4.0,0.0,BL Lac
+Gaia20fjf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20fjc,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia20fiv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fis,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fir,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20fiq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20fil,0.0,4.0,2.0,3.0,1.0,QSO
+Gaia20fii,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20fie,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20fhy,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20fhw,7.0,4.0,2.0,3.0,1.0,CV
+Gaia20fhv,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia20fho,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia20fhn,3.0,4.0,1.0,3.0,0.0,unknown
+Gaia20fhg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fhd,2.0,0.0,7.0,0.0,3.0,unknown
+Gaia20fhc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fhb,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20fgx,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia20fgq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20fgp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fgo,3.0,5.0,6.0,4.0,5.0,unknown
+Gaia20fgn,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia20fgl,3.0,5.0,1.0,4.0,1.0,unknown
+Gaia20fgk,4.0,4.0,1.0,3.0,7.0,unknown
+Gaia20fgj,7.0,1.0,2.0,2.0,5.0,CV
+Gaia20fgi,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20fgh,0.0,7.0,3.0,6.0,0.0,star
+Gaia20ffy,4.0,4.0,6.0,3.0,1.0,QSO
+Gaia20ffw,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ffn,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20ffm,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia20ffl,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20ffc,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20ffa,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20fex,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20fer,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20feq,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia20fep,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20feh,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20fdt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20fdl,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia20fdj,3.0,6.0,3.0,5.0,1.0,unknown
+Gaia20fdi,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia20fdg,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20fcz,7.0,3.0,2.0,3.0,1.0,CV
+Gaia20fcu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20fcq,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fcj,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20fci,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20fcg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20fcf,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20fcc,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia20fcb,3.0,4.0,3.0,7.0,0.0,unknown
+Gaia20fca,7.0,0.0,5.0,1.0,2.0,unknown
+Gaia20fbu,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20fbq,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fbn,3.0,4.0,2.0,3.0,7.0,CV
+Gaia20fbe,4.0,5.0,6.0,4.0,1.0,QSO
+Gaia20fbb,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20fba,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20fay,0.0,6.0,3.0,5.0,0.0,RCrB
+Gaia20fax,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia20fav,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20fal,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20fak,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20faj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20ezx,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ezu,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20ezk,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20ezj,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia20ezi,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20ezb,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20eyz,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia20eyy,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20eyw,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia20eyt,3.0,4.0,2.0,3.0,7.0,CV
+Gaia20eys,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20eyr,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20eyq,3.0,3.0,2.0,3.0,5.0,CV
+Gaia20eyh,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20eya,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20exr,0.0,4.0,3.0,5.0,0.0,YSO
+Gaia20exq,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20exn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20exi,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20ewr,6.0,2.0,5.0,1.0,6.0,SLSN
+Gaia20ewd,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20evz,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20evy,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20evx,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia20evt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20evm,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20euw,5.0,0.0,0.0,1.0,2.0,CV
+Gaia20euv,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20euo,3.0,3.0,2.0,3.0,5.0,SN Ia
+Gaia20eug,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20etx,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia20etu,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20etr,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20etq,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20etp,4.0,5.0,2.0,3.0,7.0,TDE
+Gaia20etm,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia20etl,1.0,6.0,6.0,5.0,4.0,QSO
+Gaia20etd,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia20esw,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20esr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20esp,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20eso,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20esm,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20esk,0.0,4.0,1.0,5.0,0.0,unknown
+Gaia20erz,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ern,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia20erm,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20era,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20equ,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia20eqt,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia20eqs,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia20eqr,0.0,7.0,3.0,7.0,4.0,unknown
+Gaia20eqm,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20eqj,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia20eqe,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20eqc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20epz,4.0,6.0,6.0,5.0,0.0,unknown
+Gaia20epv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20ept,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20eps,7.0,4.0,1.0,2.0,1.0,unknown
+Gaia20epc,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20eoz,0.0,7.0,1.0,5.0,0.0,unknown
+Gaia20eoh,7.0,4.0,1.0,2.0,1.0,unknown
+Gaia20eoe,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia20eod,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia20eob,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia20ens,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20eno,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20enm,5.0,0.0,4.0,1.0,2.0,SN IIn
+Gaia20enl,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20enh,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia20enc,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20emv,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20emk,0.0,6.0,3.0,5.0,1.0,YSO
+Gaia20emb,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20elz,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ely,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20elv,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia20elg,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ela,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20ekn,5.0,0.0,0.0,1.0,2.0,SLSN
+Gaia20ekk,1.0,7.0,1.0,0.0,4.0,SN Ia
+Gaia20ekd,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20ejx,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20ejm,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20ejl,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20ejk,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ejh,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20eje,7.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20ejb,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20eja,4.0,4.0,2.0,3.0,7.0,CV
+Gaia20eiy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20eix,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia20eiv,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20ein,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20eim,4.0,5.0,2.0,4.0,7.0,unknown
+Gaia20eid,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20eib,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia20ehx,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia20ehr,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20eho,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20ehl,7.0,5.0,6.0,2.0,1.0,unknown
+Gaia20ehj,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ehh,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia20ehc,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20ego,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20egm,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia20egl,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20ege,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia20egc,0.0,4.0,3.0,5.0,1.0,YSO
+Gaia20egb,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20efz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20efl,0.0,6.0,6.0,4.0,0.0,Varstar
+Gaia20efj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20efd,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20eew,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20ees,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20een,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia20eel,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia20eeb,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia20eea,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20edy,7.0,4.0,1.0,0.0,1.0,CV
+Gaia20edx,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia20edw,3.0,4.0,3.0,5.0,1.0,unknown
+Gaia20edv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20edu,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20edt,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20eds,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20edp,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20edn,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20edm,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20edk,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20edg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20edf,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia20ecz,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20ecy,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia20ecv,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20ecr,0.0,7.0,3.0,5.0,4.0,unknown
+Gaia20ecq,4.0,5.0,5.0,2.0,7.0,unknown
+Gaia20ecp,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20ecl,3.0,3.0,2.0,3.0,5.0,CV
+Gaia20eck,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20ecg,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ecd,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20ecb,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20ebw,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia20ebt,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20ebs,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ebl,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20ebk,3.0,4.0,1.0,2.0,1.0,CV
+Gaia20ebi,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia20ebh,3.0,6.0,6.0,5.0,0.0,YSO
+Gaia20ebe,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20eba,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20ear,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20eam,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia20eal,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20eak,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20eae,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20eaa,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20dzw,1.0,7.0,1.0,6.0,4.0,Nova
+Gaia20dzm,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia20dzl,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia20dzd,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dyy,4.0,5.0,6.0,4.0,7.0,CV
+Gaia20dyr,0.0,6.0,6.0,4.0,7.0,unknown
+Gaia20dyq,3.0,4.0,2.0,7.0,1.0,unknown
+Gaia20dyi,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20dyg,4.0,1.0,2.0,3.0,7.0,CV
+Gaia20dye,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20dxx,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20dxt,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia20dxs,4.0,1.0,2.0,2.0,7.0,unknown
+Gaia20dxq,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20dxl,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20dxf,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20dxc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dxb,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20dwt,7.0,1.0,5.0,2.0,1.0,Nova
+Gaia20dwq,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20dwp,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia20dwo,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia20dwh,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dwg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dwf,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dwe,1.0,0.0,1.0,0.0,2.0,Nova
+Gaia20dvt,0.0,4.0,1.0,5.0,0.0,RCrB
+Gaia20dvq,3.0,4.0,3.0,5.0,1.0,unknown
+Gaia20dvo,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20dvn,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20dvm,7.0,4.0,2.0,3.0,7.0,unknown
+Gaia20dvk,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20dvd,7.0,0.0,4.0,0.0,1.0,unknown
+Gaia20dvc,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia20duz,4.0,5.0,6.0,4.0,7.0,TDE
+Gaia20dus,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20dup,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia20dun,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20duj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dug,3.0,4.0,1.0,3.0,1.0,CV
+Gaia20duc,3.0,0.0,1.0,0.0,1.0,Nova
+Gaia20dtt,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20dts,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20dtq,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20dtm,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20dth,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia20dtf,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dtd,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20dta,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dsv,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia20dss,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dsr,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20dsk,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia20dsd,3.0,4.0,1.0,5.0,1.0,unknown
+Gaia20dsc,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20dsb,4.0,5.0,6.0,4.0,1.0,QSO
+Gaia20dsa,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20drr,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20drq,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20drn,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia20drh,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20drf,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dqu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20dqt,3.0,4.0,2.0,3.0,7.0,QSO
+Gaia20dqs,0.0,6.0,6.0,4.0,7.0,unknown
+Gaia20dqn,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20dqm,4.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20dqi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dqh,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia20dqg,3.0,4.0,1.0,4.0,1.0,QSO
+Gaia20dqd,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia20dqc,3.0,4.0,2.0,3.0,7.0,unknown
+Gaia20dqa,0.0,4.0,3.0,5.0,1.0,unknown
+Gaia20dpz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20dpd,7.0,0.0,0.0,1.0,1.0,unknown
+Gaia20dow,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dov,7.0,0.0,1.0,2.0,1.0,unknown
+Gaia20dop,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20don,4.0,1.0,2.0,3.0,1.0,CV
+Gaia20dol,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20doj,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20doi,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20dof,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20dnx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dnw,0.0,4.0,3.0,5.0,1.0,unknown
+Gaia20dnv,7.0,4.0,2.0,3.0,1.0,CV
+Gaia20dnf,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20dmy,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20dmq,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20dmp,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20dmo,3.0,4.0,1.0,4.0,0.0,SLSN
+Gaia20dmm,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20dmi,7.0,0.0,0.0,1.0,1.0,SN IIn
+Gaia20dlp,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20dlo,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20dln,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20dll,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20dlg,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20dle,3.0,4.0,2.0,3.0,5.0,unknown
+Gaia20dld,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20dkr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dkq,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20dkh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20dkf,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20djt,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20djl,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20djh,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20div,0.0,4.0,1.0,5.0,1.0,YSO
+Gaia20din,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20dib,0.0,4.0,1.0,5.0,0.0,unknown
+Gaia20dhz,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia20dhv,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20dhq,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20dho,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dhm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dhj,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20dhi,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20dhf,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20dhc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20dgj,5.0,0.0,4.0,0.0,2.0,LBV
+Gaia20dgf,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20dfw,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20dfu,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20dft,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20dfn,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia20dfk,0.0,6.0,3.0,5.0,0.0,CV
+Gaia20dfj,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20dfh,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia20dff,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia20dfc,1.0,7.0,1.0,0.0,4.0,unknown
+Gaia20dfb,1.0,7.0,1.0,6.0,4.0,unknown
+Gaia20dfa,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20def,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20ded,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia20dec,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20dea,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ddy,0.0,6.0,3.0,7.0,0.0,YSO
+Gaia20ddr,7.0,4.0,2.0,2.0,5.0,unknown
+Gaia20ddq,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20ddn,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20ddd,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20ddc,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dda,3.0,3.0,3.0,7.0,5.0,CV
+Gaia20dcx,4.0,5.0,6.0,4.0,7.0,star
+Gaia20dcu,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dcq,1.0,7.0,3.0,6.0,4.0,QSO
+Gaia20dco,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dcn,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20dcm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20dcl,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20dcg,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20dcc,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia20dca,5.0,0.0,0.0,2.0,2.0,unknown
+Gaia20dbx,7.0,4.0,1.0,3.0,1.0,CV
+Gaia20dbw,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20dbv,7.0,3.0,2.0,3.0,5.0,unknown
+Gaia20dbm,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia20dbi,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20dbd,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20dba,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20day,4.0,5.0,6.0,2.0,7.0,QSO
+Gaia20daw,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20dau,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20daq,0.0,4.0,2.0,3.0,1.0,YSO
+Gaia20dal,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20daf,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20czw,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20czv,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20czu,0.0,5.0,2.0,3.0,0.0,unknown
+Gaia20czt,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20czj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20cze,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20cyx,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20cyn,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20cym,7.0,0.0,0.0,2.0,1.0,CV
+Gaia20cyk,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20cyj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20cyi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20cyf,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20cyc,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20cxx,2.0,6.0,7.0,7.0,3.0,unknown
+Gaia20cxw,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20cxs,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia20cxk,0.0,7.0,3.0,5.0,0.0,Varstar
+Gaia20cxj,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20cxi,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia20cwr,4.0,5.0,6.0,2.0,1.0,unknown
+Gaia20cwd,0.0,6.0,3.0,5.0,0.0,Varstar
+Gaia20cwc,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20cvw,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20cvv,3.0,3.0,3.0,7.0,5.0,star
+Gaia20cvu,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20cvt,4.0,0.0,1.0,0.0,7.0,QSO
+Gaia20cvs,5.0,0.0,1.0,0.0,2.0,SN IIb
+Gaia20cvq,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20cvo,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20cvm,7.0,4.0,1.0,3.0,1.0,BL Lac
+Gaia20cvl,3.0,4.0,6.0,3.0,1.0,AGN
+Gaia20cvi,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia20cve,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20cus,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20ctr,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20ctq,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ctj,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia20ctg,3.0,4.0,1.0,3.0,1.0,QSO
+Gaia20csr,3.0,4.0,1.0,3.0,1.0,QSO
+Gaia20csp,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20cso,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia20csl,7.0,4.0,5.0,2.0,1.0,CV
+Gaia20csk,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia20csf,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20csd,5.0,0.0,5.0,2.0,2.0,unknown
+Gaia20csc,3.0,4.0,2.0,3.0,7.0,BL Lac
+Gaia20cri,4.0,1.0,2.0,3.0,1.0,CV
+Gaia20crc,0.0,6.0,3.0,5.0,0.0,Varstar
+Gaia20crb,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cqt,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20cqo,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20cqg,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia20cpu,0.0,4.0,6.0,4.0,0.0,CV
+Gaia20cpt,0.0,6.0,3.0,5.0,0.0,RCrB
+Gaia20cpq,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20cpo,3.0,3.0,3.0,7.0,5.0,dM
+Gaia20cpa,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20coz,0.0,6.0,3.0,5.0,1.0,unknown
+Gaia20cow,0.0,3.0,3.0,7.0,4.0,unknown
+Gaia20cov,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20cot,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20cop,0.0,6.0,6.0,4.0,0.0,Varstar
+Gaia20coo,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia20con,3.0,3.0,3.0,5.0,1.0,unknown
+Gaia20col,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia20cok,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20coi,4.0,5.0,6.0,4.0,7.0,Varstar
+Gaia20coh,0.0,6.0,6.0,4.0,0.0,Varstar
+Gaia20coa,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20cnw,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia20cnv,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20cnu,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20cns,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20cnp,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia20cnn,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20cni,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20cmy,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20cmw,3.0,3.0,3.0,7.0,5.0,dM
+Gaia20cmv,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20cmt,4.0,4.0,2.0,3.0,1.0,QSO
+Gaia20cmq,5.0,0.0,0.0,1.0,2.0,CV
+Gaia20cmm,7.0,4.0,2.0,3.0,1.0,CV
+Gaia20cmk,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20cmg,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia20cmc,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20cmb,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20clv,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20clt,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20clr,3.0,3.0,3.0,7.0,5.0,CV
+Gaia20cli,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20cle,5.0,0.0,4.0,0.0,1.0,unknown
+Gaia20ckr,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20ckp,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ckn,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia20ckk,3.0,3.0,6.0,3.0,0.0,unknown
+Gaia20ckh,1.0,0.0,1.0,0.0,2.0,unknown
+Gaia20cjy,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20cjv,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cjo,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20cjj,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20cje,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ciy,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cis,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cio,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cig,4.0,5.0,2.0,3.0,1.0,CV
+Gaia20cic,3.0,3.0,3.0,7.0,5.0,dM
+Gaia20chz,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20chx,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20chw,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20chv,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia20chj,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20chi,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia20chd,3.0,4.0,1.0,0.0,0.0,unknown
+Gaia20chb,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia20cha,7.0,4.0,7.0,3.0,4.0,CV
+Gaia20cgz,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20cgw,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20cgt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20cgr,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20cgp,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20cgm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cgh,0.0,7.0,3.0,6.0,4.0,YSO
+Gaia20cgf,1.0,0.0,1.0,0.0,2.0,unknown
+Gaia20cgc,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cgb,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20cfy,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20cfx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cfv,3.0,3.0,2.0,3.0,1.0,unknown
+Gaia20cfq,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cfo,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20cfn,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cfm,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20cfj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cfi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20cff,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20cfc,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia20cex,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20cev,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20ces,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20cen,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20cel,4.0,5.0,2.0,2.0,7.0,CV
+Gaia20cek,0.0,6.0,3.0,7.0,0.0,YSO
+Gaia20cej,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20cei,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20cea,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia20cdv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cdt,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cdp,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cdm,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20cdl,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20cdi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20cdf,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cdd,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20cdc,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20cda,4.0,4.0,6.0,3.0,7.0,unknown
+Gaia20ccr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20ccj,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20cci,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20cce,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20ccc,3.0,4.0,3.0,7.0,1.0,unknown
+Gaia20cbz,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia20cbo,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cbi,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20cbd,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20cbb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20cba,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20car,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20caj,7.0,0.0,5.0,2.0,1.0,CV
+Gaia20cai,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20cag,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20cab,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20bzy,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20bzw,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20bzv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bzq,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bzp,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia20bzn,0.0,6.0,6.0,4.0,0.0,Varstar
+Gaia20bzi,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20bzg,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20bze,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20bzb,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20bys,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20byp,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20byo,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20byf,4.0,5.0,2.0,3.0,7.0,unknown
+Gaia20bxq,3.0,6.0,6.0,4.0,7.0,CV
+Gaia20bxg,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia20bxd,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia20bwx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bwo,7.0,0.0,5.0,0.0,1.0,unknown
+Gaia20bwk,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20bwc,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia20bwa,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bvs,0.0,4.0,2.0,3.0,1.0,CV
+Gaia20bvn,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20bvg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bvf,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bvb,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia20bus,4.0,1.0,5.0,2.0,1.0,CV
+Gaia20buk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bud,3.0,7.0,1.0,7.0,1.0,unknown
+Gaia20btz,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia20btw,0.0,7.0,3.0,6.0,4.0,RCrB
+Gaia20btt,3.0,4.0,1.0,7.0,0.0,unknown
+Gaia20bts,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20btr,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia20btq,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20bti,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20btg,0.0,3.0,3.0,7.0,4.0,unknown
+Gaia20bte,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20btd,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20btc,3.0,3.0,3.0,7.0,0.0,unknown
+Gaia20bta,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20bss,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20bsq,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20bsp,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20bso,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20bsj,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20bsg,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20bsb,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20bsa,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20brz,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia20bry,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20brw,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20brn,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia20brm,1.0,6.0,6.0,5.0,4.0,unknown
+Gaia20bre,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20bqx,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20bqv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20bqs,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bqr,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia20bqk,0.0,3.0,3.0,7.0,7.0,unknown
+Gaia20bpv,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20bpu,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20bpt,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20bps,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20bpr,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20bpn,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20bpl,0.0,6.0,6.0,4.0,0.0,Other
+Gaia20bpk,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia20bpi,3.0,0.0,7.0,0.0,1.0,unknown
+Gaia20bph,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20bpe,5.0,0.0,1.0,0.0,1.0,SN II
+Gaia20bpc,5.0,0.0,4.0,0.0,1.0,SN II
+Gaia20bpa,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20boy,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20bow,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20bov,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bos,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia20boj,1.0,0.0,1.0,0.0,2.0,unknown
+Gaia20boe,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20bod,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia20bob,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20bny,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20bnw,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20bns,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia20bnj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bne,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20bnc,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20bnb,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20bmy,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20bmu,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bmt,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia20bms,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20bmp,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20bml,0.0,6.0,3.0,5.0,0.0,Varstar
+Gaia20bmj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bmi,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia20bmh,0.0,6.0,3.0,5.0,1.0,unknown
+Gaia20bme,0.0,6.0,1.0,5.0,0.0,unknown
+Gaia20bmd,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia20bmc,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia20blw,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20blv,0.0,6.0,3.0,5.0,0.0,Varstar
+Gaia20blp,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20bll,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20blj,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20bli,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20bld,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20blc,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20blb,0.0,6.0,6.0,5.0,0.0,ULENS
+Gaia20bla,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20bky,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20bkx,0.0,6.0,1.0,5.0,0.0,unknown
+Gaia20bkw,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20bkp,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20bkm,4.0,4.0,2.0,3.0,7.0,CV
+Gaia20bkl,0.0,4.0,1.0,7.0,0.0,unknown
+Gaia20bkk,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bkh,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20bke,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia20bjt,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bjo,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia20bjj,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia20bjh,4.0,4.0,1.0,4.0,7.0,unknown
+Gaia20bjf,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20bje,3.0,1.0,2.0,3.0,5.0,unknown
+Gaia20bjd,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20bjc,3.0,4.0,3.0,7.0,0.0,unknown
+Gaia20biy,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia20biu,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20bit,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bio,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bin,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20bid,4.0,6.0,6.0,4.0,7.0,unknown
+Gaia20bic,3.0,3.0,6.0,4.0,5.0,unknown
+Gaia20bib,3.0,4.0,1.0,7.0,0.0,unknown
+Gaia20bia,3.0,4.0,2.0,3.0,5.0,unknown
+Gaia20bhy,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20bhw,7.0,4.0,3.0,5.0,1.0,unknown
+Gaia20bhp,0.0,6.0,3.0,5.0,1.0,YSO
+Gaia20bhk,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20bhi,0.0,7.0,1.0,6.0,0.0,RCrB
+Gaia20bhf,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia20bha,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia20bgu,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bgt,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20bgq,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20bgp,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20bgf,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bge,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20bft,4.0,1.0,2.0,2.0,7.0,CV
+Gaia20bfo,3.0,6.0,6.0,4.0,0.0,YSO
+Gaia20bfi,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia20bfc,0.0,6.0,6.0,4.0,0.0,YSO
+Gaia20bfa,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bez,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20bey,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20beu,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20bes,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20ber,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20bep,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20bem,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20bel,4.0,5.0,6.0,4.0,1.0,unknown
+Gaia20bek,3.0,4.0,3.0,5.0,0.0,YSO
+Gaia20bdy,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20bdx,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia20bdq,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bdk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bdj,0.0,4.0,3.0,3.0,1.0,CV
+Gaia20bcw,0.0,6.0,6.0,4.0,0.0,Varstar
+Gaia20bck,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20bci,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20bcg,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20bcf,0.0,6.0,6.0,5.0,0.0,symbiotic star
+Gaia20bca,3.0,7.0,3.0,7.0,1.0,CV
+Gaia20bbn,0.0,7.0,3.0,5.0,0.0,Varstar
+Gaia20bbl,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20bbk,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia20bbi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20bbc,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20bal,5.0,0.0,0.0,1.0,2.0,CV
+Gaia20baj,3.0,4.0,6.0,4.0,0.0,QSO
+Gaia20bab,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20azy,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20azx,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia20azw,3.0,6.0,3.0,5.0,0.0,YSO
+Gaia20azv,0.0,7.0,3.0,6.0,4.0,CV
+Gaia20azu,3.0,6.0,6.0,7.0,0.0,YSO
+Gaia20azr,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20azm,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20azf,0.0,7.0,3.0,7.0,0.0,ULENS
+Gaia20azb,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ays,0.0,6.0,3.0,5.0,0.0,symbiotic star
+Gaia20aym,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia20ayj,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20aye,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20ayc,3.0,5.0,6.0,4.0,5.0,unknown
+Gaia20ayb,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia20aya,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia20axt,3.0,4.0,1.0,3.0,1.0,CV
+Gaia20axg,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia20axc,0.0,3.0,3.0,7.0,1.0,unknown
+Gaia20axa,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20awz,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia20awu,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia20awt,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20aws,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia20awp,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20awo,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20awh,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20awa,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia20avm,4.0,5.0,6.0,4.0,7.0,Varstar
+Gaia20avk,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia20avb,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20auv,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20auq,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20aup,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20auj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20auf,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20aua,3.0,0.0,1.0,5.0,1.0,Other
+Gaia20atu,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20atp,0.0,6.0,3.0,5.0,0.0,Varstar
+Gaia20atn,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20atj,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20atd,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20asr,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20asq,4.0,6.0,6.0,5.0,0.0,Varstar
+Gaia20asn,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20asj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20asi,4.0,5.0,2.0,3.0,7.0,QSO
+Gaia20ase,4.0,5.0,0.0,1.0,7.0,QSO
+Gaia20asb,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20arz,6.0,2.0,5.0,2.0,6.0,CV
+Gaia20arx,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20aro,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20arn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ari,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20aqs,4.0,5.0,6.0,2.0,7.0,AGN
+Gaia20aqo,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20aqg,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20aqe,3.0,4.0,6.0,3.0,7.0,BL Lac
+Gaia20aqd,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20aqc,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20aqb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20apu,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20apq,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20app,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia20apn,3.0,4.0,2.0,3.0,1.0,CV
+Gaia20apm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20aov,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20aok,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia20aoj,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20aog,3.0,4.0,1.0,3.0,0.0,unknown
+Gaia20aoe,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia20aob,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20anz,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20ann,1.0,0.0,1.0,0.0,4.0,SN Ia
+Gaia20anj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20anf,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20ane,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20and,4.0,4.0,6.0,3.0,7.0,QSO
+Gaia20amf,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20amd,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20amc,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia20aln,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20alk,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia20alj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20ali,7.0,4.0,1.0,2.0,1.0,SN Ic
+Gaia20alh,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20alf,0.0,4.0,3.0,3.0,0.0,unknown
+Gaia20ale,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20akz,4.0,1.0,2.0,3.0,7.0,unknown
+Gaia20aks,5.0,0.0,4.0,0.0,2.0,SN Ib
+Gaia20akq,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia20akj,0.0,5.0,6.0,4.0,7.0,QSO
+Gaia20akc,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia20ajv,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia20ajq,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20ajn,1.0,1.0,2.0,3.0,4.0,unknown
+Gaia20ajg,4.0,4.0,2.0,3.0,7.0,SN Ia
+Gaia20ajf,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia20aiu,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20air,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20aiq,5.0,0.0,0.0,1.0,1.0,CV
+Gaia20aij,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20aii,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20aig,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia20aie,7.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia20aic,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia20ahm,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20ahl,7.0,1.0,5.0,2.0,1.0,CV
+Gaia20ahf,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia20agz,7.0,0.0,5.0,2.0,1.0,CV
+Gaia20agr,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia20agm,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20agl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20agb,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia20afw,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20afu,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia20afo,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20afi,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia20afc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20aew,4.0,5.0,2.0,4.0,1.0,unknown
+Gaia20aeu,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia20aer,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia20aep,4.0,6.0,3.0,5.0,0.0,unknown
+Gaia20aeo,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia20aek,7.0,4.0,2.0,3.0,1.0,CV
+Gaia20aei,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia20aee,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia20adv,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20adt,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20ads,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20adq,0.0,4.0,3.0,5.0,7.0,unknown
+Gaia20ado,4.0,5.0,6.0,4.0,7.0,YSO
+Gaia20adn,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20adl,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20acx,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20acv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20ack,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia20ace,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia20acb,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia20aca,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia20abz,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia20aby,7.0,1.0,2.0,3.0,1.0,CV
+Gaia20abu,7.0,1.0,2.0,2.0,1.0,CV
+Gaia20abo,4.0,4.0,6.0,3.0,7.0,CV
+Gaia20abm,7.0,0.0,4.0,0.0,1.0,CV
+Gaia20abf,0.0,5.0,6.0,4.0,0.0,YSO
+Gaia20abc,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia20aaz,7.0,4.0,4.0,0.0,7.0,SN Ic
+Gaia20aay,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia20aax,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia20aaq,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia20aao,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia20aan,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia20aaj,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia20aaf,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia20aab,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19fup,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19fuo,3.0,4.0,2.0,7.0,1.0,unknown
+Gaia19fui,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19fub,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19ftw,5.0,0.0,4.0,0.0,2.0,SN Ib
+Gaia19ftn,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19ftd,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia19ftc,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19fsu,3.0,4.0,2.0,3.0,7.0,unknown
+Gaia19fst,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19fss,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19fso,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19fsg,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19frv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19frs,4.0,6.0,3.0,3.0,1.0,unknown
+Gaia19frd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19frb,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19fqx,4.0,5.0,6.0,3.0,7.0,QSO
+Gaia19fqt,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19fqm,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19fqc,5.0,0.0,0.0,2.0,2.0,unknown
+Gaia19fpn,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19fpk,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19fpj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19fpb,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19foo,4.0,5.0,6.0,2.0,7.0,QSO
+Gaia19fon,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19fok,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19foj,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19fnn,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19fnk,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19fnj,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia19fng,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19fnf,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia19fna,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19fmz,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19fmu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19fmt,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19fmr,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19fly,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19flp,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia19flo,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19fln,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19fll,3.0,1.0,1.0,2.0,1.0,CV
+Gaia19flk,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia19flg,0.0,5.0,6.0,4.0,7.0,AGN
+Gaia19flf,3.0,5.0,6.0,4.0,0.0,unknown
+Gaia19fle,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19fkw,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19fku,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19fkt,3.0,4.0,1.0,2.0,1.0,BL Lac
+Gaia19fks,5.0,1.0,5.0,2.0,1.0,CV
+Gaia19fkr,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19fkq,4.0,4.0,1.0,3.0,1.0,unknown
+Gaia19fkp,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19fko,3.0,4.0,2.0,3.0,1.0,BL Lac
+Gaia19fkg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19fke,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19fka,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19fjz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19fju,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19fjt,6.0,2.0,2.0,3.0,6.0,unknown
+Gaia19fjs,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19fjo,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19fjj,3.0,4.0,5.0,2.0,1.0,unknown
+Gaia19fje,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19fiz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19fix,7.0,0.0,1.0,2.0,2.0,unknown
+Gaia19fiu,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19fiq,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19fip,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia19fio,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia19fim,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19fig,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia19fhw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19fhp,4.0,5.0,2.0,4.0,7.0,unknown
+Gaia19fhn,0.0,7.0,3.0,7.0,0.0,ULENS
+Gaia19fhm,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19fhg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19fgw,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19fgv,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia19fgo,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19fgn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19fgi,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19fge,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19ffx,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia19ffk,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19ffi,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19ffg,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19fff,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19ffb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19fes,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19fdx,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19fdb,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19fda,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19fcu,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia19fct,0.0,4.0,3.0,5.0,0.0,YSO
+Gaia19fcr,7.0,1.0,2.0,3.0,7.0,unknown
+Gaia19fco,3.0,7.0,3.0,7.0,5.0,unknown
+Gaia19fby,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19fbr,3.0,4.0,5.0,2.0,1.0,unknown
+Gaia19fbl,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19fbb,3.0,3.0,2.0,3.0,5.0,QSO
+Gaia19fba,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia19fau,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19far,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19ezx,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19ezw,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19ezt,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ezs,4.0,5.0,2.0,3.0,7.0,unknown
+Gaia19ezl,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19ezk,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ezg,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19ezf,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19ezc,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19eyy,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia19eyr,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19eyq,3.0,1.0,5.0,2.0,1.0,CV
+Gaia19eyp,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia19eyo,0.0,4.0,2.0,3.0,7.0,unknown
+Gaia19eyg,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19eye,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19exy,4.0,6.0,6.0,4.0,7.0,unknown
+Gaia19exm,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19exh,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19exe,5.0,0.0,4.0,1.0,2.0,SN IIn
+Gaia19ewy,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19ewx,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19ews,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ewr,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ewo,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia19ewl,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19ewi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19ewf,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19ewc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19ewb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19evw,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19evo,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia19evk,5.0,0.0,4.0,0.0,2.0,SN Ib
+Gaia19evg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19evf,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19eve,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19eux,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19euw,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19euu,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia19eua,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19etx,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19etw,3.0,4.0,1.0,3.0,0.0,SN Ia
+Gaia19ett,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19etq,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19etn,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19esp,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19eso,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19esn,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19esm,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19erz,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19erp,3.0,4.0,3.0,5.0,1.0,CV
+Gaia19erm,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19eqt,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia19eqr,3.0,5.0,6.0,4.0,1.0,SN Ic-BL
+Gaia19eql,7.0,4.0,2.0,3.0,5.0,unknown
+Gaia19epy,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia19epr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19epp,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19epm,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19epl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19epk,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia19epj,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia19epi,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19epg,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19epf,3.0,4.0,3.0,7.0,0.0,unknown
+Gaia19epa,4.0,0.0,1.0,0.0,2.0,SN IIn
+Gaia19eoz,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia19eop,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19eoo,7.0,4.0,7.0,0.0,1.0,unknown
+Gaia19eon,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19eom,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia19eoi,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19eog,2.0,1.0,7.0,3.0,3.0,unknown
+Gaia19eoe,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia19eoc,4.0,4.0,6.0,4.0,7.0,unknown
+Gaia19ens,3.0,4.0,1.0,3.0,5.0,unknown
+Gaia19eno,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19enm,7.0,3.0,2.0,3.0,1.0,unknown
+Gaia19enk,3.0,6.0,1.0,7.0,0.0,unknown
+Gaia19emy,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19emx,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia19emr,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19emq,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia19emp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19emm,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19emj,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19emi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19emh,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19emg,3.0,6.0,6.0,4.0,0.0,unknown
+Gaia19emc,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19ely,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19elx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19elw,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19els,5.0,0.0,4.0,0.0,7.0,SN II
+Gaia19elj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19elh,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19elc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19ela,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19ekx,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia19ekv,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia19eks,7.0,1.0,5.0,2.0,1.0,TDE
+Gaia19ekr,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19ekk,3.0,6.0,6.0,7.0,0.0,unknown
+Gaia19eka,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19ejv,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19ejl,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19ejh,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19ejg,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19eje,3.0,1.0,2.0,2.0,1.0,CV
+Gaia19ejc,4.0,4.0,6.0,4.0,7.0,BL Lac
+Gaia19eik,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19eif,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19eic,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19ehx,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19ehw,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19ehp,5.0,0.0,0.0,1.0,2.0,CV
+Gaia19ehb,3.0,4.0,2.0,3.0,1.0,CV
+Gaia19egv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19egs,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19egp,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia19egn,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19egk,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19egg,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19egf,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19efx,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19efw,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19eft,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19efs,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19efr,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19efo,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19eff,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19eey,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia19een,0.0,6.0,3.0,5.0,0.0,star
+Gaia19eei,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia19eeb,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia19eea,1.0,0.0,1.0,0.0,4.0,SN Ia
+Gaia19edt,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19edq,0.0,7.0,1.0,5.0,0.0,unknown
+Gaia19edm,0.0,4.0,1.0,4.0,7.0,unknown
+Gaia19edi,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19edc,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19ecs,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia19ecd,3.0,4.0,1.0,7.0,7.0,CV
+Gaia19ecb,3.0,4.0,1.0,3.0,5.0,unknown
+Gaia19eca,1.0,7.0,3.0,7.0,4.0,unknown
+Gaia19eby,3.0,5.0,2.0,3.0,7.0,unknown
+Gaia19ebv,7.0,4.0,2.0,2.0,1.0,unknown
+Gaia19ebo,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ebj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ebg,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19ebe,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19ebd,3.0,1.0,2.0,2.0,1.0,unknown
+Gaia19ebc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dzz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19dzo,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19dzh,0.0,4.0,3.0,5.0,0.0,dM
+Gaia19dzg,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19dyz,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19dyy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19dyw,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19dys,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19dyr,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19dyp,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19dyn,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia19dyk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19dyh,1.0,0.0,1.0,0.0,4.0,CV
+Gaia19dye,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dyb,2.0,7.0,7.0,6.0,3.0,unknown
+Gaia19dya,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia19dxr,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19dxm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19dxj,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dxa,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19dwz,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dwu,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia19dwt,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dwr,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19dwp,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia19dwn,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19dwm,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19dwk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19dvu,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19dvo,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19dvk,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia19dvg,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19dvb,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19duz,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia19duw,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19duv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19duu,4.0,6.0,6.0,4.0,0.0,SLSN
+Gaia19dut,1.0,7.0,3.0,7.0,4.0,CV
+Gaia19dum,1.0,7.0,1.0,0.0,4.0,Nova
+Gaia19dul,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19duk,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19duj,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19dui,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19dtx,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19dtu,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19dtq,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19dtm,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia19dtj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dti,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19dtd,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia19dsz,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dsx,3.0,4.0,3.0,7.0,0.0,unknown
+Gaia19dsw,4.0,4.0,1.0,3.0,7.0,unknown
+Gaia19dsv,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia19dsu,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia19dst,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19dsm,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19dsl,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia19dsc,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19dry,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19drv,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19dru,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19drs,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19drr,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19drq,3.0,5.0,6.0,4.0,0.0,unknown
+Gaia19drp,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia19drn,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia19drm,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19drl,3.0,4.0,1.0,5.0,0.0,unknown
+Gaia19drh,4.0,0.0,4.0,0.0,2.0,unknown
+Gaia19drg,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19dqx,3.0,3.0,7.0,3.0,5.0,unknown
+Gaia19dqs,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19dqp,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19dqn,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dqm,0.0,6.0,3.0,5.0,0.0,ULENS
+Gaia19dqk,3.0,4.0,2.0,3.0,1.0,Nova
+Gaia19dqj,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19dqh,3.0,7.0,3.0,7.0,0.0,unknown
+Gaia19dqg,0.0,6.0,3.0,5.0,0.0,ULENS
+Gaia19dqe,4.0,5.0,6.0,4.0,7.0,Varstar
+Gaia19dqc,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19dqb,0.0,6.0,3.0,5.0,0.0,Varstar
+Gaia19dqa,7.0,5.0,5.0,2.0,1.0,YSO
+Gaia19dpx,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19dpw,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia19dpu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19dpr,1.0,0.0,1.0,0.0,4.0,unknown
+Gaia19dpn,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dpd,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia19dpb,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19doz,3.0,4.0,1.0,5.0,1.0,unknown
+Gaia19dov,0.0,6.0,6.0,5.0,0.0,ULENS
+Gaia19dou,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia19dol,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19doj,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19doi,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19doc,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19dob,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19dnw,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dnu,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19dnt,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia19dns,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19dnm,0.0,6.0,1.0,5.0,0.0,YSO
+Gaia19dnl,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19dnk,3.0,6.0,3.0,5.0,0.0,YSO
+Gaia19dnj,0.0,3.0,3.0,7.0,5.0,YSO
+Gaia19dmy,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dmx,0.0,6.0,6.0,4.0,1.0,unknown
+Gaia19dmw,4.0,4.0,2.0,3.0,7.0,CV
+Gaia19dmu,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia19dme,3.0,3.0,2.0,7.0,5.0,unknown
+Gaia19dmc,3.0,0.0,1.0,0.0,1.0,QSO
+Gaia19dlu,4.0,5.0,2.0,3.0,7.0,QSO
+Gaia19dlt,3.0,5.0,6.0,3.0,0.0,QSO
+Gaia19dls,3.0,4.0,1.0,4.0,0.0,AGN
+Gaia19dlh,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia19dlf,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dlb,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19dkw,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19dki,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dkg,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19dke,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19dkc,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia19dkb,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia19djs,7.0,4.0,3.0,7.0,1.0,CV
+Gaia19djk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19dje,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19dja,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19diz,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19diu,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19dit,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19diq,0.0,4.0,2.0,3.0,1.0,unknown
+Gaia19die,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19did,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dhs,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19dhm,0.0,6.0,6.0,4.0,0.0,CV
+Gaia19dhl,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19dhk,3.0,4.0,1.0,2.0,1.0,CV
+Gaia19dgz,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia19dgt,3.0,3.0,2.0,3.0,5.0,SN Ia
+Gaia19dgp,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dgo,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia19dgn,3.0,4.0,1.0,2.0,7.0,QSO
+Gaia19dgd,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19dfx,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19dfs,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19dfp,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dfe,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19dey,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia19dep,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19del,4.0,5.0,6.0,4.0,7.0,CV
+Gaia19dek,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19def,3.0,1.0,2.0,3.0,1.0,CV
+Gaia19ded,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19ddz,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19ddr,0.0,1.0,5.0,2.0,0.0,CV
+Gaia19ddp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19dcz,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19dco,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19dcm,4.0,5.0,2.0,3.0,7.0,unknown
+Gaia19dce,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19dcc,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19dby,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19dbt,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia19dbs,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dbp,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19dbj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19dbi,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19dbf,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19dbc,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19dar,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19daq,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19dam,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19daf,3.0,3.0,2.0,3.0,1.0,unknown
+Gaia19dae,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19dad,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19dac,3.0,1.0,2.0,2.0,1.0,unknown
+Gaia19dab,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19czx,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19czv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19czu,0.0,4.0,6.0,3.0,7.0,unknown
+Gaia19czh,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia19czf,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19czc,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19cyy,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19cyt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19cyp,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19cyj,4.0,1.0,5.0,2.0,1.0,CV
+Gaia19cyi,7.0,4.0,2.0,3.0,1.0,CV
+Gaia19cyh,7.0,0.0,1.0,2.0,1.0,CV
+Gaia19cyg,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19cye,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cxw,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19cxv,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19cxu,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19cxt,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19cxk,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19cxi,5.0,0.0,0.0,1.0,2.0,CV
+Gaia19cxd,5.0,0.0,0.0,1.0,2.0,SN Ic-BL
+Gaia19cww,7.0,0.0,5.0,1.0,1.0,unknown
+Gaia19cwv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19cws,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia19cwr,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cwm,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19cwh,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19cwg,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia19cwf,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19cwd,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19cwa,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cvv,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19cvl,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19cvk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19cvc,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19cva,4.0,1.0,2.0,4.0,7.0,CV
+Gaia19cuu,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia19cut,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19cuq,4.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cug,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ctu,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19cto,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cte,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19ctd,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia19csw,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19csr,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia19csi,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cse,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19crw,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19crr,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia19crn,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19crk,6.0,3.0,2.0,3.0,6.0,unknown
+Gaia19crg,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19crc,4.0,0.0,0.0,1.0,7.0,unknown
+Gaia19cqs,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19cqq,7.0,4.0,5.0,2.0,1.0,CV
+Gaia19cqo,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cpy,4.0,5.0,6.0,1.0,7.0,unknown
+Gaia19cpj,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19cpb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19cow,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19cor,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19coi,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19coh,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia19coe,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19cnz,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19cnr,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cnl,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19cnk,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19cnj,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19cnd,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia19cmm,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia19cml,0.0,4.0,6.0,3.0,0.0,unknown
+Gaia19cmf,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cme,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19clq,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia19cln,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia19ckx,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia19ckw,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19cku,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19cks,3.0,4.0,2.0,3.0,1.0,CV
+Gaia19ckm,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19ckl,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19ckk,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cka,5.0,5.0,6.0,0.0,7.0,AGN
+Gaia19cju,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19cjt,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19cjs,4.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cjp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19cji,0.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cjf,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia19cjd,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia19cjb,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia19cix,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia19cio,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19cif,4.0,5.0,2.0,4.0,7.0,unknown
+Gaia19cid,4.0,4.0,6.0,4.0,7.0,QSO
+Gaia19chw,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19chr,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia19chi,0.0,5.0,6.0,3.0,0.0,unknown
+Gaia19chh,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19chg,4.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cha,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19cgp,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19cgk,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19cgj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19cgg,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19cga,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia19cfy,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia19cfx,4.0,5.0,6.0,2.0,7.0,AGN
+Gaia19cfo,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19cfn,4.0,4.0,6.0,3.0,7.0,Nova
+Gaia19cfk,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cfh,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19cfg,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19cfa,5.0,0.0,0.0,1.0,2.0,Nova
+Gaia19cet,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cel,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cek,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19ceg,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19cef,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19cdz,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19cdy,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19cdw,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19cdv,0.0,4.0,3.0,5.0,1.0,YSO
+Gaia19cdt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19cdk,7.0,4.0,2.0,3.0,1.0,CV
+Gaia19cdi,3.0,4.0,1.0,3.0,1.0,CV
+Gaia19cdg,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia19cdf,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19cde,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19cct,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia19ccq,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ccp,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia19cco,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ccn,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19ccl,4.0,5.0,6.0,4.0,7.0,ULENS
+Gaia19ccj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19cci,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19ccf,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19cbx,3.0,6.0,6.0,5.0,0.0,YSO
+Gaia19cbv,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19cbo,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19cbn,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19cbm,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19cbj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19caz,7.0,0.0,1.0,2.0,1.0,unknown
+Gaia19cay,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19cau,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia19car,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19caq,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19cao,7.0,4.0,1.0,3.0,7.0,unknown
+Gaia19cam,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19cah,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19cag,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia19caa,3.0,4.0,1.0,3.0,1.0,CV
+Gaia19bzu,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19bzs,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia19bzp,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19bzn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bzm,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19bzg,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bzf,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19bys,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19byo,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia19byn,4.0,6.0,6.0,5.0,7.0,YSO
+Gaia19byf,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19bye,7.0,0.0,1.0,0.0,2.0,unknown
+Gaia19bxq,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19bxo,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19bxh,5.0,0.0,4.0,0.0,2.0,SN Ic-pec
+Gaia19bxg,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19bxf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19bxb,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia19bwz,3.0,5.0,6.0,3.0,7.0,QSO
+Gaia19bwy,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19bwu,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19bwr,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bwq,4.0,4.0,2.0,3.0,7.0,AGN
+Gaia19bwp,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bwn,7.0,1.0,2.0,3.0,1.0,AGN
+Gaia19bwh,3.0,4.0,2.0,3.0,1.0,CV
+Gaia19bwf,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19bvw,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia19bvv,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia19bvn,4.0,0.0,1.0,0.0,7.0,AGN
+Gaia19bvc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19bvb,3.0,4.0,2.0,3.0,1.0,BL Lac
+Gaia19buy,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19buq,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia19buo,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia19buk,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia19bue,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bub,7.0,4.0,2.0,3.0,5.0,unknown
+Gaia19bua,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19btz,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19btu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19btk,0.0,6.0,6.0,3.0,0.0,unknown
+Gaia19bth,4.0,1.0,5.0,2.0,1.0,CV
+Gaia19btg,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia19btb,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19bsy,3.0,3.0,6.0,7.0,0.0,unknown
+Gaia19bsr,3.0,4.0,6.0,4.0,1.0,unknown
+Gaia19bsk,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia19bsj,7.0,4.0,5.0,2.0,1.0,QSO
+Gaia19bsi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19bsb,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19brv,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia19bru,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19brp,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19bro,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19brh,5.0,0.0,4.0,1.0,2.0,SN Ic
+Gaia19brf,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19bqv,5.0,0.0,4.0,1.0,2.0,SN Ia-pec
+Gaia19bqn,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19bqm,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia19bql,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19bqj,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia19bqi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19bps,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia19bpr,7.0,1.0,2.0,3.0,1.0,XRB
+Gaia19bpo,0.0,6.0,6.0,4.0,0.0,QSO
+Gaia19bph,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19bpg,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19bpf,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19bpa,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19boz,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia19boy,5.0,0.0,0.0,2.0,1.0,unknown
+Gaia19boo,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19bom,4.0,1.0,2.0,3.0,7.0,unknown
+Gaia19bol,4.0,4.0,6.0,4.0,7.0,QSO
+Gaia19bof,4.0,1.0,2.0,3.0,1.0,QSO
+Gaia19boe,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19boc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19bnz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19bny,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19bnr,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19bnd,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bmz,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia19bmr,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19bmp,3.0,3.0,6.0,7.0,0.0,unknown
+Gaia19bmk,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19bmj,4.0,4.0,1.0,3.0,7.0,unknown
+Gaia19bmg,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19bmb,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19blz,4.0,5.0,6.0,4.0,1.0,QSO
+Gaia19bly,0.0,5.0,2.0,4.0,0.0,unknown
+Gaia19blu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bls,5.0,0.0,4.0,1.0,2.0,SN IIP
+Gaia19blq,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia19blk,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia19bkw,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19bkt,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19bks,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19bkr,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bko,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19bkm,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bkl,1.0,1.0,2.0,2.0,4.0,unknown
+Gaia19bkd,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19bkc,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19bkb,7.0,4.0,1.0,2.0,1.0,CV
+Gaia19bju,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19bjt,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19bjs,7.0,1.0,2.0,2.0,7.0,unknown
+Gaia19bjq,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19bje,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bja,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19bii,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19bih,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bid,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bic,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia19bhv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bhq,0.0,4.0,1.0,5.0,1.0,unknown
+Gaia19bhp,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19bhh,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19bhg,7.0,2.0,3.0,6.0,4.0,unknown
+Gaia19bgz,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia19bgy,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bgx,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19bgv,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19bgu,7.0,4.0,2.0,2.0,1.0,CV
+Gaia19bgt,4.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bgq,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia19bgo,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bgk,6.0,3.0,3.0,7.0,6.0,unknown
+Gaia19bgf,3.0,4.0,6.0,5.0,0.0,unknown
+Gaia19bgd,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19bfy,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bfx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19bfw,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19bfq,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19bfo,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bfn,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia19bfi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19bfh,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19bfb,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19bez,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia19bex,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19bel,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19bei,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19bdt,7.0,4.0,1.0,0.0,1.0,unknown
+Gaia19bds,4.0,5.0,2.0,3.0,1.0,YSO
+Gaia19bdq,7.0,2.0,5.0,2.0,1.0,unknown
+Gaia19bdp,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19bdj,7.0,4.0,5.0,2.0,1.0,CV
+Gaia19bdi,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19bda,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19bcz,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia19bcy,5.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bcw,7.0,4.0,2.0,2.0,5.0,CV
+Gaia19bcv,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19bcm,3.0,3.0,6.0,3.0,5.0,unknown
+Gaia19bcl,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19bcj,7.0,1.0,5.0,2.0,2.0,unknown
+Gaia19bcd,3.0,4.0,2.0,3.0,1.0,CV
+Gaia19bca,4.0,5.0,6.0,4.0,1.0,CV
+Gaia19bbz,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia19bbx,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19bbw,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia19bbu,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19bbb,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19bba,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19bau,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19bat,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia19bar,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19baq,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia19bag,4.0,5.0,6.0,3.0,7.0,unknown
+Gaia19azy,0.0,4.0,3.0,5.0,0.0,YSO
+Gaia19azx,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19azu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19azm,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19azi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19azb,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia19ayl,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19aya,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19axy,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19axw,0.0,7.0,3.0,7.0,5.0,unknown
+Gaia19axt,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19axo,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19axn,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19axl,0.0,4.0,1.0,5.0,0.0,YSO
+Gaia19axk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19axj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19axi,3.0,4.0,2.0,3.0,7.0,unknown
+Gaia19axh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19axa,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19awx,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19awv,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19aws,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19awk,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia19awg,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19awa,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19avq,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia19avp,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia19avo,4.0,4.0,2.0,3.0,7.0,BL Lac
+Gaia19avm,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19avl,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19avk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19ave,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia19avb,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19ava,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19aup,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia19auk,3.0,4.0,2.0,2.0,1.0,CV
+Gaia19aug,7.0,0.0,1.0,0.0,1.0,SN Ia
+Gaia19aub,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19aua,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia19atp,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19atn,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19ati,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19ass,5.0,1.0,5.0,2.0,1.0,unknown
+Gaia19asr,3.0,4.0,2.0,3.0,1.0,CV
+Gaia19asi,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19ars,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19arr,7.0,4.0,1.0,2.0,1.0,CV
+Gaia19arq,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19arj,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia19arh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19arg,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19are,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19aqw,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19aqu,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia19aqt,0.0,4.0,2.0,3.0,1.0,unknown
+Gaia19aqo,4.0,4.0,3.0,5.0,1.0,unknown
+Gaia19aqm,7.0,0.0,4.0,0.0,2.0,unknown
+Gaia19aqe,5.0,0.0,1.0,0.0,2.0,XRB
+Gaia19aqc,4.0,6.0,6.0,4.0,7.0,unknown
+Gaia19aqa,7.0,4.0,1.0,2.0,1.0,unknown
+Gaia19apz,0.0,4.0,1.0,5.0,0.0,unknown
+Gaia19apu,4.0,4.0,6.0,4.0,7.0,unknown
+Gaia19apt,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia19app,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia19apm,3.0,6.0,1.0,7.0,0.0,unknown
+Gaia19apj,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia19apf,0.0,5.0,2.0,4.0,0.0,unknown
+Gaia19ape,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia19apd,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia19apc,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19apb,0.0,4.0,2.0,3.0,1.0,unknown
+Gaia19aox,3.0,4.0,1.0,4.0,1.0,unknown
+Gaia19aow,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19aos,7.0,0.0,0.0,2.0,2.0,unknown
+Gaia19aoq,5.0,0.0,4.0,0.0,1.0,unknown
+Gaia19aon,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia19aog,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19anw,4.0,5.0,6.0,4.0,7.0,CV
+Gaia19anv,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19ant,3.0,6.0,3.0,5.0,0.0,YSO
+Gaia19ank,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia19anj,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia19anf,3.0,4.0,1.0,5.0,0.0,YSO
+Gaia19and,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia19anc,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19anb,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia19amy,0.0,6.0,6.0,5.0,0.0,YSO
+Gaia19amw,7.0,0.0,5.0,2.0,1.0,CV
+Gaia19amt,5.0,0.0,4.0,0.0,2.0,SLSN
+Gaia19amn,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19aml,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19amk,5.0,0.0,1.0,0.0,2.0,SN IIb
+Gaia19alx,3.0,4.0,2.0,3.0,7.0,QSO
+Gaia19alw,7.0,4.0,1.0,2.0,1.0,CV
+Gaia19alt,7.0,1.0,5.0,2.0,1.0,CV
+Gaia19als,3.0,0.0,7.0,0.0,1.0,unknown
+Gaia19alg,4.0,6.0,3.0,5.0,0.0,unknown
+Gaia19alf,0.0,6.0,6.0,3.0,0.0,unknown
+Gaia19ako,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19akn,4.0,5.0,6.0,4.0,1.0,QSO
+Gaia19akl,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19akj,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19akg,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19akb,3.0,4.0,3.0,7.0,1.0,unknown
+Gaia19aka,3.0,4.0,2.0,3.0,1.0,CV
+Gaia19ajz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19ajt,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia19ajr,0.0,1.0,2.0,3.0,0.0,unknown
+Gaia19ajp,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia19ajj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia19ajh,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19ajf,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19aiw,5.0,0.0,4.0,0.0,2.0,SN IIL
+Gaia19ait,4.0,1.0,5.0,2.0,1.0,CV
+Gaia19aiq,5.0,0.0,0.0,1.0,2.0,CCSN
+Gaia19aim,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia19aii,7.0,1.0,2.0,3.0,1.0,CV
+Gaia19aif,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19aid,5.0,0.0,4.0,1.0,2.0,SN IIn
+Gaia19aht,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia19ahk,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia19ahg,4.0,6.0,6.0,4.0,0.0,unknown
+Gaia19agw,4.0,5.0,6.0,4.0,1.0,AGN
+Gaia19agt,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19ags,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia19agn,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia19agh,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19agg,0.0,7.0,3.0,5.0,1.0,unknown
+Gaia19agd,4.0,4.0,1.0,5.0,7.0,YSO
+Gaia19agc,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19aga,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19afz,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19afy,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19afx,1.0,1.0,2.0,2.0,4.0,unknown
+Gaia19afv,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19afq,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia19afc,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19afb,7.0,4.0,1.0,0.0,1.0,unknown
+Gaia19aeu,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19aem,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19ael,0.0,6.0,6.0,4.0,0.0,BL Lac
+Gaia19aek,7.0,1.0,2.0,2.0,1.0,CV
+Gaia19aei,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia19aee,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia19adl,0.0,6.0,3.0,5.0,7.0,unknown
+Gaia19adi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia19acw,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia19aci,4.0,5.0,2.0,3.0,1.0,QSO
+Gaia19abx,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia19abv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia19abm,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia19abf,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia19abe,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia19aau,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia19aat,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia19aap,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia19aal,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia19aak,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia19aah,3.0,4.0,2.0,3.0,1.0,CV
+Gaia19aaf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18ear,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18eap,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia18eaj,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18eai,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia18ead,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dzz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18dzq,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dzp,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia18dzl,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18dze,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dyt,0.0,7.0,3.0,6.0,1.0,BL Lac
+Gaia18dyj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dyi,4.0,4.0,2.0,3.0,1.0,QSO
+Gaia18dyh,4.0,4.0,6.0,3.0,7.0,QSO
+Gaia18dyd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dyb,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18dya,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dxu,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia18dxh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dwz,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18dwy,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18dwr,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia18dwd,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dwa,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia18dvz,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dvy,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dvv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dvt,3.0,3.0,2.0,3.0,5.0,CV
+Gaia18dvm,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18dvk,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18dvj,0.0,7.0,3.0,7.0,0.0,unknown
+Gaia18dvi,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dvc,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18duy,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18duw,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18duk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18duj,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia18duh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dug,3.0,7.0,3.0,5.0,1.0,QSO
+Gaia18dtx,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dtm,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18dtk,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18dsw,4.0,1.0,5.0,2.0,1.0,CV
+Gaia18dsv,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dss,3.0,4.0,3.0,5.0,0.0,BL Lac
+Gaia18dsp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dsm,3.0,3.0,2.0,7.0,5.0,unknown
+Gaia18dsl,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18dry,4.0,5.0,6.0,3.0,1.0,QSO
+Gaia18drw,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18drm,3.0,4.0,5.0,2.0,1.0,unknown
+Gaia18drb,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18dqs,3.0,4.0,1.0,7.0,0.0,unknown
+Gaia18dqq,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18dqk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dqi,0.0,4.0,1.0,7.0,7.0,unknown
+Gaia18dqg,4.0,4.0,2.0,3.0,7.0,QSO
+Gaia18dqf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dqe,3.0,1.0,2.0,2.0,1.0,unknown
+Gaia18dpz,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18dpc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dox,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18dow,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18doo,0.0,5.0,6.0,4.0,0.0,Varstar
+Gaia18dom,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia18doi,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia18doh,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18doe,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18doc,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia18dnx,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dnw,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18dnv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dnu,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dnt,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dno,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18dnn,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18dnl,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dng,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18dnf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dnb,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia18dna,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dmz,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dmw,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18dmv,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia18dmu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dmp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dmj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dmi,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dmg,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia18dlt,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18dlq,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18dli,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia18dlh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dlf,3.0,6.0,6.0,5.0,0.0,YSO
+Gaia18dle,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18dlc,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia18dks,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18dkr,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dkq,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dkp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dkm,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dki,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dkc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18djy,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18djv,4.0,4.0,6.0,4.0,7.0,QSO
+Gaia18dju,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18djr,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18djn,3.0,4.0,6.0,3.0,0.0,QSO
+Gaia18djm,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18djb,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dih,0.0,5.0,2.0,3.0,0.0,unknown
+Gaia18dif,0.0,6.0,6.0,4.0,0.0,unknown
+Gaia18dib,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dia,4.0,0.0,4.0,0.0,2.0,SN II
+Gaia18dhy,0.0,6.0,3.0,5.0,1.0,unknown
+Gaia18dhx,0.0,4.0,6.0,3.0,0.0,unknown
+Gaia18dhv,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18dhu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18dhs,5.0,0.0,4.0,1.0,2.0,SN IIn
+Gaia18dhk,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18dhg,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dhf,0.0,4.0,3.0,5.0,0.0,unknown
+Gaia18dgw,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia18dgt,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dgs,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18dgr,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia18dgm,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18dgi,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18dgf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dge,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dfw,4.0,4.0,2.0,3.0,7.0,BL Lac
+Gaia18dfp,5.0,0.0,4.0,0.0,2.0,SN Ic
+Gaia18dfj,3.0,4.0,2.0,3.0,7.0,SN Ic-BL
+Gaia18dfg,5.0,0.0,4.0,1.0,2.0,SN II
+Gaia18dff,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18dfe,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18dev,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18der,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18dep,3.0,3.0,6.0,4.0,0.0,unknown
+Gaia18dem,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18del,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18dek,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18def,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia18deb,3.0,3.0,3.0,7.0,5.0,YSO
+Gaia18ddv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18ddh,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18ddb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dcz,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dcv,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dcs,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18dcm,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18dcj,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18dcd,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dbz,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia18dbx,3.0,4.0,2.0,3.0,1.0,CV
+Gaia18dbw,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18dbs,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18dbr,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18dbn,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18dbk,2.0,4.0,7.0,0.0,3.0,unknown
+Gaia18dbe,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18dbc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dbb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18dav,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia18das,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18daf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18czt,3.0,4.0,1.0,5.0,0.0,unknown
+Gaia18czn,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia18czm,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia18czl,7.0,4.0,1.0,3.0,1.0,unknown
+Gaia18czg,3.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18czd,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18czc,4.0,1.0,2.0,3.0,7.0,CV
+Gaia18cza,3.0,6.0,3.0,5.0,0.0,unknown
+Gaia18cyz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18cyn,4.0,5.0,6.0,1.0,7.0,unknown
+Gaia18cyl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18cyc,4.0,5.0,6.0,4.0,7.0,TDE
+Gaia18cxz,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia18cxx,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cxs,5.0,7.0,1.0,2.0,1.0,unknown
+Gaia18cxo,3.0,4.0,1.0,3.0,1.0,QSO
+Gaia18cwx,1.0,4.0,1.0,7.0,4.0,unknown
+Gaia18cwv,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18cwu,1.0,7.0,3.0,6.0,4.0,ULENS
+Gaia18cwq,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18cwj,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia18cwf,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18cwe,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18cvq,0.0,4.0,1.0,5.0,1.0,CV
+Gaia18cvo,3.0,4.0,1.0,4.0,0.0,unknown
+Gaia18cvc,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia18cva,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia18cuz,3.0,4.0,7.0,0.0,1.0,unknown
+Gaia18cuy,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18cux,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cuw,3.0,4.0,1.0,5.0,1.0,unknown
+Gaia18cuv,3.0,3.0,2.0,7.0,5.0,unknown
+Gaia18cuu,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18cur,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18cuo,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18cum,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia18cul,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia18cuk,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cuf,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia18cue,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18cud,0.0,3.0,3.0,7.0,5.0,Varstar
+Gaia18ctx,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18ctu,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18ctm,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia18cth,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18ctg,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18ctb,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia18cta,3.0,3.0,6.0,7.0,0.0,ULENS
+Gaia18csz,7.0,4.0,2.0,3.0,1.0,CV
+Gaia18css,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia18csj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18csh,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18csf,1.0,7.0,3.0,7.0,4.0,CV
+Gaia18csc,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia18cry,3.0,3.0,2.0,3.0,5.0,CV
+Gaia18crx,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia18cru,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia18crt,4.0,4.0,1.0,4.0,7.0,YSO
+Gaia18crs,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18crr,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18cro,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18cri,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18cre,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18crd,4.0,4.0,2.0,3.0,1.0,CV
+Gaia18crc,4.0,1.0,5.0,2.0,1.0,CV
+Gaia18cqv,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18cqu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18cqo,5.0,0.0,0.0,1.0,2.0,CV
+Gaia18cqn,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia18cqe,3.0,4.0,1.0,4.0,0.0,QSO
+Gaia18cqd,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18cqc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18cpx,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18cpj,4.0,6.0,6.0,4.0,7.0,unknown
+Gaia18cpi,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18cpg,7.0,4.0,1.0,2.0,1.0,CV
+Gaia18cpc,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18coz,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18cox,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia18cow,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18cos,3.0,4.0,1.0,4.0,7.0,BL Lac
+Gaia18cor,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia18coj,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia18coa,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia18cnz,1.0,7.0,3.0,6.0,4.0,Varstar
+Gaia18cnp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18cnn,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18cnd,0.0,7.0,3.0,6.0,4.0,YSO
+Gaia18cmx,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia18cmn,0.0,3.0,3.0,7.0,0.0,Varstar
+Gaia18cmm,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18cml,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia18cmj,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18cmi,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cmf,5.0,0.0,0.0,1.0,2.0,CV
+Gaia18cly,7.0,4.0,1.0,2.0,1.0,unknown
+Gaia18clx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18clv,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18cls,4.0,6.0,6.0,5.0,7.0,unknown
+Gaia18clr,4.0,5.0,6.0,4.0,0.0,unknown
+Gaia18clp,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18cln,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18clf,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18cld,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18ckw,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cku,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18ckn,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia18ckj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18ckg,3.0,3.0,2.0,3.0,1.0,CV
+Gaia18cjw,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18cjv,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cju,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cjo,3.0,6.0,6.0,7.0,0.0,unknown
+Gaia18cjn,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18cjl,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18cjj,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18cjd,7.0,0.0,0.0,2.0,1.0,unknown
+Gaia18cjc,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia18cjb,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia18cja,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18cix,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18cir,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18cih,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18cig,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18cic,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia18cht,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18chp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18chb,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18cgw,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18cgv,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cgt,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia18cgr,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18cgq,0.0,4.0,3.0,5.0,1.0,YSO
+Gaia18cgp,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18cgo,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18cgi,1.0,7.0,1.0,6.0,2.0,Nova
+Gaia18cfy,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia18cfv,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18cfu,7.0,4.0,1.0,0.0,1.0,unknown
+Gaia18cft,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18cfs,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18cfr,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18cfq,4.0,1.0,2.0,3.0,1.0,CV
+Gaia18cfl,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18cfj,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia18cfi,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia18cfh,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia18cfg,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia18cfe,4.0,6.0,6.0,5.0,7.0,AGN
+Gaia18cfa,0.0,7.0,3.0,5.0,0.0,symbiotic star
+Gaia18cey,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia18cew,1.0,7.0,1.0,0.0,4.0,unknown
+Gaia18cev,5.0,0.0,4.0,1.0,2.0,XRB
+Gaia18ceu,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18ces,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18ceq,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia18cep,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18cen,3.0,4.0,1.0,2.0,1.0,unknown
+Gaia18cee,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia18ced,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18cdu,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18cds,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18cdo,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18cdg,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18cdd,3.0,4.0,1.0,5.0,1.0,unknown
+Gaia18ccz,0.0,6.0,3.0,7.0,0.0,unknown
+Gaia18ccw,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18ccj,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia18cci,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia18ccg,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18ccf,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cbz,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia18cbw,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18cbv,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18cbt,5.0,0.0,0.0,1.0,2.0,CV
+Gaia18cbn,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18cbm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18cbg,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia18cba,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia18cav,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia18cau,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18cat,4.0,6.0,6.0,4.0,7.0,unknown
+Gaia18cao,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia18can,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18cam,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia18cag,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia18cab,3.0,4.0,1.0,0.0,1.0,unknown
+Gaia18bzz,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18bzx,4.0,4.0,6.0,3.0,1.0,QSO
+Gaia18bzw,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18bzv,3.0,3.0,2.0,3.0,5.0,SN Ia
+Gaia18bzn,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18bzl,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18bzh,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bzb,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18byw,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18byu,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia18bym,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18byk,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18bye,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18byd,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18bxy,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18bxm,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18bxl,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18bxi,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18bxc,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18bxa,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bww,3.0,4.0,2.0,3.0,5.0,unknown
+Gaia18bwi,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia18bvz,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18bvv,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia18bvq,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia18bvp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18bvm,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18bvk,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia18bvj,7.0,1.0,2.0,2.0,1.0,CV
+Gaia18bvg,5.0,0.0,4.0,0.0,2.0,Nova
+Gaia18bve,4.0,4.0,1.0,3.0,1.0,unknown
+Gaia18buz,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia18buy,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18bur,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18buo,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia18buh,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bue,7.0,0.0,4.0,0.0,2.0,unknown
+Gaia18buc,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18btz,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18bts,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18btc,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18bta,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bsj,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18brq,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18brp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18brn,3.0,0.0,4.0,0.0,1.0,SN Ia
+Gaia18bre,0.0,4.0,3.0,5.0,0.0,YSO
+Gaia18bra,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18bqu,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bqm,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bqi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bqa,5.0,0.0,0.0,1.0,2.0,SN Ic-BL
+Gaia18bpz,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18bps,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18bpl,4.0,0.0,0.0,1.0,1.0,SN IIn
+Gaia18boz,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18boy,5.0,0.0,0.0,1.0,2.0,Nova
+Gaia18boh,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18bod,7.0,5.0,5.0,2.0,1.0,unknown
+Gaia18boc,5.0,0.0,4.0,0.0,2.0,SN Ib/c
+Gaia18bnq,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia18bno,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18bmv,5.0,0.0,4.0,1.0,2.0,SN Ic
+Gaia18bmt,0.0,6.0,3.0,5.0,0.0,ULENS
+Gaia18bmn,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bml,2.0,1.0,7.0,2.0,3.0,CV
+Gaia18blw,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia18bls,7.0,5.0,2.0,3.0,1.0,QSO
+Gaia18bla,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia18bkm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18bkl,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bkj,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia18bkh,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia18bkf,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18bjw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bjm,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia18bje,4.0,1.0,2.0,3.0,1.0,CV
+Gaia18bjd,0.0,6.0,6.0,3.0,7.0,unknown
+Gaia18biz,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18bis,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bif,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bib,0.0,7.0,1.0,6.0,1.0,unknown
+Gaia18bhu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bhq,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia18bhp,4.0,1.0,2.0,2.0,1.0,unknown
+Gaia18bhb,7.0,1.0,5.0,3.0,1.0,unknown
+Gaia18bgv,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18bgs,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18bgk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bgj,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18bfy,3.0,3.0,3.0,7.0,5.0,YSO
+Gaia18bft,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bfs,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18bfp,3.0,4.0,3.0,7.0,1.0,unknown
+Gaia18bfo,4.0,4.0,1.0,3.0,1.0,YSO
+Gaia18bfc,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18bev,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia18beu,0.0,4.0,1.0,5.0,0.0,YSO
+Gaia18bes,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia18ber,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bep,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18bee,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bec,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18bdw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bdv,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bdn,3.0,6.0,1.0,5.0,0.0,YSO
+Gaia18bcp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18bcb,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18bbu,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia18bbe,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18baw,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18bau,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18bat,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18bam,5.0,0.0,4.0,0.0,2.0,SN Ib
+Gaia18bad,3.0,4.0,1.0,3.0,1.0,unknown
+Gaia18azy,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia18azu,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18azp,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18azm,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia18azl,0.0,6.0,6.0,5.0,0.0,star
+Gaia18azj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18azh,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18azd,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18ayy,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18ayx,3.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18ayp,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia18aya,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia18axx,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18axl,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18axf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18awu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18aws,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18awq,3.0,0.0,1.0,0.0,0.0,unknown
+Gaia18awn,0.0,6.0,6.0,4.0,7.0,BL Lac
+Gaia18awi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18awg,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia18awd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18awc,4.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia18avx,1.0,7.0,1.0,5.0,2.0,unknown
+Gaia18avt,7.0,0.0,5.0,1.0,2.0,unknown
+Gaia18auz,4.0,4.0,2.0,3.0,7.0,unknown
+Gaia18auy,3.0,3.0,3.0,7.0,5.0,Varstar
+Gaia18auw,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18aun,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18aum,7.0,4.0,2.0,2.0,1.0,unknown
+Gaia18aul,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18auk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia18aue,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia18atr,3.0,3.0,2.0,3.0,1.0,unknown
+Gaia18atq,0.0,7.0,3.0,6.0,0.0,Varstar
+Gaia18ato,5.0,0.0,0.0,1.0,2.0,CV
+Gaia18atl,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia18atj,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18ata,5.0,0.0,0.0,1.0,2.0,Nova
+Gaia18asv,0.0,5.0,6.0,4.0,0.0,unknown
+Gaia18asr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18asq,0.0,3.0,3.0,7.0,0.0,YSO
+Gaia18asi,4.0,1.0,2.0,2.0,1.0,XRB
+Gaia18asf,0.0,7.0,1.0,5.0,0.0,unknown
+Gaia18ase,0.0,6.0,3.0,5.0,1.0,unknown
+Gaia18arw,7.0,1.0,5.0,2.0,1.0,CV
+Gaia18art,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18arp,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18aro,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia18arn,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia18arl,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia18ari,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18aqp,7.0,0.0,1.0,0.0,2.0,unknown
+Gaia18apz,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia18apg,3.0,6.0,1.0,5.0,0.0,unknown
+Gaia18apf,7.0,1.0,5.0,2.0,2.0,unknown
+Gaia18apd,4.0,5.0,6.0,4.0,7.0,SN II
+Gaia18apc,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia18aot,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia18aos,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18aon,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18aol,5.0,0.0,0.0,1.0,2.0,CV
+Gaia18aoi,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18aod,4.0,1.0,5.0,2.0,1.0,Nova
+Gaia18anr,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia18anm,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18ank,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18amm,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia18aml,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia18amk,4.0,5.0,6.0,4.0,7.0,AGN
+Gaia18alw,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia18als,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18all,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18alj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia18alf,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia18ale,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia18akt,0.0,6.0,6.0,5.0,0.0,Varstar
+Gaia18akq,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia18akn,0.0,6.0,6.0,5.0,0.0,unknown
+Gaia18akl,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18aki,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia18akg,3.0,5.0,2.0,3.0,7.0,unknown
+Gaia18akc,0.0,3.0,3.0,7.0,0.0,ULENS
+Gaia18akb,0.0,6.0,3.0,7.0,0.0,ULENS
+Gaia18ajy,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18aju,0.0,3.0,3.0,7.0,4.0,unknown
+Gaia18ajt,3.0,3.0,3.0,7.0,5.0,ULENS
+Gaia18ajs,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18ajn,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia18ajl,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia18ajj,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia18aji,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18aip,3.0,6.0,6.0,5.0,0.0,unknown
+Gaia18aif,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia18ahv,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia18ahs,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia18ahq,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18ahj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18agw,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18ags,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia18agb,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18afw,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia18afv,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18afq,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia18afm,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18afl,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia18afh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18afe,4.0,4.0,6.0,3.0,7.0,unknown
+Gaia18aen,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia18aek,1.0,0.0,0.0,1.0,4.0,SN Ia
+Gaia18aeg,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia18aef,7.0,1.0,2.0,3.0,1.0,CV
+Gaia18ado,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia18adn,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia18acs,4.0,5.0,6.0,2.0,7.0,unknown
+Gaia18acq,3.0,4.0,7.0,0.0,1.0,unknown
+Gaia18acg,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18ace,4.0,5.0,2.0,4.0,7.0,unknown
+Gaia18aca,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia18abp,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia18abk,2.0,0.0,7.0,0.0,3.0,SN Ia
+Gaia18aav,5.0,0.0,4.0,0.0,2.0,SN Ic
+Gaia18aao,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17dkh,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia17djh,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17dir,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17dim,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17dia,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17dhz,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17dhx,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia17dhv,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia17dhq,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17dgr,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia17dgk,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17dgc,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia17dgb,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17dfz,5.0,0.0,4.0,0.0,2.0,SN Ic
+Gaia17dfx,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17dfw,6.0,0.0,5.0,0.0,6.0,unknown
+Gaia17dfq,3.0,4.0,3.0,7.0,0.0,unknown
+Gaia17dfn,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia17dez,4.0,5.0,6.0,3.0,7.0,QSO
+Gaia17ddp,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia17ddn,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17dda,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia17dcj,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia17dax,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17czn,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia17czm,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia17czh,3.0,4.0,1.0,5.0,1.0,unknown
+Gaia17czb,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia17cyk,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia17cxa,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17cws,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17cwp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17cwe,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia17cwd,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia17cvx,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia17cvm,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia17cvl,0.0,6.0,6.0,7.0,0.0,unknown
+Gaia17cvb,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia17cuy,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17cuv,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia17cuu,0.0,6.0,3.0,5.0,0.0,YSO
+Gaia17cuq,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17cup,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia17cul,0.0,6.0,1.0,5.0,0.0,unknown
+Gaia17cui,4.0,6.0,6.0,4.0,7.0,BL Lac
+Gaia17cuh,7.0,4.0,1.0,7.0,1.0,unknown
+Gaia17ctn,3.0,3.0,6.0,3.0,0.0,unknown
+Gaia17ctm,1.0,4.0,2.0,3.0,4.0,unknown
+Gaia17ctl,3.0,4.0,1.0,0.0,1.0,ULENS
+Gaia17ctk,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17cti,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia17ctf,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia17ctd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17css,4.0,4.0,6.0,4.0,7.0,unknown
+Gaia17cso,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17csl,5.0,0.0,0.0,0.0,2.0,SN Ia
+Gaia17csf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17crn,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17crm,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia17cqu,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia17cqr,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17cqq,5.0,0.0,1.0,0.0,2.0,SN IIb
+Gaia17cqp,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17cql,7.0,1.0,2.0,3.0,1.0,CV
+Gaia17cqf,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia17cpt,5.0,0.0,0.0,1.0,2.0,CV
+Gaia17cpj,5.0,0.0,4.0,0.0,2.0,SN Ic
+Gaia17cpe,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17coj,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia17cod,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia17cnm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17cnd,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17cmh,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17cmc,7.0,1.0,2.0,2.0,7.0,CV
+Gaia17clq,7.0,5.0,2.0,2.0,1.0,unknown
+Gaia17clo,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17clg,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17clc,7.0,4.0,1.0,0.0,1.0,unknown
+Gaia17cku,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17ckh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17cke,3.0,4.0,1.0,5.0,1.0,CV
+Gaia17ckb,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17chk,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17cha,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia17cgy,5.0,0.0,4.0,0.0,2.0,SN Ib/c
+Gaia17cgu,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17cgo,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17cfk,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia17cfi,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17cff,3.0,5.0,6.0,4.0,7.0,AGN
+Gaia17cfd,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia17cfc,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia17ceu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17cep,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17cem,0.0,5.0,6.0,4.0,0.0,AGN
+Gaia17ced,5.0,0.0,1.0,5.0,2.0,SN II
+Gaia17cec,3.0,0.0,4.0,0.0,1.0,unknown
+Gaia17cdo,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia17cdj,5.0,0.0,0.0,1.0,2.0,Nova
+Gaia17cdg,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia17cdb,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia17ccy,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia17ccv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17ccp,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17ccm,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia17cci,6.0,2.0,3.0,5.0,6.0,unknown
+Gaia17cch,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17ccd,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17ccb,3.0,3.0,3.0,7.0,5.0,ULENS
+Gaia17cbz,3.0,4.0,1.0,3.0,7.0,unknown
+Gaia17cby,7.0,4.0,5.0,2.0,1.0,unknown
+Gaia17cbr,7.0,0.0,1.0,2.0,1.0,unknown
+Gaia17cbp,5.0,0.0,0.0,1.0,2.0,SLSN
+Gaia17cbe,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia17cav,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia17car,5.0,0.0,0.0,1.0,2.0,SN Iax
+Gaia17cam,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17caj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17cah,0.0,7.0,3.0,6.0,4.0,ULENS
+Gaia17cae,5.0,0.0,1.0,0.0,2.0,CV
+Gaia17cad,0.0,7.0,3.0,7.0,5.0,ULENS
+Gaia17cab,6.0,3.0,3.0,7.0,6.0,ULENS
+Gaia17bzm,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17byn,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17byj,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia17bxz,5.0,0.0,0.0,1.0,1.0,unknown
+Gaia17bxy,4.0,1.0,5.0,2.0,1.0,unknown
+Gaia17bxs,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17bxi,5.0,0.0,1.0,0.0,2.0,SN IIP
+Gaia17bxg,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17bwv,6.0,3.0,3.0,7.0,6.0,unknown
+Gaia17bwu,3.0,6.0,3.0,7.0,0.0,unknown
+Gaia17bwm,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17bwk,5.0,0.0,1.0,0.0,2.0,SN Ib
+Gaia17bvv,7.0,0.0,0.0,2.0,1.0,unknown
+Gaia17bvo,0.0,7.0,3.0,6.0,4.0,unknown
+Gaia17bvj,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia17bvc,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17bum,3.0,4.0,2.0,3.0,1.0,QSO
+Gaia17bts,3.0,3.0,3.0,7.0,5.0,ULENS
+Gaia17btr,3.0,4.0,1.0,5.0,1.0,unknown
+Gaia17bto,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17btl,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17bsp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17bsl,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bsh,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bse,4.0,4.0,3.0,5.0,1.0,unknown
+Gaia17bro,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia17bre,1.0,7.0,1.0,0.0,4.0,SN Ia
+Gaia17brd,7.0,1.0,5.0,2.0,1.0,SN Ia
+Gaia17bqw,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia17bqv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17bqu,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bqd,4.0,0.0,1.0,1.0,7.0,BL Lac
+Gaia17bpp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia17bpl,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17bpj,4.0,5.0,2.0,3.0,7.0,BL Lac
+Gaia17bor,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bod,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia17bnx,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia17bnl,0.0,7.0,3.0,5.0,0.0,YSO
+Gaia17bnk,7.0,1.0,2.0,2.0,7.0,CV
+Gaia17bnf,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia17bmy,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia17bmu,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bms,3.0,4.0,2.0,5.0,1.0,unknown
+Gaia17bmq,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17bmn,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17blw,5.0,0.0,4.0,0.0,2.0,SN IIn
+Gaia17blu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17blf,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bjw,5.0,0.0,1.0,0.0,2.0,SN Ic
+Gaia17bju,0.0,6.0,6.0,3.0,1.0,QSO
+Gaia17bjq,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17bjo,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17bjn,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia17biu,5.0,0.0,0.0,1.0,2.0,SLSN
+Gaia17bik,5.0,0.0,0.0,2.0,2.0,unknown
+Gaia17bii,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17big,5.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia17bif,7.0,1.0,2.0,3.0,1.0,CV
+Gaia17bie,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17bhj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17bhb,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia17bha,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bgu,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia17bgj,7.0,1.0,2.0,2.0,7.0,unknown
+Gaia17bfz,3.0,4.0,2.0,3.0,1.0,CV
+Gaia17bfu,4.0,1.0,5.0,2.0,1.0,unknown
+Gaia17bft,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17bfr,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia17bfc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17bev,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17bet,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17ber,3.0,4.0,3.0,5.0,1.0,CV
+Gaia17beq,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia17bej,3.0,4.0,1.0,7.0,0.0,ULENS
+Gaia17bei,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17beg,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia17beb,5.0,0.0,0.0,1.0,2.0,CV
+Gaia17bdz,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17bdv,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17bdk,0.0,6.0,3.0,5.0,0.0,ULENS
+Gaia17bdj,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17bdd,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia17bcy,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bcx,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia17bbz,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia17bbx,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17bbs,0.0,7.0,3.0,5.0,0.0,ULENS
+Gaia17bal,7.0,1.0,2.0,3.0,1.0,CV
+Gaia17azz,0.0,6.0,6.0,4.0,1.0,unknown
+Gaia17azm,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17azj,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17ayu,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia17ayo,1.0,0.0,1.0,0.0,4.0,unknown
+Gaia17ayh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17ayg,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17axu,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17axt,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17awv,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia17awg,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia17avq,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17avm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17avh,7.0,1.0,5.0,2.0,1.0,CV
+Gaia17avd,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17ava,0.0,4.0,2.0,3.0,1.0,unknown
+Gaia17auz,0.0,4.0,3.0,7.0,0.0,unknown
+Gaia17auy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17auo,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia17ato,5.0,0.0,4.0,0.0,1.0,unknown
+Gaia17atn,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17ate,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17atd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17asv,3.0,4.0,2.0,3.0,7.0,unknown
+Gaia17ash,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17asc,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17aru,7.0,1.0,2.0,2.0,1.0,CV
+Gaia17arp,4.0,0.0,4.0,0.0,2.0,unknown
+Gaia17aro,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia17arf,3.0,3.0,2.0,3.0,5.0,unknown
+Gaia17are,3.0,4.0,1.0,5.0,0.0,unknown
+Gaia17aqz,3.0,3.0,2.0,3.0,1.0,unknown
+Gaia17aqx,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia17aqu,3.0,3.0,3.0,7.0,5.0,ULENS
+Gaia17aqs,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17aqr,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17aqm,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia17aql,5.0,0.0,1.0,0.0,2.0,SN II
+Gaia17aqf,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17apx,7.0,1.0,2.0,2.0,1.0,CV
+Gaia17apv,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17aps,6.0,2.0,4.0,1.0,6.0,unknown
+Gaia17apn,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17aot,6.0,2.0,0.0,1.0,6.0,unknown
+Gaia17aor,4.0,0.0,0.0,1.0,1.0,SN Ia
+Gaia17aon,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17aoe,5.0,0.0,0.0,1.0,2.0,CV
+Gaia17anx,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia17ano,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17amt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17amq,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17amf,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia17amd,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17alx,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia17alv,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17alp,5.0,0.0,0.0,1.0,2.0,SN II
+Gaia17ale,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17akp,7.0,4.0,1.0,2.0,1.0,unknown
+Gaia17ako,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17akm,3.0,0.0,1.0,0.0,1.0,SN Ia
+Gaia17aki,0.0,5.0,6.0,4.0,7.0,unknown
+Gaia17ajt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17aji,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia17ajg,3.0,4.0,1.0,5.0,0.0,ULENS
+Gaia17ajb,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17aiy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17ait,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17aiq,5.0,0.0,4.0,0.0,2.0,SN IIb
+Gaia17aip,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17ail,1.0,7.0,3.0,6.0,4.0,unknown
+Gaia17aif,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17ahx,7.0,1.0,2.0,2.0,5.0,unknown
+Gaia17ahu,3.0,0.0,1.0,0.0,1.0,unknown
+Gaia17ahm,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17ahc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia17agz,5.0,0.0,1.0,0.0,2.0,XRB
+Gaia17agy,1.0,7.0,3.0,6.0,4.0,Varstar
+Gaia17agr,7.0,1.0,2.0,2.0,7.0,unknown
+Gaia17agp,7.0,4.0,6.0,3.0,7.0,unknown
+Gaia17agj,0.0,4.0,3.0,3.0,7.0,unknown
+Gaia17agi,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia17age,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia17agd,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia17agc,0.0,6.0,3.0,5.0,0.0,CV
+Gaia17afs,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17afn,3.0,6.0,3.0,5.0,0.0,YSO
+Gaia17afg,0.0,4.0,3.0,5.0,1.0,CV
+Gaia17afc,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17aey,7.0,1.0,2.0,3.0,1.0,CV
+Gaia17aes,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia17aep,4.0,1.0,2.0,3.0,1.0,unknown
+Gaia17ade,3.0,1.0,5.0,2.0,1.0,CV
+Gaia17acz,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia17acq,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia17acm,7.0,1.0,2.0,3.0,1.0,CV
+Gaia17abw,4.0,4.0,6.0,4.0,7.0,unknown
+Gaia17abv,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia17abn,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia17aaz,3.0,4.0,2.0,3.0,1.0,CV
+Gaia17aar,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia17aaq,5.0,0.0,4.0,1.0,2.0,SN II
+Gaia17aah,6.0,2.0,0.0,1.0,6.0,SN Ia
+Gaia16cgf,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16cge,6.0,0.0,0.0,0.0,2.0,SN Ia
+Gaia16cgc,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16cfs,7.0,4.0,6.0,3.0,7.0,unknown
+Gaia16cfr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16cfn,3.0,1.0,2.0,3.0,1.0,unknown
+Gaia16cew,7.0,0.0,0.0,1.0,2.0,CV
+Gaia16cev,7.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16cdv,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16cdp,5.0,0.0,0.0,1.0,2.0,CV
+Gaia16ccx,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16ccw,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia16ccq,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16ccj,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16cci,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia16cbd,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16caz,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16cay,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16cau,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16can,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16caa,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16bzz,5.0,0.0,4.0,0.0,2.0,SN Ia-pec
+Gaia16bzx,3.0,3.0,3.0,7.0,5.0,unknown
+Gaia16bzv,5.0,0.0,4.0,1.0,1.0,unknown
+Gaia16bzp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16byy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16byu,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia16byl,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16byk,5.0,0.0,4.0,0.0,2.0,SN IIL
+Gaia16bye,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16bxt,5.0,0.0,4.0,0.0,2.0,SN Ic
+Gaia16bxq,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bxh,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bwv,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bwt,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16bwn,4.0,4.0,6.0,4.0,7.0,QSO
+Gaia16bwm,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bvq,3.0,0.0,1.0,0.0,2.0,SN Ia
+Gaia16bvb,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia16buw,5.0,0.0,4.0,0.0,2.0,SN IIb
+Gaia16buo,1.0,0.0,1.0,0.0,4.0,unknown
+Gaia16bug,5.0,0.0,0.0,1.0,2.0,SN IIn
+Gaia16bty,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia16btx,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia16bte,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16bsr,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia16bsh,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16bsg,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bsf,3.0,4.0,1.0,7.0,0.0,unknown
+Gaia16bse,4.0,5.0,5.0,2.0,7.0,unknown
+Gaia16bru,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16brp,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16bri,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16brg,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16bre,5.0,0.0,4.0,0.0,2.0,SN II
+Gaia16bra,7.0,0.0,5.0,2.0,2.0,unknown
+Gaia16bql,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bqh,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia16bpz,3.0,3.0,2.0,3.0,0.0,unknown
+Gaia16bpu,7.0,5.0,2.0,3.0,7.0,unknown
+Gaia16bpt,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia16bpp,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bpi,0.0,6.0,6.0,3.0,1.0,unknown
+Gaia16bpa,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia16boi,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bof,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bny,7.0,1.0,2.0,3.0,1.0,CV
+Gaia16bnu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bno,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bnn,3.0,4.0,2.0,2.0,5.0,ULENS
+Gaia16bnj,7.0,5.0,2.0,3.0,7.0,unknown
+Gaia16bne,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16bmt,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia16bmp,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bmi,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16bmd,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16blg,0.0,6.0,3.0,5.0,7.0,YSO
+Gaia16ble,3.0,4.0,2.0,3.0,1.0,CV
+Gaia16bld,7.0,1.0,2.0,3.0,1.0,CV
+Gaia16bkz,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bkx,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bkt,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bjm,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16bjh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bjg,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia16bjf,5.0,0.0,4.0,0.0,2.0,SN Ib/c
+Gaia16bih,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia16bhx,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia16bhj,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16bgt,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bgq,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia16bgp,7.0,0.0,0.0,2.0,2.0,unknown
+Gaia16bgk,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bft,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia16bfo,6.0,2.0,5.0,2.0,6.0,unknown
+Gaia16bef,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16bec,0.0,3.0,2.0,3.0,7.0,unknown
+Gaia16bcx,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16bcs,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia16bcm,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16bch,0.0,7.0,3.0,5.0,0.0,unknown
+Gaia16bce,7.0,1.0,2.0,2.0,1.0,CV
+Gaia16bby,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16bbo,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia16bbm,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16bbk,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16bbi,5.0,0.0,0.0,2.0,2.0,SN Ia
+Gaia16bbb,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia16bba,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16baz,4.0,4.0,2.0,3.0,0.0,QSO
+Gaia16baw,7.0,0.0,0.0,1.0,1.0,unknown
+Gaia16ban,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia16bal,0.0,7.0,3.0,6.0,0.0,unknown
+Gaia16bac,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia16azz,7.0,0.0,0.0,1.0,2.0,CV
+Gaia16azw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16azu,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16azt,5.0,0.0,4.0,0.0,2.0,CV
+Gaia16azd,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16ayl,1.0,7.0,1.0,0.0,4.0,unknown
+Gaia16ayk,7.0,0.0,0.0,1.0,1.0,unknown
+Gaia16ayf,1.0,7.0,1.0,0.0,4.0,unknown
+Gaia16aye,0.0,3.0,3.0,7.0,0.0,ULENS
+Gaia16axv,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia16axs,3.0,6.0,1.0,7.0,0.0,unknown
+Gaia16axi,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia16awz,0.0,6.0,6.0,5.0,1.0,QSO
+Gaia16aws,5.0,0.0,1.0,0.0,2.0,CV
+Gaia16awq,0.0,3.0,3.0,7.0,0.0,unknown
+Gaia16avw,5.0,0.0,1.0,0.0,2.0,CV
+Gaia16avv,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16avr,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16avj,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16avh,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16aum,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16auj,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia16atv,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16atr,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16atp,3.0,4.0,1.0,7.0,1.0,unknown
+Gaia16atm,1.0,1.0,5.0,2.0,4.0,CV
+Gaia16asy,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16asu,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16ass,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16asr,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16asp,7.0,5.0,2.0,3.0,7.0,unknown
+Gaia16asm,7.0,4.0,2.0,3.0,7.0,unknown
+Gaia16asd,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia16arz,5.0,0.0,4.0,0.0,2.0,SN Ia-pec
+Gaia16arq,7.0,1.0,2.0,2.0,1.0,CV
+Gaia16arp,5.0,0.0,4.0,0.0,2.0,SN Ic-BL
+Gaia16arl,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16aqy,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16aqm,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16aql,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia16aqf,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia16apv,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia16apu,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia16apr,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16apk,5.0,0.0,4.0,1.0,2.0,unknown
+Gaia16apd,5.0,0.0,0.0,1.0,2.0,SLSN
+Gaia16apc,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16apb,7.0,1.0,2.0,2.0,1.0,CV
+Gaia16apa,7.0,1.0,5.0,2.0,1.0,CV
+Gaia16aoz,4.0,4.0,6.0,3.0,7.0,QSO
+Gaia16aop,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia16aoo,5.0,0.0,4.0,0.0,2.0,SN IIP
+Gaia16aon,0.0,3.0,3.0,7.0,5.0,unknown
+Gaia16aoh,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia16aob,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia16anp,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia16anm,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia16ane,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia16amv,0.0,6.0,6.0,3.0,1.0,unknown
+Gaia16ams,0.0,6.0,3.0,5.0,0.0,star
+Gaia16amo,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia16ame,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia16amd,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia16ama,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia16alu,0.0,7.0,3.0,6.0,0.0,YSO
+Gaia16alq,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16alp,3.0,4.0,2.0,2.0,1.0,unknown
+Gaia16alm,4.0,4.0,6.0,4.0,7.0,AGN
+Gaia16all,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia16ald,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia16alb,5.0,0.0,1.0,0.0,2.0,SN IIP
+Gaia16akw,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16akr,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia16akq,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia16akd,7.0,0.0,5.0,2.0,1.0,unknown
+Gaia16ajy,5.0,0.0,0.0,1.0,2.0,SN
+Gaia16ajr,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16ajp,0.0,6.0,3.0,5.0,0.0,unknown
+Gaia16ajj,4.0,5.0,6.0,4.0,7.0,QSO
+Gaia16aix,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16aio,5.0,0.0,5.0,1.0,1.0,unknown
+Gaia16aik,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia16aie,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16aib,4.0,5.0,6.0,4.0,7.0,unknown
+Gaia16aia,3.0,4.0,2.0,3.0,1.0,unknown
+Gaia16ahx,7.0,0.0,0.0,1.0,2.0,unknown
+Gaia16aht,7.0,0.0,0.0,2.0,2.0,unknown
+Gaia16ahs,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16ahr,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia16ahq,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16ahp,5.0,0.0,1.0,0.0,2.0,unknown
+Gaia16ahn,7.0,2.0,5.0,2.0,1.0,unknown
+Gaia16ahk,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia16ahi,7.0,1.0,2.0,2.0,1.0,CV
+Gaia16ahd,3.0,1.0,2.0,2.0,1.0,unknown
+Gaia16ahb,7.0,1.0,2.0,2.0,7.0,unknown
+Gaia16agz,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16agy,7.0,0.0,7.0,1.0,1.0,unknown
+Gaia16agw,5.0,1.0,5.0,2.0,1.0,unknown
+Gaia16agv,4.0,4.0,1.0,3.0,0.0,YSO
+Gaia16agu,3.0,6.0,3.0,5.0,0.0,YSO
+Gaia16agn,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia16agh,5.0,0.0,0.0,1.0,2.0,unknown
+Gaia16agf,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16afz,7.0,1.0,5.0,2.0,1.0,CV
+Gaia16afy,4.0,5.0,6.0,4.0,7.0,BL Lac
+Gaia16afv,1.0,7.0,3.0,6.0,4.0,YSO
+Gaia16afu,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16aft,0.0,4.0,1.0,5.0,0.0,YSO
+Gaia16afs,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia16afh,7.0,1.0,5.0,2.0,1.0,CV
+Gaia16afg,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia16ael,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16aej,4.0,5.0,2.0,3.0,1.0,unknown
+Gaia16aei,7.0,3.0,2.0,3.0,1.0,unknown
+Gaia16aeh,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia16aeg,5.0,0.0,4.0,0.0,2.0,SN IIb
+Gaia16aed,3.0,0.0,1.0,0.0,1.0,SN Ia
+Gaia16ady,5.0,0.0,4.0,0.0,2.0,SN Ia
+Gaia16adt,7.0,1.0,5.0,2.0,1.0,unknown
+Gaia16ado,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16adj,7.0,1.0,2.0,2.0,1.0,unknown
+Gaia16adi,7.0,1.0,2.0,3.0,1.0,unknown
+Gaia16adh,7.0,1.0,5.0,2.0,1.0,CV
+Gaia16adb,4.0,5.0,2.0,3.0,7.0,unknown
+Gaia16acz,3.0,1.0,2.0,3.0,5.0,unknown
+Gaia16acy,7.0,4.0,2.0,3.0,1.0,unknown
+Gaia16aco,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16abw,4.0,4.0,2.0,3.0,1.0,QSO
+Gaia16abv,3.0,4.0,2.0,3.0,7.0,unknown
+Gaia16abk,5.0,0.0,0.0,1.0,2.0,SN Ia
+Gaia16abj,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia16aav,4.0,4.0,2.0,3.0,1.0,unknown
+Gaia16aau,0.0,5.0,6.0,4.0,0.0,RCrB
+Gaia16aad,5.0,0.0,4.0,1.0,2.0,SN Ia
+Gaia16aac,5.0,0.0,4.0,0.0,2.0,unknown
+Gaia15age,7.0,0.0,4.0,0.0,1.0,unknown
+Gaia15afz,7.0,1.0,2.0,2.0,1.0,unknown
