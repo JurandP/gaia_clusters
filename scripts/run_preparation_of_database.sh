@@ -7,8 +7,8 @@ python3.8 -m prepare_database \
     --only_max True \
     --interpolation False \
     --tsfresh True \
-    --min_mag 17.0 \
+    --min_mag 20.0 \
     --n_jobs 1 \
     --download_database False \
-    --preprocessing False \
+    --preprocessing True \
     --postprocessing True

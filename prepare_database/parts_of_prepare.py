@@ -52,7 +52,7 @@ def make_postprocessing(alerts, int_end=20670, int_begin = 0,
     for i in range(0,number_of_post_processed):
         make_file_with_database(alerts['#Name'].loc[
             i*number_of_objects_in_file : 
-            (i+1)*number_of_objects_in_file-1], 'Postprocessed_Database/'+str(i) +'.csv',
+            (i+1)*number_of_objects_in_file-1], 'Postprocessed_Database' + suffix + '/'+str(i) +'.csv',
             size_of_bin = size_of_bin, only_max = only_max, interp = interpolation, tsfresh=tsfresh, min_mag = min_mag) 
 
     print('SCRIPT DID 3/4 OF THE WORK -- Postprocessing is done!')
@@ -61,7 +61,7 @@ def save_database(number_of_post_processed = 5, suffix = ''):
     final_file = 'Final_Database' + suffix
     #Adding data from Postprocessed_Database/ to single dataframe
     for i in range(0,number_of_post_processed):
-        with open('Postprocessed_Database/'+str(i)+'.csv') as input:
+        with open('Postprocessed_Database' + suffix + '/'+str(i)+'.csv') as input:
             final_file += input.read() + '\n'
 
         with open(final_file + '.csv', 'w') as input:

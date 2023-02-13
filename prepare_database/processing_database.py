@@ -27,7 +27,7 @@ alerts = pd.read_csv('alerts.csv')['#Name']
 
 #function to open Proceed_data and produce final dataframe
 def postprocessing_data(name, size_of_bin = 3, interp = False,
-    only_max = True, tsfresh = True, light_power = 17.3, suffix = ''):
+    only_max = True, tsfresh = True, light_power = None, suffix = ''):
 
     if only_max:
         df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv', header=1)
@@ -37,9 +37,10 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
         df = df[df['averagemag'] != 'NaN']
         df['averagemag'] = df['averagemag'].apply(float)
         df = df.drop(['#Date','JD(TCB)'], axis=1)
-        if light_power is None:
+        if light_power == None:
             light_power = 1000.0
         if len(df) > 4 and max_value < light_power:
+            print(max_value, light_power)
             x = Final_res(df)
             if os.path.exists(
             'Preprocessed_data' + suffix + '/' + name + '_processed.csv'

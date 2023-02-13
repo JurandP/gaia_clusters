@@ -1,12 +1,12 @@
 #directories
 Raw_data
-Preprocessed_data
-Postprocessed_Database
+Preprocessed_Data*
+Postprocessed_Database*
 Result
-ConfusionMatrixPNG
+ConfusionMatrixPNG/*
 #files
-Final_Database.csv
-Little_Data.csv
+Final_Database*
+Little_Data*
 Optim_result.csv
 .vscode
 # byte-compiled / optimized / DLL files

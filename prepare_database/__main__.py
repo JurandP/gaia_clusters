@@ -78,7 +78,7 @@ def main():
     filename = "alerts.csv"
     #determining which data from alerts to process
     int_begin = 0
-    int_end = 10
+    int_end = 50
     #number of .csv files with post processed data
     number_of_post_processed = 5
 
@@ -99,8 +99,9 @@ def main():
             alerts=alerts, int_begin=int_begin, int_end=int_end,
             number_of_post_processed=number_of_post_processed, size_of_bin=bin_size,
             only_max=only_max, min_mag=min_mag, tsfresh=tsfresh, suffix = suffix_name)
-        prepare_database.parts_of_prepare.save_database(
-            number_of_post_processed=number_of_post_processed, suffix = suffix_name)
+        if not only_max:
+            prepare_database.parts_of_prepare.save_database(
+                number_of_post_processed=number_of_post_processed, suffix = suffix_name)
 
     
 if __name__ == '__main__':
