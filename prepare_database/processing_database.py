@@ -14,7 +14,7 @@ def normalize(arr):
 
     return list(x)
 
-#simple feature to make string from list without set delimiter
+# simple feature to make string from list without set delimiter
 def list_to_string(s, delimiter):
 
     string_to_return = ""
@@ -25,46 +25,54 @@ def list_to_string(s, delimiter):
 raw_dir = 'Raw_data'
 alerts = pd.read_csv('alerts.csv')['#Name']
 
-#function to open Proceed_data and produce final dataframe
 def postprocessing_data(name, size_of_bin = 3, interp = False,
     only_max = True, tsfresh = True, light_power = None, suffix = ''):
 
-    if only_max:
-        df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv', header=1)
+    # read data from raw
+    df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv', header=1)
+    
+    if only_max:   
+        # find maximum of brightness and its time
         index_of_max = float(round(df.sort_values(by=['averagemag']).iloc[0,1], 2))
         max_value = float(df.sort_values(by=['averagemag']).iloc[0,2])
-        df = df[pd.to_numeric(df['averagemag'], errors='coerce').notnull()]
-        df = df[df['averagemag'] != 'NaN']
-        df['averagemag'] = df['averagemag'].apply(float)
-        df = df.drop(['#Date','JD(TCB)'], axis=1)
-        if light_power == None:
-            light_power = 1000.0
-        if len(df) > 4 and max_value < light_power:
-            print(max_value, light_power)
-            x = Final_res(df)
-            if os.path.exists(
-            'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
-            ) and os.stat(
-            'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
-                df = pd.read_csv('Preprocessed_data' + suffix + '/' + name + '_processed.csv',
-                header = None , delim_whitespace=True)
-                df.index = df[0]
-                if index_of_max in df[0].to_list():
-                    if tsfresh:
-                        s = [name] + x + normalize(df.loc[index_of_max].iloc[1:].to_list())
-                    else:
-                        s = [name] + normalize(df.loc[index_of_max].iloc[1:].to_list())
-                    with open('Final_Database' + suffix + '.csv', 'a') as input:
-                        write = csv.writer(input)
-                        write.writerow(s)
-        else:
-            with open('Little_Data' + suffix + '.csv', 'a') as input:
-                input.write(name + '\n')
 
-    if os.path.exists(
+    # remove unnecessary data and change of format
+    df = df[pd.to_numeric(df['averagemag'], errors='coerce').notnull()]
+    df = df[df['averagemag'] != 'NaN']
+    df['averagemag'] = df['averagemag'].apply(float)
+    df = df.drop(['#Date','JD(TCB)'], axis=1)
+
+    if light_power == None:
+        light_power = 1000.0
+    
+    if len(df) > 4 and max_value < light_power:
+        print(max_value, light_power)
+        
+        if os.path.exists(
         'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
         ) and os.stat(
         'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
+            tsfresh_stat = Final_res(df)
+            df = pd.read_csv('Preprocessed_data' + suffix + '/' + name + '_processed.csv',
+            header = None , delim_whitespace=True)
+            df.index = df[0]
+            if index_of_max in df[0].to_list():
+                if tsfresh:
+                    s = [name] + tsfresh_stat + normalize(df.loc[index_of_max].iloc[1:].to_list())
+                else:
+                    s = [name] + normalize(df.loc[index_of_max].iloc[1:].to_list())
+                with open('Final_Database' + suffix + '.csv', 'a') as input:
+                    print('I AM HERE')
+                    write = csv.writer(input)
+                    write.writerow(s)
+    else:
+        with open('Little_Data' + suffix + '.csv', 'a') as input:
+            input.write(name + '\n')
+    if not only_max:
+        if os.path.exists(
+            'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
+            ) and os.stat(
+            'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
             df = pd.read_csv('Preprocessed_data' + suffix + '/' + name + '_processed.csv',
             header = None , delim_whitespace=True)
             df = Produce_vect(df, size_of_bin = size_of_bin, interp = interp)
@@ -74,6 +82,7 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
             else:
                 with open('Little_Data' + suffix + '.csv', 'a') as input:
                     input.write(name + '\n')
+    
     print(name + ' postprocessing is done.')
 
 def make_file_with_database(
@@ -102,7 +111,7 @@ def make_file_with_database(
         for i in Data:
             input.write(i)
 
-#function collects the data in their average and puts it into containers of length size_of_bin
+# function collects the data in their average and puts it into containers of length size_of_bin
 # example: 1.0 2.0 3.0 4.0 5.0 6.0, size_of_bin = 3 -> 2.0 7.5
 def preprocessing_data(filename, size_of_bin = 3, suffix = ''):
     text = ""
@@ -116,9 +125,9 @@ def preprocessing_data(filename, size_of_bin = 3, suffix = ''):
             mod_s = [round(s[0],size_of_bin)]
             number_of_bins = int(120/size_of_bin)
             
-            for j in range(1,1+ number_of_bins):
+            for j in range(1,1 + number_of_bins):
                 s_mean = np.mean(s[(j-1)*size_of_bin+1 : j*size_of_bin+1 : 1])
-                mod_s.append( round(s_mean , 4))
+                mod_s.append(round(s_mean , 4))
             text = text + list_to_string(mod_s, ' ') + "\n"
 
     with open('Preprocessed_data' + suffix + '/' + filename + '_processed.csv', 'w') as input:
