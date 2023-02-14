@@ -7,9 +7,9 @@ from threading import Lock
 raw_dir_name = 'Raw_data'
 
 #check if dir_name folder to save data exists. If not it is created
-def check_folder(dir_name):
-	if not os.path.exists(dir_name):
-		os.mkdir(dir_name)
+def check_folder('Data/' + dir_name):
+	if not os.path.exists('Data/' + dir_name):
+		os.mkdir('Data/' + dir_name)
 
 #Additional function to count how many alerts is downloaded
 def count_alerts():
@@ -40,7 +40,7 @@ def make_spectrum_csv(name):
 	rp = re.findall(r'"rp": \[(.*?)]', string)
 	
 	#write indexes, rp and bp strings to file _spectrum.csv
-	with open( raw_dir_name +'/' + name + '_spectrum.csv', 'w') as input:
+	with open('Data/' + raw_dir_name +'/' + name + '_spectrum.csv', 'w') as input:
 		for i in range(len(rp)):
 			input.write(indexes[2*i-1] + ', ')
 			input.write(bp[i] + ', ')
@@ -49,19 +49,19 @@ def make_spectrum_csv(name):
 
 #Check if some data from alertslist doesn't exist or is empty
 def valid_data_test(df_names):
-	with open(raw_dir_name + '/MISSING_DATA_RAPORT.csv', 'w') as input:
+	with open('Data/' + raw_dir_name + '/MISSING_DATA_RAPORT.csv', 'w') as input:
 		input.write('Missing spectrum for the following data: \n') #part for spectra
 		for i in df_names:
-			if os.path.exists(raw_dir_name + '/' + i + '_spectrum.csv') == False:
+			if os.path.exists('Data/' + raw_dir_name + '/' + i + '_spectrum.csv') == False:
 				input.write(i)
 			else:
-				if os.path.getsize(raw_dir_name + '/' + i + '_spectrum.csv') == 0.0:
+				if os.path.getsize('Data/' + raw_dir_name + '/' + i + '_spectrum.csv') == 0.0:
 					input.write(i, ' empty file')
 		input.write('Missing lightcurve for the following data: \n') #part for lightcurve
 		for i in df_names:
-			if os.path.exists(raw_dir_name + '/' + i + '_lightcurve.csv') == False:
+			if os.path.exists('Data/' + raw_dir_name + '/' + i + '_lightcurve.csv') == False:
 				input.write(i)
 			else:
-				if os.path.getsize(raw_dir_name + '/' + i + '_lightcurve.csv') == 0.0:
+				if os.path.getsize('Data/' + raw_dir_name + '/' + i + '_lightcurve.csv') == 0.0:
 					input.write(i, ' empty file')
 			

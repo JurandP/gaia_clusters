@@ -29,7 +29,7 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
     only_max = True, tsfresh = True, light_power = None, suffix = ''):
 
     # read data from raw
-    df = pd.read_csv('Raw_data/' + name + '_lightcurve.csv', header=1)
+    df = pd.read_csv('Data/' + 'Raw_data/' + name + '_lightcurve.csv', header=1)
     
     if only_max:   
         # find maximum of brightness and its time
@@ -49,11 +49,11 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
         print(max_value, light_power)
         
         if os.path.exists(
-        'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
+        'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
         ) and os.stat(
-        'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
+        'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
             tsfresh_stat = Final_res(df)
-            df = pd.read_csv('Preprocessed_data' + suffix + '/' + name + '_processed.csv',
+            df = pd.read_csv('Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv',
             header = None , delim_whitespace=True)
             df.index = df[0]
             if index_of_max in df[0].to_list():
@@ -61,26 +61,26 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
                     s = [name] + tsfresh_stat + normalize(df.loc[index_of_max].iloc[1:].to_list())
                 else:
                     s = [name] + normalize(df.loc[index_of_max].iloc[1:].to_list())
-                with open('Final_Database' + suffix + '.csv', 'a') as input:
+                with open('Data/' + 'Final_Database' + suffix + '.csv', 'a') as input:
                     print('I AM HERE')
                     write = csv.writer(input)
                     write.writerow(s)
     else:
-        with open('Little_Data' + suffix + '.csv', 'a') as input:
+        with open('Data/' + 'Little_Data' + suffix + '.csv', 'a') as input:
             input.write(name + '\n')
     if not only_max:
         if os.path.exists(
-            'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
+            'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
             ) and os.stat(
-            'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
-            df = pd.read_csv('Preprocessed_data' + suffix + '/' + name + '_processed.csv',
+            'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
+            df = pd.read_csv('Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv',
             header = None , delim_whitespace=True)
             df = Produce_vect(df, size_of_bin = size_of_bin, interp = interp)
             CollectedData = Final_res(df)
             if not np.isnan(CollectedData).any():
                 return name + ', ' + list_to_string(CollectedData, ', ')+'\n'
             else:
-                with open('Little_Data' + suffix + '.csv', 'a') as input:
+                with open('Data/' + 'Little_Data' + suffix + '.csv', 'a') as input:
                     input.write(name + '\n')
     
     print(name + ' postprocessing is done.')
@@ -115,7 +115,7 @@ def make_file_with_database(
 # example: 1.0 2.0 3.0 4.0 5.0 6.0, size_of_bin = 3 -> 2.0 7.5
 def preprocessing_data(filename, size_of_bin = 3, suffix = ''):
     text = ""
-    with open(raw_dir + '/' + filename + '_spectrum.csv', 'r') as input:
+    with open('Data/' + raw_dir + '/' + filename + '_spectrum.csv', 'r') as input:
         while True:
             s = input.readline()
             if not s:
@@ -130,7 +130,7 @@ def preprocessing_data(filename, size_of_bin = 3, suffix = ''):
                 mod_s.append(round(s_mean , 4))
             text = text + list_to_string(mod_s, ' ') + "\n"
 
-    with open('Preprocessed_data' + suffix + '/' + filename + '_processed.csv', 'w') as input:
+    with open('Data/' + 'Preprocessed_data' + suffix + '/' + filename + '_processed.csv', 'w') as input:
         input.write(text)
     print(filename, ' preprocessing is done')
 
