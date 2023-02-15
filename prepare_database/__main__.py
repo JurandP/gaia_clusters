@@ -27,7 +27,7 @@ def prepare_argparse():
     parser.add_argument("-t", "--tsfresh", type=str2bool,
         help="Use tsfresh statistics to prepare database. Default --tsfresh = True",
         default=True)
-    parser.add_argument("-l", "--min_mag", type=float,
+    parser.add_argument("-l", "--min_mag", type=str,
         help="Minimum magnitude of objects in their maximum. \
          Objects with lower magnitude will be removed in preparation of database. \
          If None, all of objects will be processed. Default --min_mag = None", default=None)
@@ -55,7 +55,10 @@ def main():
     only_max = args.only_max
     tsfresh = args.tsfresh
     n_jobs = args.n_jobs
-    min_mag = args.min_mag
+    if args.min_mag == 'None' or  args.min_mag == 'none':
+        min_mag = None
+    else:
+        min_mag = float(args.min_mag)
     download_database = args.download_database
     preprocessing = args.preprocessing
     postprocessing = args.postprocessing
@@ -78,7 +81,7 @@ def main():
     filename = "alerts.csv"
     #determining which data from alerts to process
     int_begin = 0
-    int_end = 50
+    int_end = 20670
     #number of .csv files with post processed data
     number_of_post_processed = 5
 

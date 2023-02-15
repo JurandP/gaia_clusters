@@ -31,44 +31,48 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
     # read data from raw
     df = pd.read_csv('Data/' + 'Raw_data/' + name + '_lightcurve.csv', header=1)
     
-    if only_max:   
-        # find maximum of brightness and its time
-        index_of_max = float(round(df.sort_values(by=['averagemag']).iloc[0,1], 2))
-        max_value = float(df.sort_values(by=['averagemag']).iloc[0,2])
-
-    # remove unnecessary data and change of format
-    df = df[pd.to_numeric(df['averagemag'], errors='coerce').notnull()]
-    df = df[df['averagemag'] != 'NaN']
-    df['averagemag'] = df['averagemag'].apply(float)
-    df = df.drop(['#Date','JD(TCB)'], axis=1)
-
     if light_power == None:
         light_power = 1000.0
-    
-    if len(df) > 4 and max_value < light_power:
-        print(max_value, light_power)
-        
-        if os.path.exists(
-        'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
-        ) and os.stat(
-        'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
-            tsfresh_stat = Final_res(df)
-            df = pd.read_csv('Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv',
-            header = None , delim_whitespace=True)
-            df.index = df[0]
-            if index_of_max in df[0].to_list():
-                if tsfresh:
-                    s = [name] + tsfresh_stat + normalize(df.loc[index_of_max].iloc[1:].to_list())
-                else:
-                    s = [name] + normalize(df.loc[index_of_max].iloc[1:].to_list())
-                with open('Data/' + 'Final_Database' + suffix + '.csv', 'a') as input:
-                    print('I AM HERE')
-                    write = csv.writer(input)
-                    write.writerow(s)
-    else:
+
+    # find maximum of brightness and its time
+    try:
+        df = df[df['averagemag'] != 'untrusted']
+        index_of_max = float(round(df.sort_values(by=['averagemag']).iloc[0,1], 2))
+        max_value = float(df.sort_values(by=['averagemag']).iloc[0,2])
+    except IndexError:
         with open('Data/' + 'Little_Data' + suffix + '.csv', 'a') as input:
             input.write(name + '\n')
-    if not only_max:
+        return -1
+                                
+
+    if only_max:
+        # remove unnecessary data and change of format
+        df = df[pd.to_numeric(df['averagemag'], errors='coerce').notnull()]
+        df = df[df['averagemag'] != 'NaN']
+        df['averagemag'] = df['averagemag'].apply(float)
+        df = df.drop(['#Date','JD(TCB)'], axis=1)
+    
+        if len(df) > 4 and max_value < light_power:
+            if os.path.exists(
+                'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
+                ) and os.stat(
+                'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
+                tsfresh_stat = Final_res(df)
+                df = pd.read_csv('Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv',
+                header = None , delim_whitespace=True)
+                df.index = df[0]
+                if index_of_max in df[0].to_list():
+                    if tsfresh:
+                        s = [name] + tsfresh_stat + normalize(df.loc[index_of_max].iloc[1:].to_list())
+                    else:
+                        s = [name] + normalize(df.loc[index_of_max].iloc[1:].to_list())
+                    with open('Data/' + 'Final_Database' + suffix + '.csv', 'a') as input:
+                        write = csv.writer(input)
+                        write.writerow(s)
+        else:
+            with open('Data/' + 'Little_Data' + suffix + '.csv', 'a') as input:
+                input.write(name + '\n')
+    if not only_max and max_value < light_power:
         if os.path.exists(
             'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
             ) and os.stat(
@@ -82,7 +86,7 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
             else:
                 with open('Data/' + 'Little_Data' + suffix + '.csv', 'a') as input:
                     input.write(name + '\n')
-    
+
     print(name + ' postprocessing is done.')
 
 def make_file_with_database(

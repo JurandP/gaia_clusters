@@ -7,9 +7,9 @@ from threading import Lock
 raw_dir_name = 'Raw_data'
 
 #check if dir_name folder to save data exists. If not it is created
-def check_folder('Data/' + dir_name):
-	if not os.path.exists('Data/' + dir_name):
-		os.mkdir('Data/' + dir_name)
+def check_folder(dir_name):
+	if not os.path.exists(dir_name):
+		os.mkdir(dir_name)
 
 #Additional function to count how many alerts is downloaded
 def count_alerts():

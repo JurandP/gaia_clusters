@@ -40,8 +40,12 @@ def make_postprocessing(alerts, int_end=20670, int_begin = 0,
     only_max = True, tsfresh = True, min_mag = None, suffix = ''):
     check_folder('Data/' + 'Postprocessed_Database' + suffix)
 
-    #check if file with names of broken or too small data is empty 
-    with open('Data/' + 'Little_Data.csv', 'w'):
+    # check if file with names of broken or too small data is empty 
+    with open('Data/' + 'Little_Data' + suffix + '.csv', 'w'):
+        pass
+
+    # create file to save final database 
+    with open('Data/' + 'Final_Database' + suffix + '.csv', 'w'):
         pass
 
     #make post_processing file
@@ -53,18 +57,19 @@ def make_postprocessing(alerts, int_end=20670, int_begin = 0,
         make_file_with_database(alerts['#Name'].loc[
             i*number_of_objects_in_file : 
             (i+1)*number_of_objects_in_file-1], 'Data/' + 'Postprocessed_Database' + suffix + '/'+str(i) +'.csv',
-            size_of_bin = size_of_bin, only_max = only_max, interp = interpolation, tsfresh=tsfresh, min_mag = min_mag) 
+            size_of_bin = size_of_bin, only_max = only_max, interp = interpolation, tsfresh=tsfresh, min_mag = min_mag, suffix = suffix) 
 
     print('SCRIPT DID 3/4 OF THE WORK -- Postprocessing is done!')
 
 def save_database(number_of_post_processed = 5, suffix = ''):
-    final_file = 'Data/' + 'Final_Database' + suffix
+    final_file_name = 'Final_Database' + suffix
+    final_file = ''
     #Adding data from Postprocessed_Database/ to single dataframe
     for i in range(0,number_of_post_processed):
         with open('Data/' + 'Postprocessed_Database' + suffix + '/'+str(i)+'.csv') as input:
             final_file += input.read() + '\n'
 
-        with open('Data/' + final_file + '.csv', 'w') as input:
+        with open('Data/' + final_file_name + '.csv', 'w') as input:
 	        input.write(final_file)
 
     print('SCRIPT DID THE WORK -- make Final_Database is done!')

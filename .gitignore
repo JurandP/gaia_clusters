@@ -1,7 +1,5 @@
 #directories
-Raw_data
-Preprocessed_Data*
-Postprocessed_Database*
+Data/*
 Result
 ConfusionMatrixPNG/*
 #files
