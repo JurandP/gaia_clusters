@@ -21,7 +21,7 @@ def count_alerts():
 			GLOBAL_INDEX += 1
 			if GLOBAL_INDEX % 100 == 0:
 				print(GLOBAL_INDEX)
-		
+
 
 #main function in this module, create files #alertname_lightcurve.csv and #alertname_spectrum.csv for given name
 def make_spectrum_csv(name):
@@ -30,7 +30,7 @@ def make_spectrum_csv(name):
 	path_lightcurve = path_spectrum + 'lightcurve.csv'
 	#download data for given alert from gsaweb.ast.cam.ac.uk
 	string = str(requests.get(path_spectrum).content)
-	urllib.request.urlretrieve(path_lightcurve, raw_dir_name +'/' + name + '_lightcurve.csv' )
+	urllib.request.urlretrieve(path_lightcurve,'Data/' + raw_dir_name +'/' + name + '_lightcurve.csv' )
 	print(name)
 	#using re to find in html spectrum data
 	indexes = re.findall(r'<td>(.*?)<', string)

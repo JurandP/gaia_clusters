@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/data/crunch05/jpradzynski/GaiaClusters
+# cd /home/data/crunch05/jpradzynski/GaiaClusters
 
 python3.8 -m prepare_database \
     --bin_size 3 \

@@ -10,6 +10,7 @@ def make_download_database(alerts):
     check_folder('Data/' + 'Raw_data')
     #creates separate data files about spectra and lightcurves in Raw_data directory 
     paths = ['http://gsaweb.ast.cam.ac.uk/alerts/alert/' + i + '/' for i in alerts['#Name']]
+    print(paths)
     with concurrent.futures.ThreadPoolExecutor() as executor:
         future_to_url = {executor.submit(make_spectrum_csv, i): i for i in alerts['#Name']}
 

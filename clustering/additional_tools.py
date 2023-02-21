@@ -22,7 +22,7 @@ def make_metrics(df_clusters, df_alerts):
             #check_is_group_new.append(int(grouped.idxmax()))
         metric_value += grouped.max()
     
-    return float(metric_value)/min(len(df_clusters), len(df_alerts))
+    return float(metric_value)/len(pd.concat([df_clusters, df_alerts], axis=1, join="inner"))
 
 def outliers_detection(df, n_neighbors):
     clf=LocalOutlierFactor(n_neighbors=n_neighbors)

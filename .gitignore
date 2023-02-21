@@ -1,10 +1,5 @@
 #directories
 Data/*
-Result
-ConfusionMatrixPNG/*
-#files
-Final_Database*
-Little_Data*
 Optim_result.csv
 .vscode
 # byte-compiled / optimized / DLL files

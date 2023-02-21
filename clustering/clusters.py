@@ -16,22 +16,22 @@ def make_birch(DataFrame, n_clusters):
     return pd.DataFrame({'Groups': pred_y}, index = DataFrame.index)
 
 def make_agglomerative_clustering(DataFrame, n_clusters, linkage):
-	cluster = sc.AgglomerativeClustering(n_clusters=n_clusters, affinity='euclidean', linkage=linkage)
+	cluster = sc.AgglomerativeClustering(n_clusters=n_clusters, metric='euclidean', linkage=linkage)
 	pred_y = cluster.fit_predict(DataFrame)
 	return pd.DataFrame({'Groups': pred_y}, index=DataFrame.index)
 
 def make_kmeans(DataFrame, n_clusters):
-	kmeans = sc.KMeans(n_clusters=n_clusters, init='random', random_state=0).fit(DataFrame)
+	kmeans = sc.KMeans(n_clusters=n_clusters, init='random', n_init=10, random_state=0).fit(DataFrame)
 	pred_y = kmeans.fit_predict(DataFrame)
 	return pd.DataFrame({'Groups': pred_y}, index=DataFrame.index)
 
 def make_mini_batch_kmeans(DataFrame, n_clusters):
-	kmeans = sc.MiniBatchKMeans(n_clusters=n_clusters, init='random', random_state=0).fit(DataFrame)
+	kmeans = sc.MiniBatchKMeans(n_clusters=n_clusters, init='random', n_init=10, random_state=0).fit(DataFrame)
 	pred_y = kmeans.fit_predict(DataFrame)
 	return pd.DataFrame({'Groups': pred_y}, index=DataFrame.index)
 
 def make_bisecting_kmeans(DataFrame, n_clusters):
-	kmeans = sc.BisectingKMeans(n_clusters=n_clusters, bisecting_strategy = "largest_cluster").fit(DataFrame)
+	kmeans = sc.BisectingKMeans(n_clusters=n_clusters, n_init=10, bisecting_strategy = "largest_cluster").fit(DataFrame)
 	pred_y = kmeans.fit_predict(DataFrame)
 	return pd.DataFrame({'Groups': pred_y}, index=DataFrame.index)
 
