@@ -81,7 +81,7 @@ def main():
     filename = "alerts.csv"
     #determining which data from alerts to process
     int_begin = 0
-    int_end = 20
+    int_end = 20670
     #number of .csv files with post processed data
     number_of_post_processed = 5
 

@@ -63,15 +63,16 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
                 df.index = df[0]
                 if index_of_max in df[0].to_list():
                     if tsfresh:
-                        s = [name] + tsfresh_stat + normalize(df.loc[index_of_max].iloc[1:].to_list())
+                        s = [name] + tsfresh_stat + normalize(list(df.loc[index_of_max].iloc[1:]))
                     else:
-                        s = [name] + normalize(df.loc[index_of_max].iloc[1:].to_list())
+                        s = [name] + normalize(list(df.loc[index_of_max].iloc[1:]))
                     with open('Data/' + 'Final_Database' + suffix + '.csv', 'a') as input:
                         write = csv.writer(input)
                         write.writerow(s)
         else:
             with open('Data/' + 'Little_Data' + suffix + '.csv', 'a') as input:
                 input.write(name + '\n')
+
     if not only_max and max_value < light_power:
         if os.path.exists(
             'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv'
@@ -79,9 +80,11 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
             'Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv').st_size > 0:
             df = pd.read_csv('Data/' + 'Preprocessed_data' + suffix + '/' + name + '_processed.csv',
             header = None , delim_whitespace=True)
+            print(df)
             df = Produce_vect(df, size_of_bin = size_of_bin, interp = interp)
             CollectedData = Final_res(df)
             if not np.isnan(CollectedData).any():
+                print('jestem')
                 return name + ', ' + list_to_string(CollectedData, ', ')+'\n'
             else:
                 with open('Data/' + 'Little_Data' + suffix + '.csv', 'a') as input:
@@ -113,7 +116,7 @@ def make_file_with_database(
 
     with open(filename, 'w') as input:
         for i in Data:
-            input.write(i)
+            input.write(str(i))
 
 # function collects the data in their average and puts it into containers of length size_of_bin
 # example: 1.0 2.0 3.0 4.0 5.0 6.0, size_of_bin = 3 -> 2.0 7.5
