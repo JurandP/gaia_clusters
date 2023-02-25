@@ -16,7 +16,10 @@ def make_birch(DataFrame, n_clusters):
     return pd.DataFrame({'Groups': pred_y}, index = DataFrame.index)
 
 def make_agglomerative_clustering(DataFrame, n_clusters, linkage):
-	cluster = sc.AgglomerativeClustering(n_clusters=n_clusters, metric='euclidean', linkage=linkage)
+        # for sklearn>=1.4.0
+        # cluster = sc.AgglomerativeClustering(n_clusters=n_clusters, metric='euclidean', linkage=linkage)
+        # for sklearn>=1.2.0
+	cluster = sc.AgglomerativeClustering(n_clusters=n_clusters, affinity='euclidean', linkage=linkage)
 	pred_y = cluster.fit_predict(DataFrame)
 	return pd.DataFrame({'Groups': pred_y}, index=DataFrame.index)
 
