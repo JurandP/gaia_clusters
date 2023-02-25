@@ -65,8 +65,17 @@ def main():
 
     if bin_size >= 60 or bin_size <= 0:
         raise ValueError("Bin_size value is not in range (1, 60).")
-    
+    if not tsfresh and not only_max:
+        raise OtherException("It is required to use tsfresh with processing each spectra. \
+        To use the version without tsfresh, set option only_max = True.")
+    if only_max and interp:
+        raise OtherException("When only_max = True, there are no data to interpolate. \
+        Set interp = False, or to use 1d interpolation, set only_max = False")
+        
+    # names of suffixes of files, preproc_suffix_name
+    # to preprocessing, suffix_name to postprocessing
     suffix_name = '_' + str(bin_size) + 'bin'
+    preproc_suffix_name = suffix_name
     if interpolation:
         suffix_name += '_interp'
     if only_max:
@@ -95,7 +104,7 @@ def main():
         prepare_database.parts_of_prepare.make_preprocessing_database(
             alerts=alerts,
             n_jobs=n_jobs,
-            size_of_bin=bin_size, suffix = suffix_name)
+            size_of_bin=bin_size, suffix = preproc_suffix_name)
     
     if postprocessing:
         prepare_database.parts_of_prepare.make_postprocessing(
