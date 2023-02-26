@@ -2,6 +2,9 @@ import argparse
 import prepare_database.parts_of_prepare
 import pandas as pd
 
+class OtherException(Exception):
+    pass
+
 # solution for problem with using boolean values in arparse founded in
 # https://stackoverflow.com/questions/15008758/parsing-boolean-values-with-argparse
 def str2bool(v):
@@ -68,7 +71,7 @@ def main():
     if not tsfresh and not only_max:
         raise OtherException("It is required to use tsfresh with processing each spectra. \
         To use the version without tsfresh, set option only_max = True.")
-    if only_max and interp:
+    if only_max and interpolation:
         raise OtherException("When only_max = True, there are no data to interpolate. \
         Set interp = False, or to use 1d interpolation, set only_max = False")
         

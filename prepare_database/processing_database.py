@@ -54,13 +54,13 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
     
         if len(df) > 4 and max_value < light_power:
             if os.path.exists(
-                'Data/' + 'Preprocessed_data' + str(size_of_bin) + \
+                'Data/' + 'Preprocessed_data_' + str(size_of_bin) + \
                 'bin' + '/' + name + '_processed.csv'
                 ) and os.stat(
-                'Data/' + 'Preprocessed_data' + str(size_of_bin) + \
+                'Data/' + 'Preprocessed_data_' + str(size_of_bin) + \
                 'bin' + '/' + name + '_processed.csv').st_size > 0:
                 tsfresh_stat = Final_res(df)
-                df = pd.read_csv('Data/' + 'Preprocessed_data' + \
+                df = pd.read_csv('Data/' + 'Preprocessed_data_' + \
                 str(size_of_bin) + 'bin' + '/' + name + '_processed.csv',
                 header = None , delim_whitespace=True)
                 df.index = df[0]
@@ -78,12 +78,11 @@ def postprocessing_data(name, size_of_bin = 3, interp = False,
 
     if not only_max and max_value < light_power:
         if os.path.exists(
-            'Data/' + 'Preprocessed_data' + str(size_of_bin) + 'bin' + '/' + name + '_processed.csv'
+            'Data/' + 'Preprocessed_data_' + str(size_of_bin) + 'bin' + '/' + name + '_processed.csv'
             ) and os.stat(
-            'Data/' + 'Preprocessed_data' + str(size_of_bin) + 'bin' + '/' + name + '_processed.csv').st_size > 0:
-            df = pd.read_csv('Data/' + 'Preprocessed_data' + str(size_of_bin) + 'bin' + '/' + name + '_processed.csv',
+            'Data/' + 'Preprocessed_data_' + str(size_of_bin) + 'bin' + '/' + name + '_processed.csv').st_size > 0:
+            df = pd.read_csv('Data/' + 'Preprocessed_data_' + str(size_of_bin) + 'bin' + '/' + name + '_processed.csv',
             header = None , delim_whitespace=True)
-            print(df)
             df = Produce_vect(df, size_of_bin = size_of_bin, interp = interp)
             CollectedData = Final_res(df)
             
