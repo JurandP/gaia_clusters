@@ -1,4 +1,4 @@
-#import requests
+import requests
 import re
 import os
 import urllib
@@ -21,7 +21,7 @@ def count_alerts():
 			GLOBAL_INDEX += 1
 			if GLOBAL_INDEX % 100 == 0:
 				print(GLOBAL_INDEX)
-		
+
 
 #main function in this module, create files #alertname_lightcurve.csv and #alertname_spectrum.csv for given name
 def make_spectrum_csv(name):
@@ -30,7 +30,7 @@ def make_spectrum_csv(name):
 	path_lightcurve = path_spectrum + 'lightcurve.csv'
 	#download data for given alert from gsaweb.ast.cam.ac.uk
 	string = str(requests.get(path_spectrum).content)
-	urllib.request.urlretrieve(path_lightcurve, raw_dir_name +'/' + name + '_lightcurve.csv' )
+	urllib.request.urlretrieve(path_lightcurve,'Data/' + raw_dir_name +'/' + name + '_lightcurve.csv' )
 	print(name)
 	#using re to find in html spectrum data
 	indexes = re.findall(r'<td>(.*?)<', string)
@@ -40,7 +40,7 @@ def make_spectrum_csv(name):
 	rp = re.findall(r'"rp": \[(.*?)]', string)
 	
 	#write indexes, rp and bp strings to file _spectrum.csv
-	with open( raw_dir_name +'/' + name + '_spectrum.csv', 'w') as input:
+	with open('Data/' + raw_dir_name +'/' + name + '_spectrum.csv', 'w') as input:
 		for i in range(len(rp)):
 			input.write(indexes[2*i-1] + ', ')
 			input.write(bp[i] + ', ')
@@ -49,19 +49,19 @@ def make_spectrum_csv(name):
 
 #Check if some data from alertslist doesn't exist or is empty
 def valid_data_test(df_names):
-	with open(raw_dir_name + '/MISSING_DATA_RAPORT.csv', 'w') as input:
+	with open('Data/' + raw_dir_name + '/MISSING_DATA_RAPORT.csv', 'w') as input:
 		input.write('Missing spectrum for the following data: \n') #part for spectra
 		for i in df_names:
-			if os.path.exists(raw_dir_name + '/' + i + '_spectrum.csv') == False:
+			if os.path.exists('Data/' + raw_dir_name + '/' + i + '_spectrum.csv') == False:
 				input.write(i)
 			else:
-				if os.path.getsize(raw_dir_name + '/' + i + '_spectrum.csv') == 0.0:
+				if os.path.getsize('Data/' + raw_dir_name + '/' + i + '_spectrum.csv') == 0.0:
 					input.write(i, ' empty file')
 		input.write('Missing lightcurve for the following data: \n') #part for lightcurve
 		for i in df_names:
-			if os.path.exists(raw_dir_name + '/' + i + '_lightcurve.csv') == False:
+			if os.path.exists('Data/' + raw_dir_name + '/' + i + '_lightcurve.csv') == False:
 				input.write(i)
 			else:
-				if os.path.getsize(raw_dir_name + '/' + i + '_lightcurve.csv') == 0.0:
+				if os.path.getsize('Data/' + raw_dir_name + '/' + i + '_lightcurve.csv') == 0.0:
 					input.write(i, ' empty file')
 			

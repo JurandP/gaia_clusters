@@ -70,17 +70,17 @@ def Above5(df):
 	return (df[(df > (df.mean()+5*df.std(ddof=0))) | (df < (df.mean()-5*df.std(ddof=0)))]).count()	
 	
 def AbsoluteEnergy(df):
-	return df.apply(ts.abs_energy)
+	return df.apply(ts.abs_energy).apply(float)
 	
 def AbsoluteSumofChanges(df):
-	return df.apply(ts.absolute_sum_of_changes)
+	return df.apply(ts.absolute_sum_of_changes).apply(float)
 	
 def Amplitude(df):
 	return df.quantile(q=0.02, numeric_only=True) - df.quantile(q=0.98, numeric_only=True)
 	
 #Jaki lag??
 def Autocorrelation(df):
-	return df.apply(lambda x: ts.autocorrelation(x, 1))
+	return df.apply(lambda x: ts.autocorrelation(x, 1)).apply(float)
 
 def Below1(df):
 	return (df[(df < (df.mean()+df.std(ddof=0))) & (df > (df.mean()-df.std(ddof=0)))]).count()
@@ -94,30 +94,30 @@ def Below5(df):
 	
 #Jaki lag?	
 def C3(df):
-	return df.apply(lambda x: ts.c3(x, 0))
+	return df.apply(lambda x: ts.c3(x, 0)).apply(float)
 
 #Duplicates functions check how many times certain object is repeated
 def CheckDuplicates(df):
-	return df.apply(ts.has_duplicate)
+	return df.apply(ts.has_duplicate).apply(float)
 	#return df.groupby('time').count()[1] - 1
 	
 def CheckMaxDuplicates(df):
-	return df.apply(ts.has_duplicate_max)
+	return df.apply(ts.has_duplicate_max).apply(float)
 	#return df[df == df.max()].count()-1
 	
 def CheckMinDuplicates(df):
-	return df.apply(ts.has_duplicate_min)
+	return df.apply(ts.has_duplicate_min).apply(float)
 	#return df[df == df.min()].count()-1
 	
 def CheckMaxLastLoc(df):
-	return df.apply(ts.last_location_of_maximum)
+	return df.apply(ts.last_location_of_maximum).apply(float)
 
 def CheckMinLastLoc(df):
-	return df.apply(ts.last_location_of_minimum)
+	return df.apply(ts.last_location_of_minimum).apply(float)
 	
 #normalize chyba false??
 def Complexity(df):
-	return df.apply(lambda x: ts.cid_ce(x, False))
+	return df.apply(lambda x: ts.cid_ce(x, False)).apply(float)
 	
 def Con(df):
 	return df.apply(lambda x: consecutive_obs(x, x.mean()+3.0*x.std(ddof=0)))
@@ -132,34 +132,34 @@ def CountBelow(df):
 	return df[df<df.mean()].count()
 
 def FirstLocMax(df):
-	return df.apply(ts.first_location_of_maximum)
+	return df.apply(ts.first_location_of_maximum).apply(float)
 	
 def FirstLocMin(df):
-	return df.apply(ts.first_location_of_minimum)
+	return df.apply(ts.first_location_of_minimum).apply(float)
 		
 def Integrate(df):
 	return df.sum()/2.0
 	
 def Kurtosis(df):
-	return df.apply(ts.kurtosis)
+	return df.apply(ts.kurtosis).apply(float)
 
 def LongestStrikeAbove(df):
-	return df.apply(ts.longest_strike_above_mean)
+	return df.apply(ts.longest_strike_above_mean).apply(float)
 
 def LongestStrikeBelow(df):
-	return df.apply(ts.longest_strike_below_mean)
+	return df.apply(ts.longest_strike_below_mean).apply(float)
 	
 def MeanAbsoluteChange(df):
-	return df.apply(ts.mean_abs_change)
+	return df.apply(ts.mean_abs_change).apply(float)
 	
 def MeanChange(df):
-	return df.apply(ts.mean_change)
+	return df.apply(ts.mean_change).apply(float)
 	
 def MeanSecondDerivative(df):
-	return df.apply(ts.mean_second_derivative_central)
+	return df.apply(ts.mean_second_derivative_central).apply(float)
 
 def MedianAbsoluteDeviation(df):
-	return df.apply(lambda x: median_deviation(x))
+	return df.apply(lambda x: median_deviation(x)).apply(float)
 
 
 def MedianBufferRange(df):
@@ -175,26 +175,23 @@ def MedianBufferRange2(df):
 
 
 def PeakDetection(df):
-	return df.apply(lambda x: ts.number_cwt_peaks(x, len(x)))
+	return df.apply(lambda x: ts.number_cwt_peaks(x, len(x))).apply(float)
 	
 
 def RatioofRecurringPoints(df):
-	return df.apply(ts.percentage_of_reoccurring_values_to_all_values)
+	return df.apply(ts.percentage_of_reoccurring_values_to_all_values).apply(float)
 	
-
-
 def RootMeanSquared(df):
-	return df.apply(ts.root_mean_square)
-
+	return df.apply(ts.root_mean_square).apply(float)
 
 def SampleEntropy(df):
-	return df.apply(ts.sample_entropy)
+	return df.apply(ts.sample_entropy).apply(float)
 	
 def ShannonEntropy(df):
-	return df.apply(entropy_funct)
+	return df.apply(entropy_funct).apply(float)
 	
 def Skewness(df):
-	return df.apply(ts.skewness)
+	return df.apply(ts.skewness).apply(float)
 	
 def STD(df):
 	return df.std(ddof=0)
@@ -218,7 +215,7 @@ def SumValues(df):
 	
 #lag
 def TimeReversalAssymetry(df):
-	return df.apply(lambda x: ts.time_reversal_asymmetry_statistic(x, 0))
+	return df.apply(lambda x: ts.time_reversal_asymmetry_statistic(x, 0)).apply(float)
 
 def vonNeumannRatio(df):
 	dff = df.shift(1)

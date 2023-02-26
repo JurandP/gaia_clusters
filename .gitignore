@@ -1,9 +1,8 @@
 #directories
-Raw_data
-Preprocessed_data
-Postprocessed_Database
-Final_database.csv
-Little_Data.csv
+Data/*
 Optim_result.csv
 .vscode
-Result
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
