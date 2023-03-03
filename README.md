@@ -88,3 +88,15 @@ Python modules:
 * numpy
 * pandas
 * scipy
+* argparse
+
+## Installation
+Project is installable by bash command with git:
+
+```
+cd
+git clone git@github.com:JurandP/gaia_clusters.git \
+cd ~/gaia_clusters
+pip install -e .
+
+```
