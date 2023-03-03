@@ -131,7 +131,6 @@ def main():
                 return i 
         return 0
 
-	
 	# prepare class_label column to print confusion matrices
     df_results['class_label'] = df_results[' Class'].apply(label_funct)
 	# df_results = df_results.loc[df_results['class_label'] != 0]
