@@ -98,23 +98,26 @@ def main():
     print('Make Mini Batch KMeans')
     df_kmeans = cl.make_mini_batch_kmeans(df, n_clusters=n_clusters)
     df_results['MiniBatchKMeans'] = df_kmeans
-    print(addtools.make_metrics(alerts_classes, df_kmeans))
+    metric = addtools.make_metrics(alerts_classes, df_kmeans)
+    print(metric)
     with open(out_dir + 'result_' + suffix_name + '.csv', 'a') as input:
         input.write('\n' + 'Mini Batch KMeans' + '\n' + str(metric) )
 
     print('Make Bisecting KMeans')
     df_kmeans = cl.make_bisecting_kmeans(df, n_clusters=n_clusters)
     df_results['BisectingKMeans'] = df_kmeans
-    print(addtools.make_metrics(alerts_classes, df_kmeans))
+    metric = addtools.make_metrics(alerts_classes, df_kmeans)
+    print(metric)
     with open(out_dir + 'result_' + suffix_name + '.csv', 'a') as input:
-        input.write('\n' + 'Bisecting KMeans' + '\n' + str(addtools.make_metrics(alerts_classes, df_kmeans)) )
+        input.write('\n' + 'Bisecting KMeans' + '\n' + str(metric) )
 
     print('Make Agglomerative Clustering Ward')
     df_ward = cl.make_agglomerative_clustering(df, n_clusters=n_clusters, linkage='ward')
     df_results['AggCluWard'] = df_ward
-    print(addtools.make_metrics(alerts_classes, df_ward))
+    metric = addtools.make_metrics(alerts_classes, df_ward)
+    print(metric)
     with open(out_dir + 'result_' + suffix_name + '.csv', 'a') as input:
-        input.write('\n' + 'Agglomerative Clustering Ward' + '\n' + str(addtools.make_metrics(alerts_classes, df_kmeans)) )
+        input.write('\n' + 'Agglomerative Clustering Ward' + '\n' + str(metric) )
         input.write('\n \n')
 
     df_results = pd.concat([df_results, alerts[' Class']], axis=1).reindex(df_results.index)
